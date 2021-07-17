@@ -3,28 +3,32 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: "avenir-roman";
-        src: url("Fonts/Avenir/Avenir-Roman.ttf");
-    }
+  @font-face {
+    font-family: "avenir-roman";
+    src: url("Fonts/Avenir/Avenir-Roman.ttf");
+  }
 
-    @font-face {
-        font-family: "avenir-book";
-        src: url("Fonts/Avenir/Avenir-Book.ttf");
-    }
+  @font-face {
+    font-family: "avenir-book";
+    src: url("Fonts/Avenir/Avenir-Book.ttf");
+  }
 
-    @font-face {
-        font-family: "avenir-medium";
-        src: url("Fonts/Avenir/Avenir-Medium.ttf");
-    }
+  @font-face {
+    font-family: "avenir-medium";
+    src: url("Fonts/Avenir/Avenir-Medium.ttf");
+  }
 
-    @font-face {
-        font-family: "avenir-bold";
-        src: url("Fonts/Avenir/Avenir-Heavy.ttf");
-    }
+  @font-face {
+    font-family: "avenir-bold";
+    src: url("Fonts/Avenir/Avenir-Heavy.ttf");
+  }
 
-    @font-face {
-        font-family: "avenir-black";
-        src: url("Fonts/Avenir/Avenir-Black.ttf");
-    }
+  @font-face {
+    font-family: "avenir-black";
+    src: url("Fonts/Avenir/Avenir-Black.ttf");
+  }
+
+  body {
+    @apply bg-background-color;
+  }
 }

@@ -15,6 +15,15 @@ module.exports = {
 
       'avenir-black': ['avenir-black'],
     },
+    colors: {
+
+      'title-colour': '#161616',
+      'desc-colour': '#525252',
+      'link-hover-color': '#be203d',
+      'red': '#ff2d55',
+      'background-color': '#F3F6FB',
+
+    }
   },
   variants: {
     extend: {},
