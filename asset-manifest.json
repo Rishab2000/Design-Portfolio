@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.1c4c6fc2.chunk.css",
-    "main.js": "/design-portfolio/static/js/main.b899ade3.chunk.js",
-    "main.js.map": "/design-portfolio/static/js/main.b899ade3.chunk.js.map",
+    "main.css": "/design-portfolio/static/css/main.ceddb5c2.chunk.css",
+    "main.js": "/design-portfolio/static/js/main.01883a23.chunk.js",
+    "main.js.map": "/design-portfolio/static/js/main.01883a23.chunk.js.map",
     "runtime-main.js": "/design-portfolio/static/js/runtime-main.d71310c8.js",
     "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.d71310c8.js.map",
-    "static/js/2.fa272538.chunk.js": "/design-portfolio/static/js/2.fa272538.chunk.js",
-    "static/js/2.fa272538.chunk.js.map": "/design-portfolio/static/js/2.fa272538.chunk.js.map",
+    "static/js/2.5b134f26.chunk.js": "/design-portfolio/static/js/2.5b134f26.chunk.js",
+    "static/js/2.5b134f26.chunk.js.map": "/design-portfolio/static/js/2.5b134f26.chunk.js.map",
     "index.html": "/design-portfolio/index.html",
-    "static/css/main.1c4c6fc2.chunk.css.map": "/design-portfolio/static/css/main.1c4c6fc2.chunk.css.map",
-    "static/js/2.fa272538.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.fa272538.chunk.js.LICENSE.txt",
+    "static/css/main.ceddb5c2.chunk.css.map": "/design-portfolio/static/css/main.ceddb5c2.chunk.css.map",
+    "static/js/2.5b134f26.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.5b134f26.chunk.js.LICENSE.txt",
     "static/media/index.css": "/design-portfolio/static/media/Avenir-Roman.69c16723.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.d71310c8.js",
-    "static/js/2.fa272538.chunk.js",
-    "static/css/main.1c4c6fc2.chunk.css",
-    "static/js/main.b899ade3.chunk.js"
+    "static/js/2.5b134f26.chunk.js",
+    "static/css/main.ceddb5c2.chunk.css",
+    "static/js/main.01883a23.chunk.js"
   ]
 }
