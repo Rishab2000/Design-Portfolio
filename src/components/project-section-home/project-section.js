@@ -4,7 +4,7 @@ import Description from "./project-section-home-components/description";
 import IntroText from "./project-section-home-components/introText";
 const ProjectSection = (props) => {
   return (
-    <div className="container w-screen">
+    <div className="w-screen">
       <div className="container w-4/5 mx-auto">
         <p className="font-avenir-bold text-red">Human Centred Designer</p>
       </div>
