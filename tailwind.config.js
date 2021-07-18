@@ -2,7 +2,13 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      
+      backgroundImage: theme => ({
+
+      'sd-plus': "url('/src/img/sdplus_mockup1.png')",
+
+     })},
     fontFamily: {
 
       'avenir-roman': ['avenir-roman'],
