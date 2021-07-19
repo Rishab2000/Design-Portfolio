@@ -1,29 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 import MobileNav from "./mobileNav";
 import IntroText from "../project-section-home/project-section-home-components/introText";
 
 import "./header.css";
 
-const Header = () => {
-  const [hidden, visible] = useState(false);
+const Header = (props) => {
 
-  const clickHandler = () => {
-    if (hidden === false) {
-      visible(true);
-    } else if (hidden === true) {
-      visible(false);
-    }
-    console.log(hidden);
-  };
-
-  const hamburgerState = hidden ? "open" : " ";
+ const hamburgerState = props.hidden ? "open" : " ";
   return (
     <div>
-      <MobileNav status={hidden} />
+      <MobileNav status={props.hidden} />
       <header className="container flex items-center w-4/5 m-auto">
         <h1 className="font-avenir-black text-xl ">Rishab</h1>
         <div
-          onClick={clickHandler}
+          onClick={props.clickHandler}
           className={hamburgerState + " nav-icon3 ml-auto"}
         >
           <span className="nav-icon3-bar"></span>

@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectSectionHome from "../../components/project-section-home";
-const LandingPage = () => {
-    
+const LandingPage = (props) => {
+    const LandingPageState = props.hidden ? "hidden" : " ";
   return (
-    <div className="z-20">
+    <div className={ LandingPageState + " z-20"}>
       <ProjectSectionHome
         className="bg-sd-plus"
         title="SD+ | UX Design Internship"
