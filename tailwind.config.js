@@ -27,8 +27,10 @@ module.exports = {
     colors: {
       "title-colour": "#161616",
       "desc-colour": "#525252",
+      "gray40": "#a8a8a8",
+      "gray20": "#e0e0e0",
       "link-hover-color": "#be203d",
-      red: "#ff2d55",
+      "red": "#ff2d55",
       "background-color": "#F3F6FB",
     },
   },

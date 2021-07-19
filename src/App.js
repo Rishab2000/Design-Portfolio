@@ -3,6 +3,7 @@ import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import Header from "./components/header";
 import LandingPage from "./content/LandingPage/landingPage";
+import Footer from "./components/footer";
 
 function App() {
   const [hidden, visible] = useState(false);
@@ -23,6 +24,7 @@ function App() {
           <LandingPage hidden={hidden}/>
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
