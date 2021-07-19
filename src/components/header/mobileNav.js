@@ -4,7 +4,7 @@ import {Link}  from 'react-router-dom'
 
 
 const MobileNav = (props) => {
-    const navClass = props.status ? 'opacity-1' : 'opacity-0';
+    const navClass = props.status ? 'opacity-1 z-30 ' : '-z-10';
     return (
 
         <nav className={navClass + " transtion-opacity duration-300 ease-in flex flex-col gap-6 items-center absolute w-full h-full text-center pt-96 text-xl font-avenir-bold bg-background-color"}>

@@ -1,8 +1,8 @@
 import React from "react";
-
+import Button from "../../button";
 const Description = (props) => {
   return (
-    <div className="container w-4/5 mx-auto pt-10">
+    <div className="container w-4/5 mx-auto  pt-10 pb-20">
       <p className="font-avenir-medium text-lg mb-4">
           {props.title}
       
@@ -11,6 +11,7 @@ const Description = (props) => {
           {props.desc}
         
       </p>
+      <Button destination={"/"}/>
     </div>
   );
 };

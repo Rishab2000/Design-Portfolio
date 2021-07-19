@@ -2,7 +2,7 @@ import React from "react";
 import Image from "./project-section-home-components/image";
 import Description from "./project-section-home-components/description";
 
-const ProjectSection = (props) => {
+const ProjectSectionHome = (props) => {
   return (
     <div className="w-screen">  
       <Image className={props.className} />
@@ -11,4 +11,4 @@ const ProjectSection = (props) => {
   );
 };
 
-export default ProjectSection;
+export default ProjectSectionHome;
