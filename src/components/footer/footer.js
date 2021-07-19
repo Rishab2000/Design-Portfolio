@@ -8,7 +8,8 @@ const Footer = () => {
       <p className="font-avenir-medium mb-2 text-title-colour">
         Don't be shy - drop me a line I'm looking forward to speaking to you!
       </p>
-     <a className="font-avenir-medium text-gray40" href="mailto: rishabsachidanand@gmail.com" target="_blank" rel="noreferrer">rishabsachidanand@gmail.com</a>
+     <a className="font-avenir-medium text-gray40 hover:underline" href="mailto: rishabsachidanand@gmail.com" target="_blank" rel="noreferrer">rishabsachidanand@gmail.com</a>
+     <p className="text-avenir-book text-xs text-gray20 mt-8">© 2020, Rishab Sachidanand</p>
    
     </footer>
   );
