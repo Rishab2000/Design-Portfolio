@@ -16,7 +16,7 @@ function App() {
   };
 
   return (
-    <div className="w-screen mt-16 bg-background-color">
+    <div className="w-screen bg-background-color">
       <Header hidden={hidden} clickHandler={clickHandler} />
       <Switch>
         <Route exact path="/">

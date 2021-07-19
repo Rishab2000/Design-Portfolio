@@ -8,7 +8,7 @@ const Header = (props) => {
 
  const hamburgerState = props.hidden ? "open" : " ";
   return (
-    <div>
+    <div className="pt-16">
       <MobileNav status={props.hidden} />
       <header className="container flex items-center w-4/5 m-auto">
         <h1 className="font-avenir-black text-xl ">Rishab</h1>

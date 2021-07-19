@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectSectionHome from "../../components/project-section-home";
 const LandingPage = (props) => {
-    const LandingPageState = props.hidden ? "hidden" : " ";
+    const LandingPageState = props.hidden ? "opacity-0" : " ";
   return (
-    <div className={ LandingPageState + " z-20"}>
+    <div className={ LandingPageState + " z-20 transtion-opacity duration-300 ease-in "}>
       <ProjectSectionHome
         className="bg-sd-plus"
         title="SD+ | UX Design Internship"
