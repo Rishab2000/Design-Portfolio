@@ -7,6 +7,9 @@ module.exports = {
       backgroundImage: theme => ({
 
       'sd-plus': "url('/src/img/sdplus_mockup1.png')",
+      'chiral': "url('/src/img/chiral2.png')",
+      'coding-challenge': "url('/src/img/CSS_Challenges_Portfolio.svg')",
+      'behance': "url('/src/img/behance1.png')",
 
      })},
     fontFamily: {

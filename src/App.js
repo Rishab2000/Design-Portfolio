@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="w-screen mt-16 bg-background-color">
       <Header />
-
       <Switch>
         <Route exact path="/" component={LandingPage} />
       </Switch>
