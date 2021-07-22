@@ -5,7 +5,7 @@ import Description from "./project-section-home-components/description";
 const ProjectSectionHome = (props) => {
   return (
     <div className="w-screen">  
-      <Image className={props.className} />
+      <Image className={props.image} />
       <Description title={props.title} desc={props.desc} />
     </div>
   );
