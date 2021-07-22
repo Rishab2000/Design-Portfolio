@@ -10,10 +10,10 @@ const LandingPage = (props) => {
     >
       <ProjectSectionHome
         image="bg-ibm"
-        title="IBM Cloud and Cognitive | UX Design Internship | 1yr"
+        title="IBM Cloud and Cognitive | UX Design Internship"
         desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
-        product, conducted research - user research and market analysis, created to-be 
-        journey maps and designed prototypes for phased implementation of the portal."
+        product, conducted user research, market analysis, created to-be 
+        journey maps and designed prototypes for phased implementation."
       />
       <ProjectSectionHome
         image="bg-sd-plus"
