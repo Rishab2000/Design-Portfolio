@@ -2,8 +2,8 @@ import React from "react";
 
 const IntroText = (props) => {
   return (
-    <div className="container w-4/5 mx-auto pt-10 pb-20">
-      <p className="font-avenir-book text-base text-desc-colour">
+    <div className="container  pt-10 pb-20 lg:pr-80  ">
+      <p className="font-avenir-book text-base lg:text-2xl lg:leading-snug text-title-colour">
         {props.text}
       </p>
     </div>

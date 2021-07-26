@@ -1,11 +1,12 @@
 import React from "react";
 import {Link} from 'react-router-dom'
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 
 const Button = (props) => {
   return (
     <Link to={props.destination} className="hover:text-link-hover-color">
-      <button className="text-avenir-book text-sm text-red hover:text-link-hover-color border-2 w-16 h-16 mt-8">
-        More
+      <button className=" text-red :text-link-hover-color mt-8">
+        <ArrowForwardIcon style={{fontSize:30}}/>
       </button>
     </Link>
   );

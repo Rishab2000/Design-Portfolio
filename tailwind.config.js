@@ -3,6 +3,9 @@ module.exports = {
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
+      height:{
+        "100":"120"
+      },
       zIndex: {
         "-10": "-10",
       },
@@ -12,6 +15,9 @@ module.exports = {
         "coding-challenge": "url('/src/img/CSS_Challenges_Portfolio.svg')",
         behance: "url('/src/img/behance1.png')",
         ibm: "url('/src/img/IBM.png')",
+      }),
+      height: (theme) => ({
+        "lg-image": "36rem",
       }),
     },
     fontFamily: {
@@ -33,6 +39,7 @@ module.exports = {
       "link-hover-color": "#be203d",
       red: "#ff2d55",
       "background-color": "#F3F6FB",
+      white: "#f4f4f4",
     },
   },
   variants: {

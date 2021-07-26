@@ -1,7 +1,14 @@
 import React from "react";
 
 const Image = (props) => {
-  return <div className={props.className + " bg-cover bg-center     w-full md:max-w-xl lg:w-6/12    h-80 md:h-96     md:mx-auto "}></div>;
+  return (
+    <div
+      className={
+        props.className +
+        " bg-cover bg-center bg-red bg-cover lg:bg-contain lg:bg-no-repeat w-full h-96 "
+      }
+    ></div>
+  );
 };
 
 export default Image;

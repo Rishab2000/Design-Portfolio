@@ -18,7 +18,7 @@ function App() {
 
   const scrolling = hidden ? "overflow-hidden h-screen" : " ";
   return (
-    <div className={ scrolling + " w-screen bg-background-color"}>
+    <div className={ scrolling + " w-10/12 mx-auto bg-background-color"}>
       <Header hidden={hidden} clickHandler={clickHandler} />
       <Switch>
         <Route exact path="/">
