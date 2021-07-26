@@ -3,11 +3,10 @@ import React from "react";
 const Image = (props) => {
   return (
     <div
-      className={
-        props.className +
-        " bg-cover bg-center bg-red bg-cover lg:bg-contain lg:bg-no-repeat w-full h-96 "
+      className={ props.className +
+        " bg-red lg:bg-no-repeat w-full h-auto overflow-hidden"
       }
-    ></div>
+    ><img src={props.image} alt="temp" className="object-cover"/></div>
   );
 };
 
