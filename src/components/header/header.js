@@ -7,11 +7,12 @@ import "./header.css";
 const Header = (props) => {
 
  const hamburgerState = props.hidden ? "open" : " ";
+ const headerState = props.hidden ? "opacity-0" : " ";
   return (
-    <div className="pt-16">
+    <div className="pt-16 w-full">
       <MobileNav status={props.hidden} />
-      <header className="container flex items-center">
-        <h1 className="font-avenir-black text-xl ">Rishab</h1>
+      <header className=" flex items-center">
+        <h1 className={ headerState +  " font-avenir-black text-xl transtion-opacity duration-300 ease-in"}>Rishab</h1>
         <div
           onClick={props.clickHandler}
           className={hamburgerState + " nav-icon3 ml-auto"}
@@ -22,10 +23,10 @@ const Header = (props) => {
           <span className="nav-icon3-bar"></span>
         </div>
       </header>
-      <div className="container">
-        <p className="font-avenir-bold text-red">Human Centred Designer</p>
+      <div className={ headerState + " transtion-opacity duration-300 ease-in"}>
+        <p className= "font-avenir-bold text-red">Human Centred Designer</p>
       </div>
-      <IntroText
+      <IntroText className ={headerState+ " transtion-opacity duration-300 ease-in"} 
         text=" Rishab is bangalore based UX designer with a tendancy to design intuitive digital experiences in which every element serves a
         purpose."
       />
