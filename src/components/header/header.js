@@ -12,7 +12,7 @@ const Header = (props) => {
     <div className="pt-16 w-full">
       <MobileNav status={props.hidden} />
       <header className=" flex items-center">
-        <h1 className={ headerState +  " font-avenir-black text-xl transtion-opacity duration-300 ease-in"}>Rishab</h1>
+        <h1 className={ headerState +  " font-avenir-regular text-xl lg:text-3xl transtion-opacity duration-300 ease-in"}>Rishab</h1>
         <div
           onClick={props.clickHandler}
           className={hamburgerState + " nav-icon3 ml-auto"}
@@ -24,7 +24,7 @@ const Header = (props) => {
         </div>
       </header>
       <div className={ headerState + " transtion-opacity duration-300 ease-in"}>
-        <p className= "font-avenir-bold text-red">Human Centred Designer</p>
+        <p className= "font-avenir-medium pt-2 lg:text-3xl text-red">Human Centred Designer</p>
       </div>
       <IntroText className ={headerState+ " transtion-opacity duration-300 ease-in"} 
         text=" Rishab is bangalore based UX designer with a tendancy to design intuitive digital experiences in which every element serves a

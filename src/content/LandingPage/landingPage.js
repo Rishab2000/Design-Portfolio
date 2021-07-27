@@ -7,12 +7,12 @@ const LandingPage = (props) => {
   return (
     <div
       className={
-        LandingPageState + " lg:mt-52 transtion-opacity duration-300 ease-in"
+        LandingPageState + " lg:mt-32 transtion-opacity duration-300 ease-in"
       }
     >
       <div className="flex flex-col items-center lg:flex-row lg:mb-32 ">
         <ProjectSectionHome
-          className="group lg:w-6/12 "
+          className="group lg:w-6/12 lg:-mt-20"
           image={process.env.PUBLIC_URL + "/images/ibm.png"}
           title="IBM Cloud and Cognitive | UX Design Internship"
           hoverDesc=""
@@ -22,7 +22,7 @@ const LandingPage = (props) => {
         />
         <ProjectSectionHome
           image={process.env.PUBLIC_URL + "/images/sdplus.png"}
-          className="group lg:w-4/12 lg:mt-44 lg:ml-auto"
+          className="group lg:w-4/12 lg:mt-80 lg:ml-auto"
           title="SD+ | UX Design Internship"
           // desc="Ideated and designed a B2B product to simplify sustainability. Outlined the experience road map of the
           // product to identify parts of the product needing engagement and improved them, adopting an agile model."
