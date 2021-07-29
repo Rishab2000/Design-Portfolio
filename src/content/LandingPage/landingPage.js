@@ -1,18 +1,25 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import ProjectSectionHome from "../../components/project-section-home";
+import IntroText from "../../components/project-section-home/project-section-home-components/introText";
 
 const LandingPage = (props) => {
   const LandingPageState = props.hidden ? "opacity-0" : " ";
   return (
     <div
       className={
-        LandingPageState + " lg:mt-32 transtion-opacity duration-300 ease-in"
+        LandingPageState + " transtion-opacity duration-300 ease-in"
       }
     >
-      <div className="flex flex-col items-center lg:flex-row lg:mb-32 ">
+      <IntroText
+        className= { " transtion-opacity duration-300 ease-in"}
+        text=" Rishab is bangalore based UX designer with a tendancy to design intuitive digital experiences in which every element serves a
+        purpose."
+      />
+      <div className="flex flex-col items-center md:flex-row md:mb-32 ">
         <ProjectSectionHome
-          className="group lg:w-6/12 lg:-mt-20"
+          className="group md:w-6/12 md:-mt-20"
+          destination="/ibm"
           image={process.env.PUBLIC_URL + "/images/ibm.png"}
           title="IBM Cloud and Cognitive | UX Design Internship"
           hoverDesc=""
@@ -21,36 +28,40 @@ const LandingPage = (props) => {
           // journey maps and designed prototypes for phased implementation."
         />
         <ProjectSectionHome
+        className="group md:w-4/12 md:mt-80 md:ml-auto"
           image={process.env.PUBLIC_URL + "/images/sdplus.png"}
-          className="group lg:w-4/12 lg:mt-80 lg:ml-auto"
+          destination="/sdplus"
           title="SD+ | UX Design Internship"
           // desc="Ideated and designed a B2B product to simplify sustainability. Outlined the experience road map of the
           // product to identify parts of the product needing engagement and improved them, adopting an agile model."
         />
       </div>
-      <div className="flex flex-col items-center lg:flex-row lg:mb-32">
+      <div className="flex flex-col items-center md:flex-row md:mb-32">
         <ProjectSectionHome
-          className=" group lg:w-11/12 lg:mx-auto"
+          className=" group md:w-11/12 md:mx-auto"
           image={process.env.PUBLIC_URL + "/images/chiral2.png"}
+          destination="/chiral_colonies"
           title="Chiral Colonies - Climate change app | UX Case study "
           // desc=" A mobile based game that aims to spread awareness on climate change, geared towards young adults.
           // Working towards a substainable future by changing human behaviour."
         />
       </div>
-      <div className="flex flex-col items-center lg:flex-row lg:w-12/12 lg:mb-32 ">
+      <div className="flex flex-col items-center md:flex-row md:w-12/12 md:mb-32 ">
         <ProjectSectionHome
-          className="group lg:w-5/12 "
+          className="group md:w-5/12 "
           image={
             process.env.PUBLIC_URL + "/images/CSS_Challenges_Portfolio.svg"
           }
+          destination="/css_challenge"
           title="30 Days Of Code"
           // desc="A personal project I took up in which I coded 30 interactive
           // components using HTML, CSS and Jquery."
         />
 
         <ProjectSectionHome
-          className="group lg:w-5/12 lg:ml-auto"
+          className="group md:w-5/12 md:ml-auto"
           image={process.env.PUBLIC_URL + "/images/behance1.png"}
+          destination="/behance"
           title="Behance Search Experience Redesign"
           // desc="Evaluating the current search experience of Behance, through NN group's evaluation heuristics.
           // Completely redesigned the experience to conceive a faster, clearer and conclusive way of search. "

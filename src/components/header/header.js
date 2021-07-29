@@ -2,7 +2,6 @@ import React from "react";
 // import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import MobileNav from "./mobileNav";
-import IntroText from "../project-section-home/project-section-home-components/introText";
 
 import "./header.css";
 
@@ -36,7 +35,7 @@ const Header = (props) => {
             activeStyle={{
               color: "#161616",
             }}
-            className="hover:underline hover:text-link-hover-color"
+            className="hover:text-link-hover-color"
           >
             Work
           </NavLink>
@@ -45,7 +44,7 @@ const Header = (props) => {
             activeStyle={{
               color: "#161616",
             }}
-            className="hover:underline hover:text-link-hover-color"
+            className="hover:text-link-hover-color"
           >
             Blog
           </NavLink>
@@ -54,7 +53,7 @@ const Header = (props) => {
             activeStyle={{
               color: "#161616",
             }}
-            className="hover:underline hover:text-link-hover-color"
+            className="hover:text-link-hover-color"
           >
             About me
           </NavLink>
@@ -65,11 +64,7 @@ const Header = (props) => {
           Human Centred Designer
         </p>
       </div>
-      <IntroText
-        className={headerState + " transtion-opacity duration-300 ease-in"}
-        text=" Rishab is bangalore based UX designer with a tendancy to design intuitive digital experiences in which every element serves a
-        purpose."
-      />
+      
     </div>
   );
 };
