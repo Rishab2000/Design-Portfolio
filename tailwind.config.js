@@ -3,12 +3,26 @@ module.exports = {
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        "sd-plus": "url('/src/img/sdplus.png')",
+
+  
+      }),
       zIndex: {
         "-10": "-10",
       },
       height: (theme) => ({
         "lg-image": "36rem",
       }),
+    },
+    backgroundSize: {
+      'auto': 'auto',
+      'cover': 'cover',
+      'contain': 'contain',
+
+     '120%': '120%',
+
+     '16': '4rem',
     },
     fontFamily: {
       "avenir-roman": ["avenir-roman"],

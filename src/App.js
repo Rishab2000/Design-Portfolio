@@ -2,7 +2,12 @@ import React, { useState } from "react";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import Header from "./components/header";
-import LandingPage from "./content/LandingPage/landingPage";
+import LandingPage from "./content/LandingPage";
+import IBM from "./content/ibm";
+import SdPlus from "./content/sdplus";
+import Chiral from "./content/chiral"
+import CssChallenges from "./content/css-challenges"
+import Behance from "./content/behance"
 import Footer from "./components/footer";
 
 function App() {
@@ -23,6 +28,21 @@ function App() {
       <Switch>
         <Route exact path="/">
           <LandingPage hidden={hidden}/>
+        </Route>
+        <Route path="/ibm">
+          <IBM/>
+        </Route>
+        <Route path="/sdplus">
+          <SdPlus/>
+        </Route>
+        <Route path="/chiral_colonies">
+          <Chiral/>
+        </Route>
+        <Route path="/css_challenge">
+          <CssChallenges/>
+        </Route>
+        <Route path="/behance">
+          <Behance/>
         </Route>
       </Switch>
       <Footer />

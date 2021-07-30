@@ -8,7 +8,7 @@ const Description = (props) => {
       </p>
       {/* <p className="font-avenir-book text-sm text-desc-colour">{props.desc}</p> */}
       <div className="group-hover:text-red ml-auto mt-4 lg:mt-8 transition-all duration-300 ease-in-out text-background-color">
-        <ArrowForwardIcon  />
+        <ArrowForwardIcon  /> 
       </div>
     </div>
   );
