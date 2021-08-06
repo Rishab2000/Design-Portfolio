@@ -1,2 +1,2 @@
-import ProjectSectionHome from './project-section-home';
+import ProjectSectionHome from './projectSectionHome';
 export default ProjectSectionHome;

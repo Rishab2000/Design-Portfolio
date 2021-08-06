@@ -5,8 +5,6 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         "sd-plus": "url('/src/img/sdplus.png')",
-
-  
       }),
       zIndex: {
         "-10": "-10",
@@ -16,13 +14,13 @@ module.exports = {
       }),
     },
     backgroundSize: {
-      'auto': 'auto',
-      'cover': 'cover',
-      'contain': 'contain',
+      auto: "auto",
+      cover: "cover",
+      contain: "contain",
 
-     '120%': '120%',
+      "120%": "120%",
 
-     '16': '4rem',
+      16: "4rem",
     },
     fontFamily: {
       "avenir-roman": ["avenir-roman"],
@@ -44,6 +42,8 @@ module.exports = {
       red: "#ff2d55",
       "background-color": "#F3F6FB",
       white: "#f4f4f4",
+      "green-sdplus": "#24A148",
+      "blue-sdplus":"#1192E8"
     },
   },
   variants: {
