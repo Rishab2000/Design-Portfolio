@@ -1,3 +1,3 @@
-import ProjectGreenSection from "./projectGreenSection"
+import ProjectSection from "./projectSection"
 
-export default ProjectGreenSection;
+export default ProjectSection;

@@ -1,16 +1,16 @@
 import React from "react";
 
-const ProjectGreenSection = (props) => {
+const ProjectSection = (props) => {
   return (
     <div className="my-4 ">
        <p className="font-avenir-medium text-lg text-green-sdplus">
-            {props.greenHeading}
+            {props.heading}
           </p>
           <span className="font-avenir-book text-base mt-2">
-          {props.greenDesc}
+          {props.desc}
           </span>
     </div>
   );
 };
 
-export default ProjectGreenSection;
+export default ProjectSection;
