@@ -18,7 +18,7 @@ const SdPlus = () => {
         image={process.env.PUBLIC_URL + "/images/sdplus(hero-image).png"}
       />
       <ProjectSubDescContainer sectionTitle="Summary">
-        <p className="font-avenir-book text-base mt-2 mb-8">
+        <p className="font-avenir-book text-base lg:text-xl mt-2 mb-8">
           As a part of this internship, I designed core features & UI elements
           for our product, SD+. For this effort, I carefully balanced usability,
           business and technical goals. The overall user experience of the
@@ -27,6 +27,7 @@ const SdPlus = () => {
         </p>
         <ProjectSection
           heading="Contributions"
+          color="text-green-sdplus"
           desc={
             <ul className="list-disc list-inside font-avenir-book mt-2">
               <li>Created an Experience Roadmap 🗺️</li>
@@ -40,21 +41,27 @@ const SdPlus = () => {
             </ul>
           }
         />
-        <div className="flex flex-col">
+      </ProjectSubDescContainer>
+      <ProjectSubDescContainer sectionTitle="Context" className="w-full">
+        <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-12">
           <ProjectSection
+            width="lg:w-5/12"
+            color="text-green-sdplus"
             heading="About SD+"
             desc=" A real estate sustainability product that helps builders make
             informed decisions through data driven insights. We suggest best
             sustainable interventions to help construct green buildings"
           />
           <ProjectSection
+            width="lg:w-5/12"
+            color="text-green-sdplus"
             heading="Main components of the product"
             desc=" The product consists of two main components. Interventions designed
             for the architectural team to view our recommendations. Insights
             provides information for CEOs to understand the project progress."
           />
         </div>
-        <div className="flex flex-col w-full gap-8 mb-8">
+        <div className="flex flex-col lg:flex-row w-full gap-8 lg:gap-12 mb-8">
           <img
             src={
               process.env.PUBLIC_URL +
@@ -73,9 +80,11 @@ const SdPlus = () => {
           />
         </div>
       </ProjectSubDescContainer>
-      <ProjectSubDescContainer title="Scoping">
-        <div className="flex flex-col">
+      <ProjectSubDescContainer sectionTitle="Scoping" className="w-full">
+        <div className="flex flex-col lg:flex-row lg:justify-between">
           <ProjectSection
+            width="lg:w-5/12 lg:self-center"
+            color="text-green-sdplus"
             heading="Understanding problems faced by users"
             desc="With the initial version of the product, we attempted to validate
             its usability through demos. Through this, we learned that they
@@ -88,11 +97,13 @@ const SdPlus = () => {
               "/images/sdplus-project/Comments/1(Client)-02.svg"
             }
             alt="temp"
-            className="mb-12"
+            className="mb-12 lg:w-5/12"
           />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col lg:flex-row-reverse lg:justify-between">
           <ProjectSection
+            width="lg:w-5/12 lg:self-center"
+            color="text-green-sdplus"
             heading="  We realized..."
             desc="That a well defined design goal was necessary. I recomended
             creating an Experience Roadmap (Exr), which aims to help teams
@@ -106,7 +117,7 @@ const SdPlus = () => {
               "/images/sdplus-project/Comments/2(me).svg"
             }
             alt="temp"
-            className="mb-12"
+            className="mb-12 lg:w-5/12"
           />
         </div>
       </ProjectSubDescContainer>
@@ -121,6 +132,7 @@ const SdPlus = () => {
       </div>
       <ProjectSubDescContainer sectionTitle="Approach">
         <ProjectSection
+          color="text-green-sdplus"
           heading="Defining user stages, from pre-sale to post-sale"
           desc="The first thing we took up was organizing our roadmap at a high level,
           as user stages and  calling them Experiences. From start to finish, we mapped five distinct
@@ -135,6 +147,7 @@ const SdPlus = () => {
           className="mt-4 mb-12"
         />
         <ProjectSection
+          color="text-green-sdplus"
           heading="Identifying touchpoints"
           desc="We now started defining our users' interactions by describing
           touchpoints our users would use to interact with our organization."
@@ -150,6 +163,7 @@ const SdPlus = () => {
       </ProjectSubDescContainer>
       <ProjectSection
         heading="Synethesizing insights"
+        color="text-green-sdplus"
         desc={
           <span>
             <p>
@@ -200,6 +214,7 @@ const SdPlus = () => {
       />
       <ProjectSubDescContainer sectionTitle="Detailing">
         <ProjectSection
+          color="text-green-sdplus"
           heading="Establishing gaps in our product's fical engagement"
           desc=" Using the Jobs to be Done framework, as a team we chalked up a few
           user stories. This showed multiple points in the experience which
@@ -245,6 +260,7 @@ const SdPlus = () => {
           </div>
         </div>
         <ProjectSection
+          color="text-green-sdplus"
           heading=" Brainstorming for ideas"
           desc="     We conducted a brainstorming session to explore a vast number of
               ideas and approaches to solve the target problems. We later
@@ -260,7 +276,8 @@ const SdPlus = () => {
       />
       <ProjectSubDescContainer sectionTitle="Designing">
         <ProjectSection
-          title="The make or break screen"
+          color="text-green-sdplus"
+          heading="The make or break screen"
           desc="The existing Insights screen had minimal information useful for CEOs
             to make decisions. After many iterations, I came up with the new
             design which was more inline with our users needs"
@@ -320,6 +337,11 @@ const SdPlus = () => {
             </span>
           }
         />
+        <ProjectSection
+          color="text-green-sdplus"
+          heading="Creating transparency for architects"
+          desc='As part of redesign, we also wanted to bring in more transparency about intervention details and its status. The "intervention status" is an intricate flow, which I closely worked on with our tech and product manager. '
+        />
         <img
           src={
             process.env.PUBLIC_URL +
@@ -328,6 +350,7 @@ const SdPlus = () => {
           alt="A GIF of a cute cat :)"
           className="w-12/12 mx-auto"
         />
+
         <ProjectSection
           desc={
             <span>
@@ -373,6 +396,7 @@ const SdPlus = () => {
 
       <ProjectSubDescContainer sectionTitle="Wrapping it up">
         <ProjectSection
+          color="text-green-sdplus"
           heading="Result of experience roadmapping"
           desc=" We kept coming back to this mapping whenever we needed to take
             design or tech decisions, or sprint plannings. This almost acted as
@@ -380,6 +404,7 @@ const SdPlus = () => {
             user needs."
         />
         <ProjectSection
+          color="text-green-sdplus"
           heading=" My manager's testimonial"
           desc={
             <span>
@@ -395,6 +420,7 @@ const SdPlus = () => {
           }
         />
         <ProjectSection
+          color="text-green-sdplus"
           heading="Key Takeaways"
           desc={
             <span>

@@ -45,28 +45,27 @@ module.exports = {
       "background-color": "#F3F6FB",
       white: "#f4f4f4",
       "green-sdplus": "#24A148",
-      "blue-sdplus":"#1192E8"
+      "blue-sdplus": "#1192E8",
+      "blue-chiral": "#1192E8",
     },
     fontSize: {
+      xs: ".625rem",
 
-      'xs': '.625rem',
+      sm: ".875rem",
 
-      'sm': '.875rem',
+      base: "1rem",
+      lg: "1.125rem",
+      xl: "1.25rem",
+      "2xl": "1.5rem",
 
-      
-       'base': '1rem',
-       'lg': '1.125rem',
-       'xl': '1.25rem',
-       '2xl': '1.5rem',
+      "3xl": "1.875rem",
 
-      '3xl': '1.875rem',
+      "4xl": "2.25rem",
+      "5xl": "3rem",
+      "6xl": "4rem",
 
-      '4xl': '2.25rem',
-       '5xl': '3rem',
-       '6xl': '4rem',
-
-      '7xl': '5rem',
-     },
+      "7xl": "5rem",
+    },
   },
   variants: {
     extend: {},

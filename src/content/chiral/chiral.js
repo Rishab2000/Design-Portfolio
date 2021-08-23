@@ -1,10 +1,394 @@
 import React from "react";
+import ProjectIntro from "../../components/project-intro";
+import ProjectSection from "../../components/project-page-components/green-section/projectSection";
+import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
 
+const Chiral = () => {
+  const miniDesc = {
+    duration: "Duration: 3 months, Apr - Jun 2020",
+  };
 
+  return (
+    <div className="w-full flex flex-col items-center">
+      <ProjectIntro
+        title="Chiral Colonies -
+      Climate Change App Redesign | UX Case Study "
+        miniDesc={miniDesc}
+        image={process.env.PUBLIC_URL + "/images/chiral2.png"}
+      />
 
-const Chiral =()=>{
-return(<div>Chiral Page</div>)
+      <ProjectSubDescContainer sectionTitle="Introduction">
+        <p className="font-avenir-book text-base lg:text-xl mt-2 mb-8">
+          Chiral colonies is a mobile-based game that aims to spread awareness
+          about climate change & also help make a positive impact. <br /> <br />
+          I worked on this project for around four weeks and followed the
+          process of understanding the context, empathizing with the target
+          audience, ideating, prototyping & testing with target audience. Here's
+          what happened
+        </p>
+      </ProjectSubDescContainer>
+      <div className="bg-blue-sdplus w-screen py-6 mb-8">
+        <div className="w-10/12 max-w-7xl mx-auto text-white font-avenir-bold text-xs lg:text-base flex ">
+          <div className="flex flex-col items-center justify-center  p-4">
+            <img
+              src={
+                process.env.PUBLIC_URL +
+                "/images/chiral-project/icons/Discover.png"
+              }
+              alt="Investigating emoji 🧐"
+              className="w-12/12 lg:w-7/12 mx-auto"
+            />
+            <p className="mt-2">Discover</p>
+          </div>
+          <div className="flex flex-col items-center justify-center  p-4">
+            <img
+              src={
+                process.env.PUBLIC_URL +
+                "/images/chiral-project/icons/Empathize.png"
+              }
+              alt="Heart emoji ❤️"
+              className="w-11/12 lg:w-7/12 mx-auto"
+            />
+            <p className="mt-2">Empathize</p>
+          </div>
+          <div className="flex flex-col items-center justify-center p-4">
+            <img
+              src={
+                process.env.PUBLIC_URL +
+                "/images/chiral-project/icons/Ideate.png"
+              }
+              alt="Thinking emoji 🤔"
+              className="w-12/12 lg:w-7/12 mx-auto"
+            />
+            <p className="mt-2">Ideate</p>
+          </div>
+          <div className="flex flex-col items-center justify-center p-4">
+            <img
+              src={
+                process.env.PUBLIC_URL +
+                "/images/chiral-project/icons/Prototype.png"
+              }
+              alt="Big boi on laptop 🧑‍💻"
+              className="w-12/12 lg:w-7/12 mx-auto"
+            />
+            <p className="mt-2">Prototype</p>
+          </div>
+          <div className="flex flex-col items-center justify-center p-4">
+            <img
+              src={
+                process.env.PUBLIC_URL +
+                "/images/chiral-project/icons/Testing.png"
+              }
+              alt="Smart boi doing science 🧑‍🔬"
+              className="w-12/12 lg:w-7/12 mx-auto"
+            />
+            <p className="mt-2">Testing</p>
+          </div>
+        </div>
+      </div>
+      <ProjectSubDescContainer sectionTitle="Process">
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="Discovery Phase"
+          desc="I conducted secondary research to understand the context of climate
+           change and different aspects of it"
+        />
+        <img
+          src={process.env.PUBLIC_URL + "/images/chiral-project/Discovery.png"}
+          alt="Board of sticky notes displaying connection between data points"
+          className="w-12/12 my-12 lg:w-7/12 mx-auto"
+        />
 
-}
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="Key questions I asked"
+          desc="I understood that the core problem to look at is the lack of sustainable co-existence
+           between humans and nature. nature includes all plants, animals and micro-organisms"
+        />
+        <img
+          src={process.env.PUBLIC_URL + "/images/chiral-project/questions.png"}
+          alt="Board of sticky notes displaying connection between data points"
+          className="w-12/12 my-12 lg:w-7/12 mx-auto"
+        />
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="Key discovery"
+          desc="I learnt that plankton is one of the most important organisms for oxygen production by
+           contributing to 50% of the world's oxygen production & compose only ~1% of the global
+          biomass. "
+        />
+        {/* ADD THE STUPID LITTLE CARDS THAT I DECIDED TO MAKE....UGHHH WHY DO I HAVE TO MAKE MY LIFE THIS DIFFICULT */}
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="Empathizing with the target users"
+          desc="After researching, I decided my user group to be young adults (18 to 25 years). 
+          Consequently, I went on to understand more about my users to finally build a persona."
+        />
+        <img
+          src={
+            process.env.PUBLIC_URL + "/images/chiral-project/User_persona.png"
+          }
+          alt="Created user persona "
+          className="w-12/12 my-12 mx-auto"
+        />
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="Ideating"
+          desc={
+            <span>
+              <p>
+                After several rounds of brainstorming, I finalized the concept
+                of a a mobile game which was build by following two main
+                guidelines:
+              </p>
+              <ul className="list-disc list-inside font-avenir-book mt-2 mb-2">
+                <li>
+                  Raising awareness about phytoplanktons because of the positive
+                  effect they have on the climate
+                </li>
+                <li>
+                  Young adults care more about the environment than money and
+                  that they would gravitate towards a firm that behaves
+                  sustainably and works toward it
+                </li>
+              </ul>
+            </span>
+          }
+        />
+        <img
+          src={
+            process.env.PUBLIC_URL +
+            "/images/chiral-project/Icons/Chiral_colonies.jpg"
+          }
+          alt="Created user persona "
+          // add whatever this user flow means
+          className="w-12/12 lg:w-5/12 my-12 mx-auto"
+        />
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="Designing user flows"
+          desc="Based on my idea, I worked out the information architecture 
+          for the game and subsequently detailed out different user flows"
+        />
+      </ProjectSubDescContainer>
+      <div className="flex flex-wrap gap-8">
+        <img
+          src={
+            process.env.PUBLIC_URL +
+            "/images/chiral-project/User_flow/User_Flow.png"
+          }
+          alt="Created user persona "
+          // add whatever this user flow means
+          className="w-12/12 my-12"
+        />
+        <img
+          src={
+            process.env.PUBLIC_URL +
+            "/images/chiral-project/User_flow/User_Flow2.png"
+          }
+          alt="Created user persona "
+          // add whatever this user flow means
+          className="w-12/12 my-12 "
+        />
+      </div>
+      <ProjectSubDescContainer sectionTitle = "Outcome">
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="Prototyping"
+          desc="After planning out the user flows, I decided 
+        to wireframe the 2nd user flow as it delves into the details of the app"
+        />
+        <div className="flex flex-wrap gap-8 justify-between ">
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/images/chiral-project/Wireframes-01.png"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-12/12 my-3 lg:my-0 lg:w-6/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/images/chiral-project/Wireframes-02.png"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-12/12 my-3 lg:my-0 lg:w-5/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/images/chiral-project/Wireframes-03.png"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-12/12 my-3 lg:my-0 lg:w-5/12 lg:mx-auto"
+          />
+        </div>
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="Digital prototypes"
+          desc="I tweaked the design a bit before proceeding to
+        digital prototypes, where I finalized on the core of the functionality
+        and working of the app"
+        />
+        <div className="flex flex-wrap gap- lg:gap-8 justify-between ">
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/1.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/2.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/3.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/4.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/5.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/6.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/7.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/8.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/9.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
+          />
+        </div>
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="User testing wireframes"
+          desc="While testing the main feedback I received was the lack of cohesion on
+          the main page, it was hard for the user to understand what to do. "
+        />
+        <img
+          src={
+            process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/10.jpg"
+          }
+          alt="Created user persona "
+          // add whatever this user flow means
+          className="w-12/12 my-3 lg:my-0 lg:w-6/12 mx-auto"
+        />
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="High fidelity prototypes"
+          desc="It was time to bring some colour and typography into the design. I choose
+          a colour palette on the cooler side to induce a serene and more natural atmosphere 
+          in the app. "
+        />
+        <div className="flex flex-wrap gap-4 lg:gap-8 justify-between ">
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/images/chiral-project/high_fidelity/plankton-02.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-5/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/images/chiral-project/high_fidelity/plankton-09.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-5/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/images/chiral-project/high_fidelity/plankton-03.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-5/12 my-3 lg:my-0 lg:w-2/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/images/chiral-project/high_fidelity/plankton-04.jpg"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-5/12 my-3 lg:my-0 lg:w-2/12"
+          />
+        </div>
+      </ProjectSubDescContainer>
+      <ProjectSubDescContainer sectionTitle="Result">
+        <ProjectSection
+          color="text-blue-chiral"
+          heading="User testing and next steps forward"
+          desc={
+            <p>
+              Once I had my final screens. I conducted another round of
+              usability testing with 5 users. During the test, I received
+              positive feedback about the usability of the app. However, 2/5
+              people weren't convinced to use the app on a daily basis, which I
+              did not expect at all. <br />
+              <br /> While in search for a feasible solution. The next step with
+              this is to bring a sense of ownership to the user, make they feel
+              that they are part of a larger community and that they are, in
+              effect, contributing.
+            </p>
+          }
+        />
+      </ProjectSubDescContainer>
+    </div>
+  );
+};
 
 export default Chiral;

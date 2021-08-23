@@ -4,10 +4,10 @@ const ProjectIntro = (props) => {
   return (
       <div>
           <div className="mt-24 flex flex-col">
-        <p className="font-avenir-roman text-title-colour text-2xl">
+        <p className="font-avenir-roman text-title-colour text-2xl lg:text-4xl">
           {props.title}
         </p>
-        <p className="font-avenir-book text-gray40 text-base">
+        <p className="font-avenir-book text-gray40 text-base lg:text-lg">
           {props.subTitle}
         </p>
       </div>
