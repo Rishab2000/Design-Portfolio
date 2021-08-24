@@ -96,7 +96,7 @@ const Chiral = () => {
         <img
           src={process.env.PUBLIC_URL + "/images/chiral-project/Discovery.png"}
           alt="Board of sticky notes displaying connection between data points"
-          className="w-12/12 my-12 lg:w-7/12 mx-auto"
+          className="w-12/12 my-12 lg:-mt-4 lg:mb-24"
         />
 
         <ProjectSection
@@ -108,7 +108,7 @@ const Chiral = () => {
         <img
           src={process.env.PUBLIC_URL + "/images/chiral-project/questions.png"}
           alt="Board of sticky notes displaying connection between data points"
-          className="w-12/12 my-12 lg:w-7/12 mx-auto"
+          className="w-12/12 my-12 lg:-mt-4 lg:mb-24 "
         />
         <ProjectSection
           color="text-blue-chiral"
@@ -184,7 +184,7 @@ const Chiral = () => {
             process.env.PUBLIC_URL + "/images/chiral-project/User_persona.png"
           }
           alt="Created user persona "
-          className="w-12/12 my-12 mx-auto"
+          className="w-12/12 mt-2 mb-12 lg:-mt-4 lg:mb-24"
         />
         <ProjectSection
           color="text-blue-chiral"
@@ -217,7 +217,7 @@ const Chiral = () => {
           }
           alt="Created user persona "
           // add whatever this user flow means
-          className="w-12/12 mb-12 lg:w-5/12 mx-auto"
+          className="w-12/12 mt-2 mb-12 lg:-mt-4 lg:mb-24 lg:w-5/12 mx-auto"
         />
         <ProjectSection
           color="text-blue-chiral"
@@ -225,27 +225,28 @@ const Chiral = () => {
           desc="Based on my idea, I worked out the information architecture 
           for the game and subsequently detailed out different user flows"
         />
+        <div className="flex flex-wrap gap-8 mt-2 mb-12 lg:-mt-4 lg:mb-24">
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/images/chiral-project/User_flow/User_Flow.png"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-12/12"
+          />
+          <img
+            src={
+              process.env.PUBLIC_URL +
+              "/images/chiral-project/User_flow/User_Flow2.png"
+            }
+            alt="Created user persona "
+            // add whatever this user flow means
+            className="w-12/12"
+          />
+        </div>
       </ProjectSubDescContainer>
-      <div className="flex flex-wrap gap-8">
-        <img
-          src={
-            process.env.PUBLIC_URL +
-            "/images/chiral-project/User_flow/User_Flow.png"
-          }
-          alt="Created user persona "
-          // add whatever this user flow means
-          className="w-12/12 -mt-8"
-        />
-        <img
-          src={
-            process.env.PUBLIC_URL +
-            "/images/chiral-project/User_flow/User_Flow2.png"
-          }
-          alt="Created user persona "
-          // add whatever this user flow means
-          className="w-12/12 mb-12 "
-        />
-      </div>
+
       <ProjectSubDescContainer sectionTitle="Outcome">
         <ProjectSection
           color="text-blue-chiral"
@@ -253,7 +254,7 @@ const Chiral = () => {
           desc="After planning out the user flows, I decided 
         to wireframe the 2nd user flow as it delves into the details of the app"
         />
-        <div className="flex flex-wrap gap-8 justify-between ">
+        <div className="flex flex-wrap gap-8 mt-2 mb-12 lg:-mt-4 lg:mb-24 justify-between ">
           <img
             src={
               process.env.PUBLIC_URL +
@@ -289,7 +290,7 @@ const Chiral = () => {
         digital prototypes, where I finalized on the core of the functionality
         and working of the app"
         />
-        <div className="flex flex-wrap gap-8 justify-between ">
+        <div className="flex flex-wrap mt-2 mb-12 lg:-mt-4 lg:mb-24 gap-8 justify-between ">
           <img
             src={
               process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/1.jpg"
@@ -368,7 +369,7 @@ const Chiral = () => {
           }
           alt="Created user persona "
           // add whatever this user flow means
-          className="w-12/12 my-3 lg:my-0 lg:w-6/12 mx-auto"
+          className="w-12/12  mt-2 mb-12 lg:-mt-4 lg:mb-24  lg:my-0 lg:w-6/12 mx-auto"
         />
         <ProjectSection
           color="text-blue-chiral"
@@ -377,7 +378,7 @@ const Chiral = () => {
           a colour palette on the cooler side to induce a serene and more natural atmosphere 
           in the app. "
         />
-        <div className="flex flex-wrap gap-4 lg:gap-8 justify-between ">
+        <div className="flex flex-wrap gap-4  mt-2 mb-12 lg:-mt-4 lg:mb-24 lg:gap-8 justify-between ">
           <img
             src={
               process.env.PUBLIC_URL +
