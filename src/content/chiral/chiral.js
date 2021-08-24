@@ -117,6 +117,61 @@ const Chiral = () => {
            contributing to 50% of the world's oxygen production & compose only ~1% of the global
           biomass. "
         />
+        <div className="flex flex-row flex-wrap gap-8 font-avenir-book text-xs lg:text-sm mt-6 lg:-mt-4 mb-12 lg:mb-24">
+          <div className="w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow justify-center items-center gap-12 py-5">
+            <img
+              src={
+                process.env.PUBLIC_URL + "/images/chiral-project/icons/tree.svg"
+              }
+              alt="tree illustration"
+              className="w-1/12 lg:w-2/12"
+            />
+            <p className="w-5/12">
+              75,000,000 colonies of Phytoplankton (2.5 metres approx) is equal
+              to one tree
+            </p>
+          </div>
+          <div className="w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow justify-center items-center   gap-12 py-5">
+            <img
+              src={
+                process.env.PUBLIC_URL +
+                "/images/chiral-project/icons/Oxygen.svg"
+              }
+              alt="tree illustration"
+              className="w-1/12 lg:w-2/12"
+            />
+            <p className="w-5/12">
+              Phytoplankton have a faster turn over rate than compared to trees
+            </p>
+          </div>
+          <div className=" w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow justify-center items-center  gap-12 py-5">
+            <img
+              src={
+                process.env.PUBLIC_URL +
+                "/images/chiral-project/icons/Ocean.svg"
+              }
+              alt="tree illustration"
+              className="w-1/12 lg:w-2/12"
+            />
+            <p className="w-5/12">
+              Acidification of oceans affecting Phytoplanktons on a global scale
+            </p>
+          </div>
+          <div className="w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow justify-center items-center  gap-12 py-5">
+            <img
+              src={
+                process.env.PUBLIC_URL +
+                "/images/chiral-project/icons/Temperature-01.svg"
+              }
+              alt="tree illustration"
+              className="w-1/12 lg:w-2/12"
+            />
+            <p className="w-5/12">
+              Increase in temperature resulting in the reduction of available
+              nutrients
+            </p>
+          </div>
+        </div>
         {/* ADD THE STUPID LITTLE CARDS THAT I DECIDED TO MAKE....UGHHH WHY DO I HAVE TO MAKE MY LIFE THIS DIFFICULT */}
         <ProjectSection
           color="text-blue-chiral"
@@ -162,7 +217,7 @@ const Chiral = () => {
           }
           alt="Created user persona "
           // add whatever this user flow means
-          className="w-12/12 lg:w-5/12 my-12 mx-auto"
+          className="w-12/12 mb-12 lg:w-5/12 mx-auto"
         />
         <ProjectSection
           color="text-blue-chiral"
@@ -179,7 +234,7 @@ const Chiral = () => {
           }
           alt="Created user persona "
           // add whatever this user flow means
-          className="w-12/12 my-12"
+          className="w-12/12 -mt-8"
         />
         <img
           src={
@@ -188,10 +243,10 @@ const Chiral = () => {
           }
           alt="Created user persona "
           // add whatever this user flow means
-          className="w-12/12 my-12 "
+          className="w-12/12 mb-12 "
         />
       </div>
-      <ProjectSubDescContainer sectionTitle = "Outcome">
+      <ProjectSubDescContainer sectionTitle="Outcome">
         <ProjectSection
           color="text-blue-chiral"
           heading="Prototyping"
@@ -234,7 +289,7 @@ const Chiral = () => {
         digital prototypes, where I finalized on the core of the functionality
         and working of the app"
         />
-        <div className="flex flex-wrap gap- lg:gap-8 justify-between ">
+        <div className="flex flex-wrap gap-8 justify-between ">
           <img
             src={
               process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/1.jpg"
@@ -251,14 +306,7 @@ const Chiral = () => {
             // add whatever this user flow means
             className="w-3/12 my-3 lg:my-0 lg:w-2/12"
           />
-          <img
-            src={
-              process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/3.jpg"
-            }
-            alt="Created user persona "
-            // add whatever this user flow means
-            className="w-3/12 my-3 lg:my-0 lg:w-2/12"
-          />
+
           <img
             src={
               process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/4.jpg"
@@ -267,7 +315,7 @@ const Chiral = () => {
             // add whatever this user flow means
             className="w-3/12 my-3 lg:my-0 lg:w-2/12"
           />
-          <img
+          {/* <img
             src={
               process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/5.jpg"
             }
@@ -282,7 +330,7 @@ const Chiral = () => {
             alt="Created user persona "
             // add whatever this user flow means
             className="w-3/12 my-3 lg:my-0 lg:w-2/12"
-          />
+          /> */}
           <img
             src={
               process.env.PUBLIC_URL + "/images/chiral-project/Wireframes/7.jpg"
