@@ -9,8 +9,17 @@ module.exports = {
       zIndex: {
         "-10": "-10",
       },
+      width: {
+        100: "28rem",
+        200: "69rem",
+        300: "75rem",
+      },
+
       height: (theme) => ({
         "lg-image": "36rem",
+        100: "28rem",
+        200: "42rem",
+       
       }),
     },
     backgroundSize: {
