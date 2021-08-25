@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectIntro = (props) => {
   return (
-      <div>
+      <div className="w-full">
           <div className="mt-24 flex flex-col">
         <p className="font-avenir-roman text-title-colour text-2xl lg:text-4xl">
           {props.title}

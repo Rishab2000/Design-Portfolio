@@ -47,6 +47,8 @@ module.exports = {
       "green-sdplus": "#24A148",
       "blue-sdplus": "#1192E8",
       "blue-chiral": "#1192E8",
+      "background-CSS": "#EE5396",
+      "blue-behance": "#0F62FE",
     },
     fontSize: {
       xs: ".625rem",
