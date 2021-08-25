@@ -25,7 +25,7 @@ const Chiral = () => {
           process of understanding the context, empathizing with the target
           audience, ideating, prototyping & testing with target audience. Here's
           what happened
-        </p> 
+        </p>
       </ProjectSubDescContainer>
       <div className="bg-blue-sdplus w-screen py-6 mb-8">
         <div className="w-10/12 max-w-7xl mx-auto text-white font-avenir-bold text-xs lg:text-base flex ">
