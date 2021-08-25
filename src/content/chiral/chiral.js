@@ -44,7 +44,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/"
+                "/images/empathize.png"
               }
               alt="Heart emoji ❤️"
               className="w-11/12 lg:w-7/12 mx-auto"
@@ -55,7 +55,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/"
+                "/images/ideate.png"
               }
               alt="Thinking emoji 🤔"
               className="w-12/12 lg:w-7/12 mx-auto"
@@ -66,7 +66,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/"
+                "/images/protoype.png"
               }
               alt="Big boi on laptop 🧑‍💻"
               className="w-12/12 lg:w-7/12 mx-auto"
@@ -77,7 +77,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/"
+                "/images/testing.png"
               }
               alt="Smart boi doing science 🧑‍🔬"
               className="w-12/12 lg:w-7/12 mx-auto"
@@ -121,7 +121,7 @@ const Chiral = () => {
           <div className="w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow justify-center items-center gap-12 py-5">
             <img
               src={
-                process.env.PUBLIC_URL + "/images/"
+                process.env.PUBLIC_URL + "/images/tree.svg"
               }
               alt="tree illustration"
               className="w-1/12 lg:w-2/12"
@@ -135,7 +135,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/"
+                "/images/oxygen.svg"
               }
               alt="tree illustration"
               className="w-1/12 lg:w-2/12"
@@ -148,7 +148,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/"
+                "/images/ocean.svg"
               }
               alt="tree illustration"
               className="w-1/12 lg:w-2/12"
@@ -161,7 +161,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/"
+                "/images/temperature-01.svg"
               }
               alt="tree illustration"
               className="w-1/12 lg:w-2/12"
