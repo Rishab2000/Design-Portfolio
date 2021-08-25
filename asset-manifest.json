@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/design-portfolio/static/css/main.dd39c4eb.chunk.css",
-    "main.js": "/design-portfolio/static/js/main.dae3a34d.chunk.js",
-    "main.js.map": "/design-portfolio/static/js/main.dae3a34d.chunk.js.map",
-    "runtime-main.js": "/design-portfolio/static/js/runtime-main.d71310c8.js",
-    "runtime-main.js.map": "/design-portfolio/static/js/runtime-main.d71310c8.js.map",
-    "static/js/2.304ed588.chunk.js": "/design-portfolio/static/js/2.304ed588.chunk.js",
-    "static/js/2.304ed588.chunk.js.map": "/design-portfolio/static/js/2.304ed588.chunk.js.map",
-    "index.html": "/design-portfolio/index.html",
-    "static/css/main.dd39c4eb.chunk.css.map": "/design-portfolio/static/css/main.dd39c4eb.chunk.css.map",
-    "static/js/2.304ed588.chunk.js.LICENSE.txt": "/design-portfolio/static/js/2.304ed588.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/design-portfolio/static/media/Avenir-Roman.69c16723.ttf"
+    "main.css": "/static/css/main.99d74349.chunk.css",
+    "main.js": "/static/js/main.993c8bb8.chunk.js",
+    "main.js.map": "/static/js/main.993c8bb8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b69c274.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b69c274.js.map",
+    "static/js/2.304ed588.chunk.js": "/static/js/2.304ed588.chunk.js",
+    "static/js/2.304ed588.chunk.js.map": "/static/js/2.304ed588.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.99d74349.chunk.css.map": "/static/css/main.99d74349.chunk.css.map",
+    "static/js/2.304ed588.chunk.js.LICENSE.txt": "/static/js/2.304ed588.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Avenir-Roman.69c16723.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.d71310c8.js",
+    "static/js/runtime-main.9b69c274.js",
     "static/js/2.304ed588.chunk.js",
-    "static/css/main.dd39c4eb.chunk.css",
-    "static/js/main.dae3a34d.chunk.js"
+    "static/css/main.99d74349.chunk.css",
+    "static/js/main.993c8bb8.chunk.js"
   ]
 }
