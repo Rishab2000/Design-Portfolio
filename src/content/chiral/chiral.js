@@ -33,7 +33,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/chiral-project/icons/Discover.png"
+                "/images/"
               }
               alt="Investigating emoji 🧐"
               className="w-12/12 lg:w-7/12 mx-auto"
@@ -44,7 +44,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/chiral-project/icons/Empathize.png"
+                "/images/"
               }
               alt="Heart emoji ❤️"
               className="w-11/12 lg:w-7/12 mx-auto"
@@ -55,7 +55,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/chiral-project/icons/Ideate.png"
+                "/images/"
               }
               alt="Thinking emoji 🤔"
               className="w-12/12 lg:w-7/12 mx-auto"
@@ -66,7 +66,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/chiral-project/icons/Prototype.png"
+                "/images/"
               }
               alt="Big boi on laptop 🧑‍💻"
               className="w-12/12 lg:w-7/12 mx-auto"
@@ -77,7 +77,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/chiral-project/icons/Testing.png"
+                "/images/"
               }
               alt="Smart boi doing science 🧑‍🔬"
               className="w-12/12 lg:w-7/12 mx-auto"
@@ -121,7 +121,7 @@ const Chiral = () => {
           <div className="w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow justify-center items-center gap-12 py-5">
             <img
               src={
-                process.env.PUBLIC_URL + "/images/chiral-project/icons/tree.svg"
+                process.env.PUBLIC_URL + "/images/"
               }
               alt="tree illustration"
               className="w-1/12 lg:w-2/12"
@@ -135,7 +135,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/chiral-project/icons/Oxygen.svg"
+                "/images/"
               }
               alt="tree illustration"
               className="w-1/12 lg:w-2/12"
@@ -148,7 +148,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/chiral-project/icons/Ocean.svg"
+                "/images/"
               }
               alt="tree illustration"
               className="w-1/12 lg:w-2/12"
@@ -161,7 +161,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/chiral-project/icons/Temperature-01.svg"
+                "/images/"
               }
               alt="tree illustration"
               className="w-1/12 lg:w-2/12"
@@ -213,7 +213,7 @@ const Chiral = () => {
         <img
           src={
             process.env.PUBLIC_URL +
-            "/images/chiral-project/Icons/Chiral_colonies.jpg"
+            "/images/chiral-project/icons/Chiral_colonies.jpg"
           }
           alt="Created user persona "
           // add whatever this user flow means
