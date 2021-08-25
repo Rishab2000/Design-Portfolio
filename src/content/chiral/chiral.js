@@ -33,7 +33,7 @@ const Chiral = () => {
             <img
               src={
                 process.env.PUBLIC_URL +
-                "/images/"
+                "/images/chiral-project/icons/discover.png"
               }
               alt="Investigating emoji 🧐"
               className="w-12/12 lg:w-7/12 mx-auto"
