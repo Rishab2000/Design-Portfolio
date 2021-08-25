@@ -42,7 +42,7 @@ const SdPlus = () => {
           }
         />
       </ProjectSubDescContainer>
-      <ProjectSubDescContainer sectionTitle="Context" className="w-full">
+      <ProjectSubDescContainer sectionTitle="Context" className="lg:w-full">
         <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-12">
           <ProjectSection
             width="lg:w-5/12"
@@ -80,7 +80,7 @@ const SdPlus = () => {
           />
         </div>
       </ProjectSubDescContainer>
-      <ProjectSubDescContainer sectionTitle="Scoping" className="w-full">
+      <ProjectSubDescContainer sectionTitle="Scoping" className="lg:w-full">
         <div className="flex flex-col lg:flex-row lg:justify-between">
           <ProjectSection
             width="lg:w-5/12 lg:self-center"
@@ -122,13 +122,15 @@ const SdPlus = () => {
         </div>
       </ProjectSubDescContainer>
 
-      <div className="bg-blue-sdplus w-screen py-6 mb-8">
-        <p className="w-10/12 mx-auto text-white font-avenir-bold opacity-60">
-          Design Challenge
-        </p>
-        <p className="w-10/12 mx-auto text-white">
-          How might we refocus and restructure the product's experience?
-        </p>
+      <div className="bg-blue-sdplus w-screen py-12 mb-8">
+        <div className="w-10/12 max-w-7xl mx-auto ">
+          <p className=" text-white font-avenir-bold opacity-60 text-lg">
+            Design Challenge
+          </p>
+          <p className=" text-white text-4xl">
+            How might we refocus and restructure the product's experience?
+          </p>
+        </div>
       </div>
       <ProjectSubDescContainer sectionTitle="Approach">
         <ProjectSection
@@ -160,58 +162,59 @@ const SdPlus = () => {
           alt="temp"
           className="mt-4 mb-12"
         />
+        <ProjectSection
+          heading="Synethesizing insights"
+          color="text-green-sdplus"
+          desc={
+            <span>
+              <p>
+                We identified key user and business insights by focusing on
+                answering three main questions
+              </p>
+              <ul className="list-disc list-inside font-avenir-book mt-2 mb-2">
+                <li>What users are thinking at that time? </li>
+                <li>What users are feeling at that time?</li>
+                <li>Are there any points of friction the users face?</li>
+              </ul>
+              <p>
+                Next plan of action was to conduct research by communicating
+                directly with the users. For this we laid down key points we
+                wanted to determine:
+              </p>
+              <ul className="list-disc list-inside font-avenir-book mt-2 mb-8">
+                <li>What did they like about the product? </li>
+                <li>What didn’t you like about the product?</li>
+                <li>
+                  What are their feelings towards the current process in place?
+                  Does it meet their expectations?
+                </li>
+                <li>
+                  What touchpoints and steps does the user take in each phase to
+                  achieve their goal? How do they find and interact with these
+                  necessary touchpoints?
+                </li>
+                <li>
+                  Is there any friction as they pass through different customer
+                  phases?
+                </li>
+                <li>How easy is the transition between each phase?</li>
+              </ul>
+              <p>
+                However, due to time constraints, we were not able to gather
+                sufficient data and decided to do it after the next release of
+                the product. This would help us investigate problems that may
+                arise later.
+              </p>
+            </span>
+          }
+        />
+        <img
+          src="https://media.giphy.com/media/ftN31y6wNaJxCkLYNS/giphy.gif"
+          alt="A GIF of a cute cat :)"
+          className="w-4/12 mx-auto mt-4 mb-12"
+        />
       </ProjectSubDescContainer>
-      <ProjectSection
-        heading="Synethesizing insights"
-        color="text-green-sdplus"
-        desc={
-          <span>
-            <p>
-              We identified key user and business insights by focusing on
-              answering three main questions
-            </p>
-            <ul className="list-disc list-inside font-avenir-book mt-2 mb-2">
-              <li>What users are thinking at that time? </li>
-              <li>What users are feeling at that time?</li>
-              <li>Are there any points of friction the users face?</li>
-            </ul>
-            <p>
-              Next plan of action was to conduct research by communicating
-              directly with the users. For this we laid down key points we
-              wanted to determine:
-            </p>
-            <ul className="list-disc list-inside font-avenir-book mt-2 mb-8">
-              <li>What did they like about the product? </li>
-              <li>What didn’t you like about the product?</li>
-              <li>
-                What are their feelings towards the current process in place?
-                Does it meet their expectations?
-              </li>
-              <li>
-                What touchpoints and steps does the user take in each phase to
-                achieve their goal? How do they find and interact with these
-                necessary touchpoints?
-              </li>
-              <li>
-                Is there any friction as they pass through different customer
-                phases?
-              </li>
-              <li>How easy is the transition between each phase?</li>
-            </ul>
-            <p>
-              However, due to time constraints, we were not able to gather
-              sufficient data and decided to do it after the next release of the
-              product. This would help us investigate problems that may arise
-              later.
-            </p>
-          </span>
-        }
-      />
-      <img
-        src="https://media.giphy.com/media/ftN31y6wNaJxCkLYNS/giphy.gif"
-        alt="A GIF of a cute cat :)"
-        className="mx-auto mt-4 mb-12"
-      />
+
       <ProjectSubDescContainer sectionTitle="Detailing">
         <ProjectSection
           color="text-green-sdplus"
@@ -222,37 +225,37 @@ const SdPlus = () => {
           three main areas:"
         />
 
-        <div className="flex flex-wrap justify-center font-avenir-book text-xs text-center gap-5 mt-8 mb-24">
-          <div className="flex flex-col justify-center w-5/12 bg-cool-gray20 bg-opacity-40 rounded-md p-4">
+        <div className="flex flex-wrap justify-center items-center font-avenir-book text-xs lg:text-base text-center gap-5 mt-8 mb-24">
+          <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 bg-opacity-40 rounded-md p-4">
             <img
               src={
                 process.env.PUBLIC_URL +
                 "/images/sdplus-project/Problems/icons-01.svg"
               }
               alt="A GIF of a cute cat :)"
-              className="w-8/12 mx-auto"
+              className="w-8/12 lg:w-5/12 mx-auto lg:mb-4"
             />
             <p className="mt-2">Minimal business insights for CEOs</p>
           </div>
-          <div className="flex flex-col justify-center w-5/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
+          <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
             <img
               src={
                 process.env.PUBLIC_URL +
                 "/images/sdplus-project/Problems/icons-02.svg"
               }
               alt="A GIF of a cute cat :)"
-              className="w-8/12 mx-auto"
+              className="w-8/12 lg:w-5/12 mx-auto lg:mb-4"
             />
             <p className="mt-2">Missing dynamic & visual data</p>
           </div>
-          <div className="flex flex-col justify-center w-5/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
+          <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
             <img
               src={
                 process.env.PUBLIC_URL +
                 "/images/sdplus-project/Problems/icons-03.svg"
               }
               alt="A GIF of a cute cat :)"
-              className="w-8/12 mx-auto"
+              className="w-8/12 lg:w-5/12 mx-auto lg:mb-4"
             />
             <p className="mt-2">
               Lack of collaboration & communication between architects
@@ -268,12 +271,15 @@ const SdPlus = () => {
               Improvements and New. This helped us understand the nature of the
               idea and an overview plan of implementation."
         />
+        <img
+          src={
+            process.env.PUBLIC_URL + "/images/sdplus-project/Ideas/ideas.png"
+          }
+          alt="A GIF of a cute cat :)"
+          className="mt-8 mb-24 lg:w-8/12 mx-auto"
+        />
       </ProjectSubDescContainer>
-      <img
-        src={process.env.PUBLIC_URL + "/images/sdplus-project/Ideas/ideas.png"}
-        alt="A GIF of a cute cat :)"
-        className="mt-8 mb-24"
-      />
+
       <ProjectSubDescContainer sectionTitle="Designing">
         <ProjectSection
           color="text-green-sdplus"
