@@ -186,17 +186,17 @@ const Behance = () => {
           <img
             src={process.env.PUBLIC_URL + "/images/behance/pictures/1.jpg"}
             alt="sticky notes of discovered problems"
-            className="w-1/12 lg:w-3/12"
+            className="w-3/12 lg:w-3/12"
           />
           <img
             src={process.env.PUBLIC_URL + "/images/behance/pictures/2.jpg"}
             alt="evaluation matrix used"
-            className="w-1/12 lg:w-4/12"
+            className="w-4/12 lg:w-4/12"
           />
           <img
             src={process.env.PUBLIC_URL + "/images/behance/pictures/3.jpg"}
             alt="problem stick notes mapped on the evaluation matrix"
-            className="w-1/12 lg:w-4/12"
+            className=" w-4/12 lg:w-4/12"
           />
         </div>
       </ProjectSubDescContainer>
@@ -214,7 +214,7 @@ const Behance = () => {
             process.env.PUBLIC_URL + "/images/behance/pictures/final/1_opt.png"
           }
           alt="problem stick notes mapped on the evaluation matrix"
-          className="w-1/12 lg:w-full mb-28"
+          className="lg:w-full mb-28"
         />
         <ProjectSection
           width="lg:w-9/12"
@@ -229,7 +229,7 @@ const Behance = () => {
             process.env.PUBLIC_URL + "/images/behance/pictures/final/2_opt.png"
           }
           alt="problem stick notes mapped on the evaluation matrix"
-          className="w-1/12 lg:w-full mb-28"
+          className="lg:w-full mb-28"
         />
         <ProjectSection
           width="lg:w-9/12"
@@ -247,7 +247,7 @@ const Behance = () => {
             process.env.PUBLIC_URL + "/images/behance/pictures/final/3_opt.png"
           }
           alt="problem stick notes mapped on the evaluation matrix"
-          className="w-1/12 lg:w-full mb-28"
+          className="lg:w-full mb-28"
         />
         <ProjectSection
           width="lg:w-9/12"
@@ -262,7 +262,7 @@ const Behance = () => {
             process.env.PUBLIC_URL + "/images/behance/pictures/final/4_opt.png"
           }
           alt="problem stick notes mapped on the evaluation matrix"
-          className="w-1/12 lg:w-full mb-28"
+          className=" lg:w-full mb-28"
         />
         <ProjectSection
           width="lg:w-9/12"
@@ -279,7 +279,7 @@ const Behance = () => {
             process.env.PUBLIC_URL + "/images/behance/pictures/final/5_opt.png"
           }
           alt="problem stick notes mapped on the evaluation matrix"
-          className="w-1/12 lg:w-full mb-28"
+          className="w-full mb-28"
         />
       </ProjectSubDescContainer>
     </div>
