@@ -6,20 +6,26 @@ module.exports = {
       backgroundImage: (theme) => ({
         "sd-plus": "url('/src/img/sdplus.png')",
       }),
+      textColor: {
+        "title-colour": "#161616",
+        "desc-colour": "#525252",
+      },
       zIndex: {
         "-10": "-10",
       },
       width: {
-        100: "28rem",
+        98: "20rem",
+        99: "22rem",
+        100: "28.1rem",
         200: "69rem",
         300: "75rem",
       },
 
       height: (theme) => ({
         "lg-image": "36rem",
-        100: "28rem",
+        100: "28.1rem",
+        110: "33rem",
         200: "42rem",
-       
       }),
     },
     backgroundSize: {
@@ -43,8 +49,6 @@ module.exports = {
       "avenir-black": ["avenir-black"],
     },
     colors: {
-      "title-colour": "#161616",
-      "desc-colour": "#525252",
       gray40: "#a8a8a8",
       gray20: "#e0e0e0",
       gray50: "#8D8D8D",
