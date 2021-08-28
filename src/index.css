@@ -30,5 +30,6 @@
 
   body {
     @apply bg-background-color;
+    overflow-x: hidden;
   }
 }

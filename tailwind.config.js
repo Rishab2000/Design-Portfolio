@@ -14,11 +14,11 @@ module.exports = {
         "-10": "-10",
       },
       width: {
-        98: "20rem",
+     
         99: "22rem",
         100: "28.1rem",
-        200: "69rem",
-        300: "75rem",
+        200: "58rem",
+        300: "64rem",
       },
 
       height: (theme) => ({

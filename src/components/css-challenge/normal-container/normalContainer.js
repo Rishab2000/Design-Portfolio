@@ -16,17 +16,17 @@ const NormalContainer = (props) => {
           "/index.html"
         }
         className={
-          props.windowClass + " w-60 h-60  lg:w-100 lg:h-100 mb-8 lg:mb-0"
+          props.windowClass + " w-60 h-60 md:w-72 md:w-72  lg:w-100 lg:h-100 mb-8 lg:mb-0"
         }
       ></iframe>
-      <div className={props.desClass + " lg:w-96"}>
+      <div className={props.desClass + " lg:w-92"}>
         <p className="lg:text-3xl font-avenir-book text-desc-colour opacity-50">
           {props.day}
         </p>
         <p className="lg:text-3xl font-avenir-bold text-title-colour">
           {props.title}
         </p>
-        <p className="lg:text-xl font-avenir-book text-desc-colour">
+        <p className="lg:text-lg font-avenir-book text-desc-colour">
           {props.desc}
         </p>
       </div>
