@@ -5,9 +5,10 @@ import Header from "./components/header";
 import LandingPage from "./content/LandingPage";
 import IBM from "./content/ibm";
 import SdPlus from "./content/sdplus";
-import Chiral from "./content/chiral"
-import CssChallenges from "./content/css-challenges"
-import Behance from "./content/behance"
+import Chiral from "./content/chiral";
+import CssChallenges from "./content/css-challenges";
+import Behance from "./content/behance";
+import About from "./content/about";
 import Footer from "./components/footer";
 
 function App() {
@@ -43,6 +44,9 @@ function App() {
         </Route>
         <Route path="/behance">
           <Behance/>
+        </Route>
+        <Route path="/AboutMe">
+          <About/>
         </Route>
       </Switch>
       <Footer />

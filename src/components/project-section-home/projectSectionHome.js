@@ -14,7 +14,7 @@ const ProjectSectionHome = (props) => {
           desc={props.desc}
         />
     </Link>
-  );
+  ); 
 };
 
 export default ProjectSectionHome;
