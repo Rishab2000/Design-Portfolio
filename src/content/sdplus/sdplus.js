@@ -76,7 +76,7 @@ const SdPlus = () => {
               "/images/sdplus-project/wireframes/pre/Interventions.png"
             }
             alt="temp"
-            className="w-full lgkllj :w-context-images"
+            className="w-full  lg:w-context-images"
           />
         </div>
       </ProjectSubDescContainer>
