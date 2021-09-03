@@ -61,14 +61,14 @@ const SdPlus = () => {
             provides information for CEOs to understand the project progress."
           />
         </div>
-        <div className="flex flex-col lg:flex-row w-full gap-8 lg:gap-12 mb-8">
+        <div className="flex flex-col items-start justify-between gap-8 lg:gap-0 lg:flex-row w-full  mb-8">
           <img
             src={
               process.env.PUBLIC_URL +
               "/images/sdplus-project/wireframes/pre/Insights_Unscrolled_1x.png"
             }
             alt="temp"
-            className="w-full"
+            className="w-full lg:w-context-images"
           />
           <img
             src={
@@ -76,7 +76,7 @@ const SdPlus = () => {
               "/images/sdplus-project/wireframes/pre/Interventions.png"
             }
             alt="temp"
-            className="w-full"
+            className="w-full lgkllj :w-context-images"
           />
         </div>
       </ProjectSubDescContainer>
