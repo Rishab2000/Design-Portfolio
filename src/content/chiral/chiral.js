@@ -213,7 +213,7 @@ const Chiral = () => {
         <img
           src={
             process.env.PUBLIC_URL +
-            "/images/chiral-project/Chiral_colonies.jpg"
+            "/images/chiral-project/chiral_colonies.jpg"
           }
           alt="Created user persona "
           // add whatever this user flow means
