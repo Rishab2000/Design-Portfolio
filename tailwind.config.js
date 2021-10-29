@@ -60,6 +60,7 @@ module.exports = {
       "green-sdplus": "#24A148",
       "blue-sdplus": "#1192E8",
       "blue-chiral": "#1192E8",
+      "blue-ibm": "#0F62FE",
       "background-CSS": "#EE5396",
       "blue-behance": "#0F62FE",
     },
