@@ -16,7 +16,7 @@ const ProjectIntro = (props) => {
         <p>{props.miniDesc.duration}</p>
         <p>{props.miniDesc.firm}</p>
       </div>
-      <div className="my-28 ">
+      <div className="my-28 overflow-hidden md:rounded-lg">
         <img
           src={props.image}
           alt="temp"
