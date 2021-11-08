@@ -6,7 +6,7 @@ const IntroText = (props) => {
       <p className="font-avenir-book sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-title-colour">
         {props.textHeading}
       </p>
-      <p className="font-avenir-book mt-8 sm:text-2xl md:text-3xl lg:text-4xl lg:w-9/12 xl:text-xl 2xl:text-2xl text-desc-colour">{props.caption}</p>
+      <p className="font-avenir-book mt-8 sm:text-xl md:text-xl lg:text-xl lg:w-9/12 xl:text-xl 2xl:text-2xl text-desc-colour">{props.caption}</p>
     </div>
   );
 };
