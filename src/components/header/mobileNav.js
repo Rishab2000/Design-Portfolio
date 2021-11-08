@@ -9,8 +9,8 @@ const MobileNav = (props) => {
 
         <nav className={navClass + " transtion-opacity duration-300 ease-in flex flex-col gap-8 items-center absolute mx-auto right-0 left-0 w-4/12 text-center pt-96 text-2xl font-avenir-bold"}>
             <Link to='/' className="w-max hover:underline hover:text-link-hover-color">Work</Link>
-            <Link to='/' className="w-max hover:underline hover:text-link-hover-color">Blog</Link>
-            <Link to='/' className="w-max hover:underline hover:text-link-hover-color">About me</Link>
+            <Link to='/Blog' className="w-max hover:underline hover:text-link-hover-color">Blog</Link>
+            <Link to='/AboutMe' className="w-max hover:underline hover:text-link-hover-color">About me</Link>
         </nav>
     );
 

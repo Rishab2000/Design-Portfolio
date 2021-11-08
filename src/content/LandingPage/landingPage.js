@@ -7,14 +7,12 @@ const LandingPage = (props) => {
   const LandingPageState = props.hidden ? "opacity-0" : " ";
   return (
     <div
-      className={
-        LandingPageState + " transtion-opacity duration-300 ease-in"
-      }
+      className={LandingPageState + " transtion-opacity duration-300 ease-in"}
     >
       <IntroText
-        className= { " transtion-opacity duration-300 ease-in"}
-        text=" Rishab is bangalore based UX designer with a tendancy to design intuitive digital experiences in which every element serves a
-        purpose."
+        className={" transtion-opacity duration-300 ease-in"}
+        textHeading="Hi, I'm Rishab UX designer from is bangalore. I am currently a UX Design intern at IBM."
+        caption="I'm a designer who values transparency, consistency and progressivity. Motivated everyday by the opportunity to solve real problems for people."
       />
       <div className="flex flex-col items-center md:flex-row md:mb-32 ">
         <ProjectSectionHome
@@ -28,7 +26,7 @@ const LandingPage = (props) => {
           // journey maps and designed prototypes for phased implementation."
         />
         <ProjectSectionHome
-        className="group md:w-4/12 md:mt-80 md:ml-auto"
+          className="group md:w-4/12 md:mt-80 md:ml-auto"
           image={process.env.PUBLIC_URL + "/images/sdplus.png"}
           destination="/sdplus"
           title="SD+ | UX Design Internship"
