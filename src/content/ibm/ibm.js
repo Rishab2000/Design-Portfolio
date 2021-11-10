@@ -89,7 +89,7 @@ const IBM = () => {
           <ProjectSectionHome
             className="group md:w-4/12"
             destination="/ibm"
-            image={process.env.PUBLIC_URL + "/images/ibm.png"}
+            image={process.env.PUBLIC_URL + "/images/ibm/project-preview-images/Frame_1.png"}
             title={<p className="font-avenir-book">Self service portal <br/><p className="text-sm text-gray50">Jan - July 2021 . 6 mos</p></p>}
             hoverDesc=""
             // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
@@ -99,7 +99,7 @@ const IBM = () => {
           <ProjectSectionHome
             className="group md:w-4/12"
             destination="/ibm"
-            image={process.env.PUBLIC_URL + "/images/ibm.png"}
+            image={process.env.PUBLIC_URL + "/images/ibm/project-preview-images/Group_70.png"}
             title={<p className="font-avenir-book">Homepage dashboard <br/><p className="text-sm text-gray50">July 2021 - Jan 2022 . 6 mos</p></p>}
             hoverDesc=""
             // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
