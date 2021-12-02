@@ -32,7 +32,7 @@ const SelfServicePortal = (props) => {
               <img
                 src="https://media.giphy.com/media/hj8eOHrXqoLntsCyWz/giphy.gif"
                 alt="A GIF of a cute cat :)"
-                className="w-8/12 md:w-5/12 lg:w-4/12  mx-auto my-4 lg:my-0"
+                className="w-96 md:w-72 mx-auto my-4 lg:my-0"
               />
               <p className="ml-8 text-lg text-center md:text-left md:text-xl lg:text-2xl">
                 The nature of this project is confidential and I was not able to
