@@ -4,47 +4,50 @@ import ProjectSection from "../../components/project-page-components/green-secti
 import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
 import ProjectSectionHome from "../../components/project-section-home";
 
-const IBM = () => {
+const HomepageDashboard = (props) => {
   const miniDesc = {
-    role:"Role: UX design intern",
-    duration: "Duration: 1 Year, Jan 2021 - Jan 2022",
-    firm: "Company: IBM Indian Software Labs, MaaS360"
+    role: "Role: UX design intern",
+    duration: "Duration: 6 Months, July 2021 - Jan 2021",
+    firm: "Company: IBM Indian Software Labs, MaaS360",
   };
+  // const LandingPageState = props.hidden ? "opacity-0" : " ";
   return (
     <div className="w-full flex flex-col items-center">
       <ProjectIntro
-        title="IBM Cloud and Cognitive | UX Design Internship "
-        subTitle="Driving UI & UX modernisations"
+        title="Admin Dashboard Re-Design"
+        subTitle="Completely rethinking and redesigning both UI and UX"
         miniDesc={miniDesc}
-        image={process.env.PUBLIC_URL + "/images/ibm(hero-image)(75).png"}
+        image={
+          process.env.PUBLIC_URL +
+          "/images/ibm/project-preview-images/cover_image_lg_HomepageDashboard.png"
+        }
       />
 
       <ProjectSubDescContainer sectionTitle="Context">
         <ProjectSection
           color="text-blue-ibm"
-          heading="What is MaaS360?"
+          heading="Before we gets started"
           desc={
-            <span>
-              <p>
-                MaaS360, is IBM's enterprise solution that aids IT in securing
-                smartphones, tablets, laptops and the internet of things. It
-                helps them manage keep their devices and data secure.
-              </p>
-              <br />
-              <p>
-                MaaS360 is undergoing extensive modernisations which opens up
-                oppurtunites for designers to craft new and improved workflows.
+            <span className="flex row items-center mt-8">
+              <img
+                src="https://media.giphy.com/media/hj8eOHrXqoLntsCyWz/giphy.gif"
+                alt="A GIF of a cute cat :)"
+                className="w-4/12 mx-auto"
+              />
+              <p className="ml-8 text-2xl">
+                The nature of this project is confidential and I was not able to
+                include screenshots of the process or mockups 🥲
                 <br />
-                <br />I worked on two project in the span of 1 year in
-                collaboration with designers, engineers, product managers and
-                the director.
+                <br />
+                NDAs are the death of me
               </p>
+
               {/* <br />
-              <p>
-                I led the efforts to prioritize developement and deployment of
-                MaaS360 modernised self service portal created as part of the
-                internship
-              </p> */}
+            <p>
+              I led the efforts to prioritize developement and deployment of
+              MaaS360 modernised self service portal created as part of the
+              internship
+            </p> */}
             </span>
           }
         />
@@ -70,14 +73,14 @@ const IBM = () => {
                   strategic direction of the product
                 </li>
                 {/* 
-                 Throughout the project, I had
-                multiple calls with stakeholders discussing the portal's
-                prospects; which made them interested in prioritizing its
-                development and rollout.
+               Throughout the project, I had
+              multiple calls with stakeholders discussing the portal's
+              prospects; which made them interested in prioritizing its
+              development and rollout.
 
-                Followed the design thinking process to
-                create a solution that aimed at meeting both user and business
-                goals.  */}
+              Followed the design thinking process to
+              create a solution that aimed at meeting both user and business
+              goals.  */}
               </ul>
             </span>
           }
@@ -89,8 +92,16 @@ const IBM = () => {
           <ProjectSectionHome
             className="group md:w-4/12"
             destination="/self-service-portal"
-            image={process.env.PUBLIC_URL + "/images/ibm/project-preview-images/Frame_1.png"}
-            title={<p className="font-avenir-book">Self service portal <br/><p className="text-sm text-gray50">Jan - July 2021 . 6 mos</p></p>}
+            image={
+              process.env.PUBLIC_URL +
+              "/images/ibm/project-preview-images/Frame_1.png"
+            }
+            title={
+              <p className="font-avenir-book">
+                Self service portal <br />
+                <p className="text-sm text-gray50">Jan - July 2021 . 6 mos</p>
+              </p>
+            }
             hoverDesc=""
             // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
             // product, conducted user research, market analysis, created to-be
@@ -99,8 +110,18 @@ const IBM = () => {
           <ProjectSectionHome
             className="group md:w-4/12"
             destination="/homepage-dashboard"
-            image={process.env.PUBLIC_URL + "/images/ibm/project-preview-images/Group_70.png"}
-            title={<p className="font-avenir-book">Homepage dashboard <br/><p className="text-sm text-gray50">July 2021 - Jan 2022 . 6 mos</p></p>}
+            image={
+              process.env.PUBLIC_URL +
+              "/images/ibm/project-preview-images/Group_70.png"
+            }
+            title={
+              <p className="font-avenir-book">
+                Homepage dashboard <br />
+                <p className="text-sm text-gray50">
+                  July 2021 - Jan 2022 . 6 mos
+                </p>
+              </p>
+            }
             hoverDesc=""
             // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
             // product, conducted user research, market analysis, created to-be
@@ -112,4 +133,4 @@ const IBM = () => {
   );
 };
 
-export default IBM;
+export default HomepageDashboard;

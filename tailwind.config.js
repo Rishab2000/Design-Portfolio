@@ -49,6 +49,7 @@ module.exports = {
       "avenir-black": ["avenir-black"],
     },
     colors: {
+      gray10: "#f4f4f4",
       gray40: "#a8a8a8",
       gray20: "#e0e0e0",
       gray50: "#8D8D8D",
