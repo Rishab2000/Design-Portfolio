@@ -37,28 +37,28 @@ function App() {
           <LandingPage hidden={hidden} />
         </Route>
         <Route path="/ibm">
-          <IBM />
+          <IBM hidden={hidden} />
         </Route>
         <Route path="/self-service-portal">
-          <SelfServicePortal />
+          <SelfServicePortal hidden={hidden} />
         </Route>
         <Route path="/homepage-dashboard">
-          <HomepageDashboard />
+          <HomepageDashboard hidden={hidden} />
         </Route>
         <Route path="/sdplus">
-          <SdPlus />
+          <SdPlus hidden={hidden} />
         </Route>
         <Route path="/chiral_colonies">
-          <Chiral />
+          <Chiral hidden={hidden} />
         </Route>
         <Route path="/css_challenge">
-          <CssChallenges />
+          <CssChallenges hidden={hidden} />
         </Route>
         <Route path="/behance">
-          <Behance />
+          <Behance hidden={hidden} />
         </Route>
         <Route path="/AboutMe">
-          <About />
+          <About hidden={hidden} />
         </Route>
       </Switch>
       <Footer />
