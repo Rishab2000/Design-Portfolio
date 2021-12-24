@@ -46,7 +46,7 @@ const LandingPage = (props) => {
       </div>
       <div className="flex flex-col items-center md:flex-row md:w-12/12 md:mb-32 ">
         <ProjectSectionHome
-          className="group md:w-5/12 "
+          className="group w-full md:w-5/12 "
           image={
             process.env.PUBLIC_URL + "/images/CSS_Challenges_Portfolio.svg"
           }
