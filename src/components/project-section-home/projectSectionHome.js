@@ -5,7 +5,7 @@ import Description from "./project-section-home-components/description";
 
 const ProjectSectionHome = (props) => {
   return (
-    <Link to={props.destination}  className={props.className + " w-screen h-auto flex flex-col"}>
+    <Link to={props.destination}  className={props.className + " h-auto flex flex-col"}>
     
         <Image hoverImage={props.hoverImage} image={props.image} />
         <Description

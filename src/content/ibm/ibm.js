@@ -85,9 +85,9 @@ const IBM = () => {
       </ProjectSubDescContainer>
 
       <ProjectSubDescContainer sectionTitle="Where to now">
-        <div className="flex gap-16 mt-8">
+        <div className="flex flex-col md:flex-row md:gap-16 mt-8">
           <ProjectSectionHome
-            className="group md:w-4/12"
+            className="group w-12/12 md:w-4/12"
             destination="/self-service-portal"
             image={process.env.PUBLIC_URL + "/images/ibm/project-preview-images/Frame_1.png"}
             title={<p className="font-avenir-book">Self service portal <br/><p className="text-sm text-gray50">Jan - July 2021 . 6 mos</p></p>}

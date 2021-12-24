@@ -34,7 +34,7 @@ const SelfServicePortal = (props) => {
                 alt="A GIF of a cute cat :)"
                 className="w-96 md:w-72 mx-auto my-4 lg:my-0"
               />
-              <p className="ml-8 text-lg md:text-center md:text-left md:text-xl lg:text-2xl">
+              <p className="ml-8 text-lg text-left md:text-xl lg:text-2xl">
                 The nature of this project is confidential and I was not able to
                 include screenshots of the process or mockups 🥲
                 <br />
