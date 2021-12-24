@@ -36,9 +36,9 @@ const IBM = (props) => {
                 </p>
                 <br />
                 <p>
-                  MaaS360 is undergoing extensive modernisations which opens up
+                  {/* MaaS360 is undergoing extensive modernisations which opens up
                   oppurtunites for designers to craft new and improved
-                  workflows.
+                  workflows. */}
                   <br />
                   <br />I worked on two project in the span of 1 year in
                   collaboration with designers, engineers, product managers and
