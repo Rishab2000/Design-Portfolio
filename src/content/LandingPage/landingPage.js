@@ -11,7 +11,7 @@ const LandingPage = (props) => {
     >
       <IntroText
         className={" transtion-opacity duration-300 ease-in"}
-        textHeading="Hi, I'm Rishab UX designer from is bangalore. I am currently a UX Design intern at IBM."
+        textHeading="Hi, I'm Rishab product designer from is bangalore, currently interning at IBM"
         caption="I'm a designer who values transparency, consistency and progressivity. I'm motivated everyday by the opportunity to solve real problems for people."
       />
       <div className="flex flex-col items-center md:flex-row md:mb-32 ">

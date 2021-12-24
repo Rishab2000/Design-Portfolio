@@ -34,12 +34,12 @@ const SelfServicePortal = (props) => {
                 alt="A GIF of a cute cat :)"
                 className="w-96 md:w-72 mx-auto my-4 lg:my-0"
               />
-              <p className="ml-8 text-lg text-center md:text-left md:text-xl lg:text-2xl">
+              <p className="ml-8 text-lg md:text-center md:text-left md:text-xl lg:text-2xl">
                 The nature of this project is confidential and I was not able to
                 include screenshots of the process or mockups 🥲
                 <br />
                 <br />
-                NDAs are the death of me
+                NDAs will be the death of me
               </p>
 
               {/* <br />
@@ -57,11 +57,11 @@ const SelfServicePortal = (props) => {
           heading="What is the self service portal"
           desc={
             <span>
-              The portal empowers employees to perform basic device management
-              tasks, investigate issues, and fix problems, thus reducing the
-              number of support issues. <br /> <br />
-              It provides employees with key MDM tools so that they can solve
-              common issues without any IT involvement.
+              It empowers employees to perform basic device management tasks,
+              investigate and fix common issues. Ergo Reducing the number of IT
+              support tickets. <br /> 
+              {/* It provides employees with key MDM tools so that they can solve
+              common issues without any IT involvement. */}
               {/* Self service portal is a service that can be enabled on
               MaaS360 Users can self manage their devices using the self service
               portal  */}
@@ -84,10 +84,10 @@ const SelfServicePortal = (props) => {
           heading="My role throughout the project"
           desc={
             <span>
-              Was part of a team of 4 designers. I was the sole designer, along
-              with my mentor, working on revamping the portal. <br /> <br /> I
-              responsible for exploratory research, ideation, UI design and
-              strategy planning.
+              I was the designer, along with my mentor, responsible for
+              revamping the portal. <br /> <br /> Some of the responsibilities included exploratory research,
+              ideation, UI design and strategy planning.
+              {/* Was part of a team of 4 designers. */}
             </span>
           }
         />
@@ -97,7 +97,7 @@ const SelfServicePortal = (props) => {
           heading="Project deliverables"
           desc={
             <span>
-              <div className="flex flex-wrap font-avenir-book text-sm md:text-base lg:text-base text-center gap-5 mt-8 mb-24">
+              <div className="flex flex-wrap font-avenir-book text-sm md:text-base lg:text-base text-center gap-5 mt-2 mb-24">
                 <div className="flex flex-col w-40 md:w-48 lg:w-48 bg-cool-gray20 bg-opacity-40 rounded-md py-8 px-4 ">
                   <img
                     src={
@@ -251,8 +251,8 @@ const SelfServicePortal = (props) => {
               {/* Two fonts walk into a bar, the bartender says “we don't serve your
               type here.” So they called the serif "click here to smile link"{" "}
               <br /> <br /> */}
-              Throughout the "making" process alway keep ourselves value
-              oriented rather than goal oriented, always asked ourselves:
+              Throughout the "making" process we keep ourselves value
+              oriented rather than goal oriented, we always asked ourselves:
               <br />
               <br />
               <ul className="list-disc list-inside text-2xl">
