@@ -17,7 +17,7 @@ const IBM = (props) => {
     >
       <div className="w-full flex flex-col items-center">
         <ProjectIntro
-          title="IBM Cloud and Cognitive | UX Design Internship "
+          title="IBM Cloud and Cognitive | UX Design Internship"
           subTitle="Driving UI & UX modernisations"
           miniDesc={miniDesc}
           image={process.env.PUBLIC_URL + "/images/ibm(hero-image)(75).png"}
