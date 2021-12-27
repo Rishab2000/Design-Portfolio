@@ -2,8 +2,65 @@ import React from "react";
 import ProjectIntro from "../../components/project-intro";
 import ProjectSection from "../../components/project-page-components/green-section/projectSection";
 import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
+import ShowMoreText from "../../components/show-more-text";
 
 const SdPlus = () => {
+  const text = {
+    textExpanded: (
+      <React.Fragment>
+        <p>
+          We identified key user and business insights by focusing on answering
+          three main questions
+        </p>
+        <ul className="list-disc list-inside font-avenir-book mt-2 mb-2">
+          <li>What users are thinking at that time? </li>
+          <li>What users are feeling at that time?</li>
+          <li>Are there any points of friction the users face?</li>
+        </ul>
+        <p>
+          Next plan of action was to conduct research by communicating directly
+          with the users. For this we laid down key points we wanted to
+          determine:
+        </p>
+        <ul className="list-disc list-inside font-avenir-book mt-2 mb-8">
+          <li>What did they like about the product? </li>
+          <li>What didn't you like about the product?</li>
+          <li>
+            What are their feelings towards the current process in place? Does
+            it meet their expectations?
+          </li>
+          <li>
+            What touchpoints and steps does the user take in each phase to
+            achieve their goal? How do they find and interact with these
+            necessary touchpoints?
+          </li>
+          <li>
+            Is there any friction as they pass through different customer
+            phases?
+          </li>
+          <li>How easy is the transition between each phase?</li>
+        </ul>
+        <p>
+          However, due to time constraints, we were not able to gather
+          sufficient data and decided to do it after the next release of the
+          product. This would help us investigate problems that may arise later.
+        </p>
+      </React.Fragment>
+    ),
+    textHidden: (
+      <React.Fragment>
+        <p>
+          We identified key user and business insights by focusing on answering
+          three main questions
+        </p>
+        <ul className="list-disc list-inside font-avenir-book mt-2 mb-2">
+          <li>What users are thinking at that time? </li>
+          <li>What users are feeling at that time?</li>
+          <li>Are there any points of friction the users face?</li>
+        </ul>
+      </React.Fragment>
+    ),
+  };
   const miniDesc = {
     role: "My Role: Research, Product design roadmap, UX and UI design",
     duration: "Duration: 3 months, Apr - Jun 2020",
@@ -167,44 +224,7 @@ const SdPlus = () => {
           color="text-green-sdplus"
           desc={
             <span>
-              <p>
-                We identified key user and business insights by focusing on
-                answering three main questions
-              </p>
-              <ul className="list-disc list-inside font-avenir-book mt-2 mb-2">
-                <li>What users are thinking at that time? </li>
-                <li>What users are feeling at that time?</li>
-                <li>Are there any points of friction the users face?</li>
-              </ul>
-              <p>
-                Next plan of action was to conduct research by communicating
-                directly with the users. For this we laid down key points we
-                wanted to determine:
-              </p>
-              <ul className="list-disc list-inside font-avenir-book mt-2 mb-8">
-                <li>What did they like about the product? </li>
-                <li>What didn’t you like about the product?</li>
-                <li>
-                  What are their feelings towards the current process in place?
-                  Does it meet their expectations?
-                </li>
-                <li>
-                  What touchpoints and steps does the user take in each phase to
-                  achieve their goal? How do they find and interact with these
-                  necessary touchpoints?
-                </li>
-                <li>
-                  Is there any friction as they pass through different customer
-                  phases?
-                </li>
-                <li>How easy is the transition between each phase?</li>
-              </ul>
-              <p>
-                However, due to time constraints, we were not able to gather
-                sufficient data and decided to do it after the next release of
-                the product. This would help us investigate problems that may
-                arise later.
-              </p>
+              <ShowMoreText text={text} />
             </span>
           }
         />

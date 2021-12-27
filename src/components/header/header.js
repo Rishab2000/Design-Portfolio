@@ -10,7 +10,7 @@ const Header = (props) => {
   const headerState = props.hidden ? "opacity-0" : " ";
   return (
     <div className="pt-16 w-full">
-      <MobileNav status={props.hidden} className="lg:hidden" />
+      <MobileNav clickHandler ={props.clickHandler} status={props.hidden} className="lg:hidden" />
       <header className=" flex items-center">
         <h1
           className={

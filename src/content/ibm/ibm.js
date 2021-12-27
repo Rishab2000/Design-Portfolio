@@ -112,7 +112,7 @@ const IBM = (props) => {
             />
             <ProjectSectionHome
               className="group md:w-4/12"
-              destination="/homepage-dashboard"
+              destination="/ibm"
               image={
                 process.env.PUBLIC_URL +
                 "/images/ibm/project-preview-images/Group_70.png"
@@ -120,6 +120,7 @@ const IBM = (props) => {
               title={
                 <p className="font-avenir-book">
                   Homepage dashboard <br />
+                  (Coming Soon) <br />
                   <p className="text-sm text-gray50">
                     July 2021 - Jan 2022 . 6 mos
                   </p>
