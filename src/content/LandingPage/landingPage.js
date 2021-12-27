@@ -11,7 +11,7 @@ const LandingPage = (props) => {
     >
       <IntroText
         className={" transtion-opacity duration-300 ease-in"}
-        textHeading="Hi, I'm Rishab product designer from is bangalore"
+        textHeading="Hey there! I'm Rishab👋. A product designer from is bangalore"
         caption={
           <span>
             With a knack and passion for simplifying complex systems into engaging
