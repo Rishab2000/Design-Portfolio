@@ -15,7 +15,7 @@ const LandingPage = (props) => {
         caption={
           <span>
             With a knack and passion for simplifying complex systems into engaging
-            human-centric experiences. currently a UX Designer <span className="font-avenir-bold"> @ IBM</span>.{" "}
+            human-centric experiences. Currently a UX Designer <span className="font-avenir-bold"> @ IBM</span>.{" "}
           </span>
         }
       />
