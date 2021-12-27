@@ -30,19 +30,19 @@ const IBM = (props) => {
             desc={
               <span>
                 <p>
-                  MaaS360, is IBM's enterprise solution that aids IT in securing
-                  smartphones, tablets, laptops and the internet of things. It
-                  helps them manage keep their devices and data secure.
+                  MaaS360 is IBM's enterprise solution that aids organizations
+                  in securing smartphones, tablets, laptops and the internet of
+                  things. It helps them manage keep their devices and data
+                  secure.
                 </p>
                 <br />
                 <p>
                   {/* MaaS360 is undergoing extensive modernisations which opens up
                   oppurtunites for designers to craft new and improved
                   workflows. */}
-                  <br />
-                  <br />I worked on two project in the span of 1 year in
-                  collaboration with designers, engineers, product managers and
-                  the director.
+                  In the span of 1 year I worked on two projects in
+                  collaboration with the director, design team, engineers and
+                  product managers.
                 </p>
                 {/* <br />
               <p>
@@ -61,18 +61,19 @@ const IBM = (props) => {
               <span>
                 <ul className="list-disc list-inside">
                   <li>
-                    I led efforts at modernising and prioritizing development of
-                    the self service portal for MaaS360 end-users; which hadn't
-                    been updated since 2012. It required bottom-up research to
-                    solidfy our fundamentals our user's needs.
+                    Led efforts for modernising the self service portal for
+                    MaaS360 end-users which hadn't been updated since 2012. This
+                    required fresh and extensive research for identifying our
+                    user's needs and problems.
+                    {/* and
+                    prioritizing its development;.  */}
                   </li>
                   <br />
                   <li>
-                    Modernising - both the UI and UX - of the homepage dashboard
-                    for our product. The goal here was to provide our users with
-                    an overview of alerts to help them quickly jump navigate to
-                    workflows and also align the dashboard with the current
-                    strategic direction of the product
+                    Revamping the homepage dashboard for MaaS360. The goal here
+                    was to provide our users with a quick overview, reduce
+                    navigation time and also align the dashboard with the
+                    current strategic direction of the product
                   </li>
                   {/* 
                  Throughout the project, I had

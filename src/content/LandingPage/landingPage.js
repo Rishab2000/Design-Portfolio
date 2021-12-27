@@ -11,8 +11,13 @@ const LandingPage = (props) => {
     >
       <IntroText
         className={" transtion-opacity duration-300 ease-in"}
-        textHeading="Hi, I'm Rishab product designer from is bangalore, currently interning at IBM"
-        caption="I'm a designer who values transparency, consistency and progressivity. I'm motivated everyday by the opportunity to solve real problems for people."
+        textHeading="Hi, I'm Rishab product designer from is bangalore"
+        caption={
+          <span>
+            With a knack and passion for simplifying complex systems into engaging
+            human-centric experiences. currently a UX Designer <span className="font-avenir-bold"> @ IBM</span>.{" "}
+          </span>
+        }
       />
       <div className="flex flex-col items-center md:flex-row md:mb-32 ">
         <ProjectSectionHome

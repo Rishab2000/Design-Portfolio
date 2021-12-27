@@ -59,7 +59,7 @@ const SelfServicePortal = (props) => {
             <span>
               It empowers employees to perform basic device management tasks,
               investigate and fix common issues. Ergo Reducing the number of IT
-              support tickets. <br /> 
+              support tickets. <br />
               {/* It provides employees with key MDM tools so that they can solve
               common issues without any IT involvement. */}
               {/* Self service portal is a service that can be enabled on
@@ -79,7 +79,7 @@ const SelfServicePortal = (props) => {
           }
         />
 
-        <ProjectSection
+        {/* <ProjectSection
           color="text-blue-ibm"
           heading="My role throughout the project"
           desc={
@@ -88,9 +88,6 @@ const SelfServicePortal = (props) => {
               revamping the portal. <br /> <br /> Some of the responsibilities included exploratory research,
               ideation, UI design and strategy planning.
               {/* Was part of a team of 4 designers. */}
-            </span>
-          }
-        />
 
         <ProjectSection
           color="text-blue-ibm"
@@ -162,18 +159,12 @@ const SelfServicePortal = (props) => {
           heading="Getting the ball moving"
           desc={
             <span>
-              Conducted a cognitive walkthrough of the current portal,
-              using&nbsp;
-              <a
-                href="https://www.nngroup.com/articles/ten-usability-heuristics/"
-                className="underline hover:text-link-hover-color"
-              >
-                NN group design heuristics.
-              </a>
-              &nbsp;Also, conducted competitive analysis to understand the
-              landscape for self service portals in this context.
+              Conducted a cognitive walkthrough of the current portal using
+              IBM's design heuristics guidelines; also conducted competitive
+              analysis to understand the landscape for self service portals in
+              this context.
               <br /> <br />
-              Reviewed business needs to gain clarity regarding the strategic
+              Studied business needs to gain clarity regarding the strategic
               direction the portal should head in.
               {/* would fit into the self
               service portal story */}
@@ -185,9 +176,9 @@ const SelfServicePortal = (props) => {
           heading="Understanding user needs"
           desc={
             <span>
-              Here we had to look into both admin's and employee's pov.
-              Understand goals admins aim to achieve by activating the portal
-              and employees when they login to use it.
+              Here we had to look into both admin and employee pov. Understand
+              goals admins aim to achieve by activating the portal and employees
+              when they login to use it.
               <br />
               <br />
               <span className="text-xl font-avenir-bold">
@@ -195,7 +186,7 @@ const SelfServicePortal = (props) => {
               </span>
               <br />
               Conducted interviews and was in continuous contact with an user to
-              receive constant feedback on hypothesis and assumptions we
+              receive constant feedback on hypothesis, assumptions and ideas we
               developed throughout the project.
               {/* This provided us insight on
               their needs that helped us decide and prioritize what's most
@@ -219,7 +210,7 @@ const SelfServicePortal = (props) => {
             </span>
           }
         />
-
+        {/* 
         <ProjectSection
           color="text-blue-ibm"
           heading="Design directions"
@@ -237,11 +228,11 @@ const SelfServicePortal = (props) => {
               >
                 hills.
               </a>
-              {/* They helped us stay
-              aligned as to where to go, not exactly on how to get there. */}
+              They helped us stay
+              aligned as to where to go, not exactly on how to get there.
             </span>
           }
-        />
+        /> */}
 
         <ProjectSection
           color="text-blue-ibm"
@@ -251,8 +242,8 @@ const SelfServicePortal = (props) => {
               {/* Two fonts walk into a bar, the bartender says “we don't serve your
               type here.” So they called the serif "click here to smile link"{" "}
               <br /> <br /> */}
-              Throughout the "making" process we keep ourselves value
-              oriented rather than goal oriented, we always asked ourselves:
+              Throughout the "making" process to maintain a value oriented
+              rather than goal oriented approach, we constantly asked ourselves:
               <br />
               <br />
               <ul className="list-disc list-inside text-2xl">
@@ -269,9 +260,9 @@ const SelfServicePortal = (props) => {
           heading="Restless Reinvention"
           desc={
             <span>
-              Organized regular calls with multiple stakeholders, to constantly
-              iterate and improve the solution. Went through multiple cycles of
-              feedback and iterations before we solidified on a design.
+              Scheduled regular calls with multiple stakeholders, to constantly
+              iterate and improve our ideas. Went through multiple cycles of
+              iterations and feedback before we solidified on shippable design.
               <blockquote className="twitter-tweet">
                 <p lang="en" dir="ltr">
                   Your original{" "}
@@ -323,11 +314,10 @@ const SelfServicePortal = (props) => {
           heading="Developing a T-shaped skill set"
           desc={
             <span>
-              Being a member of an enterprise team, I worked alongside system
-              architects, product managers, front-end developers and business
-              leaders. <br /> <br /> This introduced me to diversify my
-              knowledge of skills into other areas which would be expected of an
-              enterprise designer.
+              Working alongside system architects, product managers, front-end
+              developers and business leaders introduced me to diversify my
+              knowledge into other areas such as business, industry and
+              technical knowledge.
             </span>
           }
         />
@@ -336,11 +326,9 @@ const SelfServicePortal = (props) => {
           heading="Being intentional"
           desc={
             <span>
-              Learnt the importance of having specific goals in mind. For
-              example, when reaching out to team members, I aimed at being as
-              intentional as possible with both their and my time, either by
-              coming in with questions or asking for specific feedback on my
-              work.
+              Learnt the importance of maintaining specific goals for nearly
+              everything, from reaching out to team members to allocating time
+              for work to interactions in my design.
               {/* either by coming in with questions or asking for specific feedback on my work. */}
               {/* Much of what I learned came from collaborations.
               I’d spend meetings discussing interaction and visual decisions,
@@ -349,7 +337,27 @@ const SelfServicePortal = (props) => {
               interaction touchpoint. */}
             </span>
           }
-        />{" "}
+        />
+        <ProjectSection
+          color="text-blue-ibm"
+          heading="Building narratives"
+          desc={
+            <span>
+              Building empathy through strong narratives. Having a good
+              narrative while discussing with multiple stakeholders helped them
+              easily understand why and what we were designing; identifying with
+              the users and their journey.
+              {/* You then attempt to construct a believable narrative, whereby the user 
+              tries to achieve their desired end state through the agency of your proposal */}
+              {/* either by coming in with questions or asking for specific feedback on my work.  */}
+              {/* Much of what I learned came from collaborations.
+              I’d spend meetings discussing interaction and visual decisions,
+              weighing the pros and cons of UI explorations, and thinking
+              through how users would perceive and process content at each
+              interaction touchpoint. */}
+            </span>
+          }
+        />
         <Tweet />
       </ProjectSubDescContainer>
     </div>
