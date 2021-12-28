@@ -13,7 +13,7 @@ const LandingPage = (props) => {
         className={" transtion-opacity duration-300 ease-in"}
         textHeading={
           <span>
-            Hey there! I'm Rishab👋. <br/>A product designer from bangalore
+            Hey there! I'm Rishab👋. <br/>A UX designer from bangalore
           </span>
         }
         caption={
