@@ -10,7 +10,11 @@ const Header = (props) => {
   const headerState = props.hidden ? "opacity-0" : " ";
   return (
     <div className="pt-16 w-full">
-      <MobileNav clickHandler ={props.clickHandler} status={props.hidden} className="lg:hidden" />
+      <MobileNav
+        clickHandler={props.clickHandler}
+        status={props.hidden}
+        className="lg:hidden"
+      />
       <header className=" flex items-center">
         <h1
           className={
@@ -31,7 +35,8 @@ const Header = (props) => {
         </div>
         <div className="hidden font-avenir-regular lg:flex lg:ml-auto lg:gap-8 lg:text-xl lg:text-gray40">
           <NavLink
-            exact to="/"
+            exact
+            to="/"
             activeStyle={{
               color: "#161616",
             }}
@@ -39,15 +44,9 @@ const Header = (props) => {
           >
             Work
           </NavLink>
-          <NavLink
-            to="/Blog"
-            activeStyle={{
-              color: "#161616",
-            }}
-            className="hover:text-link-hover-color"
-          >
+          <a href="https://medium.com/@rishabs" target="_blank" className="hover:text-link-hover-color">
             Blog
-          </NavLink>
+          </a>
           <NavLink
             to="/AboutMe"
             activeStyle={{
@@ -64,7 +63,6 @@ const Header = (props) => {
           Human Centred Designer
         </p>
       </div>
-      
     </div>
   );
 };
