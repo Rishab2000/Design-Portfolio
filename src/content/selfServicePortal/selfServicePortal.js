@@ -26,7 +26,7 @@ const SelfServicePortal = (props) => {
       <ProjectSubDescContainer sectionTitle="Context">
         <ProjectSection
           color="text-blue-ibm"
-          heading="Before we gets started"
+          heading="Before we get started"
           desc={
             <span className="flex md:flex-row flex-col items-center mt-8">
               <img
