@@ -44,7 +44,7 @@ const Header = (props) => {
           >
             Work
           </NavLink>
-          <a href="https://medium.com/@rishabs" target="_blank" className="hover:text-link-hover-color">
+          <a href="https://medium.com/@rishabs" rel="noreferrer" target="_blank" className="hover:text-link-hover-color">
             Blog
           </a>
           <NavLink

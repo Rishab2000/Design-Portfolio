@@ -263,33 +263,7 @@ const SelfServicePortal = (props) => {
               Scheduled regular calls with multiple stakeholders, to constantly
               iterate and improve our ideas. Went through multiple cycles of
               iterations and feedback before we solidified on shippable design.
-              <blockquote className="twitter-tweet">
-                <p lang="en" dir="ltr">
-                  Your original{" "}
-                  <a href="https://twitter.com/hashtag/design?src=hash&amp;ref_src=twsrc%5Etfw">
-                    #design
-                  </a>{" "}
-                  vs. your second iteration.{" "}
-                  <a href="https://twitter.com/hashtag/UX?src=hash&amp;ref_src=twsrc%5Etfw">
-                    #UX
-                  </a>{" "}
-                  <a href="https://twitter.com/hashtag/UI?src=hash&amp;ref_src=twsrc%5Etfw">
-                    #UI
-                  </a>{" "}
-                  <a href="https://t.co/y2nbx3dBEU">
-                    pic.twitter.com/y2nbx3dBEU
-                  </a>
-                </p>
-                &mdash; Doug Collins (@DougCollinsUX){" "}
-                <a href="https://twitter.com/DougCollinsUX/status/1465437029391425538?ref_src=twsrc%5Etfw">
-                  November 29, 2021
-                </a>
-              </blockquote>{" "}
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charset="utf-8"
-              ></script>
+              <Tweet tweetId="1465437029391425538" options={{ width: "400" }} />
             </span>
           }
         />
@@ -358,7 +332,6 @@ const SelfServicePortal = (props) => {
             </span>
           }
         />
-        <Tweet />
       </ProjectSubDescContainer>
     </div>
   );
