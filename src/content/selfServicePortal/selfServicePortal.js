@@ -54,11 +54,11 @@ const SelfServicePortal = (props) => {
 
         <ProjectSection
           color="text-blue-ibm"
-          heading="What is the self service portal"
+          heading="What is the self service portal?"
           desc={
             <span>
               It empowers employees to perform basic device management tasks,
-              investigate and fix common issues. Ergo Reducing the number of IT
+              investigate and fix common issues. Ergo, reducing the number of IT
               support tickets. <br />
               {/* It provides employees with key MDM tools so that they can solve
               common issues without any IT involvement. */}
@@ -165,7 +165,7 @@ const SelfServicePortal = (props) => {
               this context.
               <br /> <br />
               Studied business needs to gain clarity regarding the strategic
-              direction the portal should head in.
+              direction the portal should move in.
               {/* would fit into the self
               service portal story */}
             </span>
@@ -178,7 +178,7 @@ const SelfServicePortal = (props) => {
             <span>
               Here we had to look into both admin and employee pov. Understand
               goals admins aim to achieve by activating the portal and employees
-              when they login to use it.
+              when they log in.
               <br />
               <br />
               <span className="text-xl font-avenir-bold">
@@ -186,7 +186,7 @@ const SelfServicePortal = (props) => {
               </span>
               <br />
               Conducted interviews and was in continuous contact with a user to
-              receive constant feedback on hypothesis, assumptions and ideas we
+              receive feedback on the assumptions hypotheses and ideas we
               developed throughout the project.
               {/* This provided us insight on
               their needs that helped us decide and prioritize what's most
@@ -195,9 +195,9 @@ const SelfServicePortal = (props) => {
               <br />
               <div className="p-8 bg-blue-ibm rounded-md">
                 <span className="text-white text-lg md:text-2xl">
-                  Focusing on our users needs, made it easier for us to
-                  determines what's important. This helped make our offering
-                  more relevant and essential.
+                  Focusing on our user's needs, made it easier for us to
+                  determine what's important. This helped make our offering more
+                  relevant and essential.
                 </span>
               </div>
               {/* <code className="bg-gray10 text-red p-2.5">
@@ -249,7 +249,7 @@ const SelfServicePortal = (props) => {
               <ul className="list-disc list-inside text-lg md:text-2xl">
                 <li> Who are our users?</li>
                 <li> What is their current experience?</li>
-                <li> How could it be improved?</li>
+                <li> How can it be improved?</li>
               </ul>
             </span>
           }
@@ -261,8 +261,9 @@ const SelfServicePortal = (props) => {
           desc={
             <span>
               Scheduled regular calls with multiple stakeholders, to constantly
-              iterate and improve our ideas. Went through multiple cycles of
-              iterations and feedback before we solidified on shippable design.
+              iterate and improve our ideas. We cycled through multiple rounds
+              of iterations and feedback before solidifying on a shippable
+              design.
               <Tweet tweetId="1465437029391425538" options={{ width: "400" }} />
             </span>
           }
