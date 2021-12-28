@@ -34,7 +34,7 @@ const SelfServicePortal = (props) => {
                 alt="A GIF of a cute cat :)"
                 className="w-96 md:w-72 mx-auto my-4 lg:my-0"
               />
-              <p className="ml-8 text-lg text-left md:text-xl lg:text-2xl">
+              <p className="md:ml-8 text-lg text-left md:text-xl lg:text-2xl">
                 The nature of this project is confidential and I was not able to
                 include screenshots of the process or mockups 🥲
                 <br />
@@ -65,11 +65,11 @@ const SelfServicePortal = (props) => {
               {/* Self service portal is a service that can be enabled on
               MaaS360 Users can self manage their devices using the self service
               portal  */}
-              <div className="flex flex-col w-10/12">
+              <div className="flex flex-col md:w-10/12">
                 <img
                   src="images/ibm/User map.png"
                   alt="A GIF of a cute cat :)"
-                  className="w-12/12 mt-8 mb-4 rounded-md filter drop-shadow-md"
+                  className="w-full mt-8 mb-4 rounded-md filter drop-shadow-md"
                 />
                 <span className=" text-gray40 text-sm mx-auto">
                   ~ Understanding the two users ~
@@ -94,8 +94,8 @@ const SelfServicePortal = (props) => {
           heading="Project deliverables"
           desc={
             <span>
-              <div className="flex flex-wrap font-avenir-book text-sm md:text-base lg:text-base text-center gap-5 mt-2 mb-24">
-                <div className="flex flex-col w-40 md:w-48 lg:w-48 bg-cool-gray20 bg-opacity-40 rounded-md py-8 px-4 ">
+              <div className="flex flex-wrap font-avenir-book text-sm md:text-base lg:text-base text-center gap-2 mt-2 mb-24">
+                <div className="flex flex-col w-36 md:w-48 lg:w-48 bg-cool-gray20 bg-opacity-40 rounded-md py-8 px-4 ">
                   <img
                     src={
                       process.env.PUBLIC_URL + "images/ibm/icons/microscope.svg"
@@ -107,7 +107,7 @@ const SelfServicePortal = (props) => {
                     UX secondary and primary research insights
                   </p>
                 </div>
-                <div className="flex flex-col w-40 md:w-48 lg:w-48 bg-cool-gray20 rounded-md bg-opacity-40 py-8 px-4">
+                <div className="flex flex-col w-36 md:w-48 lg:w-48 bg-cool-gray20 rounded-md bg-opacity-40 py-8 px-4">
                   <img
                     src={
                       process.env.PUBLIC_URL +
@@ -118,7 +118,7 @@ const SelfServicePortal = (props) => {
                   />
                   <p className="mt-2">User flows for multiple workflows</p>
                 </div>
-                <div className="flex flex-col w-40  md:w-48 lg:w-48 bg-cool-gray20 rounded-md bg-opacity-40 py-8 px-4">
+                <div className="flex flex-col w-36  md:w-48 lg:w-48 bg-cool-gray20 rounded-md bg-opacity-40 py-8 px-4">
                   <img
                     src={
                       process.env.PUBLIC_URL + "images/ibm/icons/heat-map.svg"
@@ -136,7 +136,7 @@ const SelfServicePortal = (props) => {
                     </a>
                   </p>
                 </div>
-                <div className="flex flex-col w-40 md:w-48 lg:w-48 bg-cool-gray20 rounded-md bg-opacity-40 py-8 px-4">
+                <div className="flex flex-col w-36 md:w-48 lg:w-48 bg-cool-gray20 rounded-md bg-opacity-40 py-8 px-4">
                   <img
                     src={
                       process.env.PUBLIC_URL +
@@ -194,7 +194,7 @@ const SelfServicePortal = (props) => {
               <br />
               <br />
               <div className="p-8 bg-blue-ibm rounded-md">
-                <span className="text-white text-2xl">
+                <span className="text-white text-lg md:text-2xl">
                   Focusing on our users needs, made it easier for us to
                   determines what's important. This helped make our offering
                   more relevant and essential.
@@ -246,7 +246,7 @@ const SelfServicePortal = (props) => {
               rather than goal oriented approach, we constantly asked ourselves:
               <br />
               <br />
-              <ul className="list-disc list-inside text-2xl">
+              <ul className="list-disc list-inside text-lg md:text-2xl">
                 <li> Who are our users?</li>
                 <li> What is their current experience?</li>
                 <li> How could it be improved?</li>
