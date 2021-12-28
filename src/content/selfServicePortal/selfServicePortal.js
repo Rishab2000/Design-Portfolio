@@ -185,7 +185,7 @@ const SelfServicePortal = (props) => {
                 Customer interviews
               </span>
               <br />
-              Conducted interviews and was in continuous contact with an user to
+              Conducted interviews and was in continuous contact with a user to
               receive constant feedback on hypothesis, assumptions and ideas we
               developed throughout the project.
               {/* This provided us insight on

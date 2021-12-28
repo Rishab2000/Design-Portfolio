@@ -238,7 +238,7 @@ const SdPlus = () => {
       <ProjectSubDescContainer sectionTitle="Detailing">
         <ProjectSection
           color="text-green-sdplus"
-          heading="Establishing gaps in our product's fical engagement"
+          heading="Establishing gaps in our product's focal engagement"
           desc=" Using the Jobs to be Done framework, as a team we chalked up a few
           user stories. This showed multiple points in the experience which
           were misaligned to what the user needs. We boiled them all down to
