@@ -186,8 +186,8 @@ const SelfServicePortal = (props) => {
               </span>
               <br />
               Conducted interviews and was in continuous contact with a user to
-              receive feedback on the assumptions hypotheses and ideas we
-              developed throughout the project.
+              receive feedback on our hypotheses and ideas we developed
+              throughout the project.
               {/* This provided us insight on
               their needs that helped us decide and prioritize what's most
               important. */}
@@ -196,7 +196,7 @@ const SelfServicePortal = (props) => {
               <div className="p-8 bg-blue-ibm rounded-md">
                 <span className="text-white text-lg md:text-2xl">
                   Focusing on our user's needs, made it easier for us to
-                  determine what's important. This helped make our offering more
+                  determine what's important. It helped make our offering more
                   relevant and essential.
                 </span>
               </div>
@@ -242,8 +242,8 @@ const SelfServicePortal = (props) => {
               {/* Two fonts walk into a bar, the bartender says “we don't serve your
               type here.” So they called the serif "click here to smile link"{" "}
               <br /> <br /> */}
-              Throughout the "making" process to maintain a value oriented
-              rather than goal oriented approach, we constantly asked ourselves:
+              Throughout the "making" process to maintain a value-oriented
+              rather than goal-oriented approach, we constantly asked ourselves:
               <br />
               <br />
               <ul className="list-disc list-inside text-lg md:text-2xl">
@@ -260,10 +260,9 @@ const SelfServicePortal = (props) => {
           heading="Restless Reinvention"
           desc={
             <span>
-              Scheduled regular calls with multiple stakeholders, to constantly
-              iterate and improve our ideas. We cycled through multiple rounds
-              of iterations and feedback before solidifying on a shippable
-              design.
+              Scheduled regular calls with multiple stakeholders to constantly
+              iterate and improve. We cycled through multiple rounds of feedback
+              and ideation before solidifying on a shippable design.
               <Tweet tweetId="1465437029391425538" options={{ width: "400" }} />
             </span>
           }
@@ -275,10 +274,9 @@ const SelfServicePortal = (props) => {
           desc={
             <span>
               Since the project received interest from the director, he wanted
-              to prioritize implementation of the portal.
-              <br /> <br />
-              To aid swift implementation, we decided on creating versions that
-              required gradual changes on the backend.
+              to prioritize the implementation of the portal. To aid swift
+              implementation, we decided on creating versions that required
+              gradual changes on the backend.
             </span>
           }
         />
