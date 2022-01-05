@@ -19,7 +19,7 @@ const LandingPage = (props) => {
         caption={
           <span>
             With a passion for simplifying complex systems into
-            engaging human-centric experiences. Currently a UX Designer{" "}
+            engaging human-centric experiences. Currently a UX Design intern{" "}
             <span className="font-avenir-bold"> @ IBM</span>.{" "}
           </span>
         }

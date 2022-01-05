@@ -8,7 +8,7 @@ const IBM = (props) => {
   const LandingPageState = props.hidden ? "opacity-0" : " ";
   const miniDesc = {
     role: "Role: UX design intern",
-    duration: "Duration: 1 Year, Jan 2021 - Jan 2022",
+    duration: <React.Fragment><p>Duration: 1.5 Years, Jan 2021 - <em>Expected Jun 2022</em></p></React.Fragment>,
     firm: "Company: IBM Indian Software Labs, MaaS360",
   };
   return (
