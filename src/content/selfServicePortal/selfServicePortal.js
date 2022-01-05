@@ -35,7 +35,7 @@ const SelfServicePortal = (props) => {
                 className="w-96 md:w-72 mx-auto my-4 lg:my-0"
               />
               <p className="md:ml-8 text-lg text-left md:text-xl lg:text-2xl">
-                The nature of this project is confidential and I was not able to
+                The nature of this project is confidential and I am not able to
                 include screenshots of the process or mockups 🥲
                 <br />
                 <br />
@@ -116,7 +116,7 @@ const SelfServicePortal = (props) => {
                     alt="A GIF of a cute cat :)"
                     className="w-8/12 md:w-6/12 lg:w-5/12 mx-auto mb-4"
                   />
-                  <p className="mt-2">User flows for multiple workflows</p>
+                  <p className="mt-2">User journey maps</p>
                 </div>
                 <div className="flex flex-col w-36  md:w-48 lg:w-48 bg-cool-gray20 rounded-md bg-opacity-40 py-8 px-4">
                   <img
@@ -182,10 +182,10 @@ const SelfServicePortal = (props) => {
               <br />
               <br />
               <span className="text-xl font-avenir-bold">
-                Customer interviews
+                User interviews
               </span>
               <br />
-              Conducted interviews and was in continuous contact with a user to
+              Was in continuous contact with a user to
               receive feedback on our hypotheses and ideas we developed
               throughout the project.
               {/* This provided us insight on
@@ -268,18 +268,17 @@ const SelfServicePortal = (props) => {
           }
         />
 
-        <ProjectSection
+        {/* <ProjectSection
           color="text-blue-ibm"
-          heading="Roadmap for phased implementation"
+          heading="Phased implementation"
           desc={
             <span>
-              Since the project received interest from the director, he wanted
-              to prioritize the implementation of the portal. To aid swift
-              implementation, we decided on creating versions that required
+              Since the top management was interested in prioritizing implementation of the portal. To aid swift
+              development, we decided on creating versions that required
               gradual changes on the backend.
             </span>
           }
-        />
+        /> */}
       </ProjectSubDescContainer>
       <ProjectSubDescContainer sectionTitle="Key learnings">
         <ProjectSection
@@ -300,8 +299,7 @@ const SelfServicePortal = (props) => {
           desc={
             <span>
               Learnt the importance of maintaining specific goals for nearly
-              everything, from reaching out to team members to allocating time
-              for work to interactions in my design.
+              everything, from reaching out to team members to managing time to making design decisions.
               {/* either by coming in with questions or asking for specific feedback on my work. */}
               {/* Much of what I learned came from collaborations.
               I’d spend meetings discussing interaction and visual decisions,

@@ -56,7 +56,7 @@ const IBM = (props) => {
 
           <ProjectSection
             color="text-blue-ibm"
-            heading="Two projects I worked on"
+            heading="Projects I worked on"
             desc={
               <span>
                 <ul className="list-disc list-inside">
@@ -90,7 +90,7 @@ const IBM = (props) => {
           />
         </ProjectSubDescContainer>
 
-        <ProjectSubDescContainer sectionTitle="Where to now?">
+        <ProjectSubDescContainer sectionTitle="Where next?">
           <div className="flex flex-col md:flex-row md:gap-16 mt-8">
             <ProjectSectionHome
               className="group w-12/12 md:w-4/12"
