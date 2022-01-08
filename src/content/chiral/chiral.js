@@ -12,7 +12,7 @@ const Chiral = () => {
     <div className="w-full flex flex-col items-center">
       <ProjectIntro
         title="Chiral Colonies -
-      Climate Change App Redesign | UX Case Study "
+      Climate Change App | UX Case Study "
         miniDesc={miniDesc}
         image={process.env.PUBLIC_URL + "/images/chiral2.png"}
       />

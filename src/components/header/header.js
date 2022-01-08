@@ -22,7 +22,7 @@ const Header = (props) => {
             " font-avenir-regular text-xl lg:text-2xl transtion-opacity duration-300 ease-in"
           }
         >
-          Rishab
+          Rishab Sachidanand
         </h1>
         <div
           onClick={props.clickHandler}

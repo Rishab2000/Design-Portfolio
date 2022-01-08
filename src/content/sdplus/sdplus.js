@@ -62,15 +62,15 @@ const SdPlus = () => {
     ),
   };
   const miniDesc = {
-    role: "My Role: Research, Product design roadmap, UX and UI design",
-    duration: "Duration: 3 months, Apr - Jun 2020",
-    firm: "Firm: Smarter Dharma",
+    role: "UX design intern",
+    duration: "Apr - Jun 2020",
+    firm:"Smarter Dharma"
   };
   return (
     <div className="w-full flex flex-col items-center">
       <ProjectIntro
-        title="SD+ | UX Internship"
-        subTitle="Creating an experience roadmap"
+        title="Creating an experience roadmap | SD+"
+        subTitle="Smarted Dharma"
         miniDesc={miniDesc}
         image={process.env.PUBLIC_URL + "/images/sdplus(hero-image).png"}
       />

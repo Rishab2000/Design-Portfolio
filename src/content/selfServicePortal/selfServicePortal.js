@@ -6,9 +6,9 @@ import { Tweet } from "react-twitter-widgets";
 
 const SelfServicePortal = (props) => {
   const miniDesc = {
-    role: "Role: UX design intern",
-    duration: "Duration: 6 Months, Jan 2021 - Jun 2021",
-    firm: "Company: IBM Indian Software Labs, MaaS360",
+    // role: "Role: UX design intern",
+    // duration: "Duration: 6 Months, Jan 2021 - Jun 2021",
+    // firm: "Company: IBM Indian Software Labs, MaaS360",
   };
   // const LandingPageState = props.hidden ? "opacity-0" : " ";
   return (
@@ -27,14 +27,15 @@ const SelfServicePortal = (props) => {
         <ProjectSection
           color="text-blue-ibm"
           heading="Before we get started"
+          customstyleSpacing="my-5"
           desc={
-            <span className="flex md:flex-row flex-col items-center mt-8">
+            <span className="flex md:flex-row flex-col mt-8">
               <img
                 src="https://media.giphy.com/media/hj8eOHrXqoLntsCyWz/giphy.gif"
                 alt="A GIF of a cute cat :)"
                 className="w-96 md:w-72 mx-auto my-4 lg:my-0"
               />
-              <p className="md:ml-8 text-lg text-left md:text-xl lg:text-2xl">
+              <p className="md:ml-8 text-base text-left md:text-lg lg:text-xl">
                 The nature of this project is confidential and I am not able to
                 include screenshots of the process or mockups 🥲
                 <br />
@@ -71,9 +72,9 @@ const SelfServicePortal = (props) => {
                   alt="A GIF of a cute cat :)"
                   className="w-full mt-8 mb-4 rounded-md filter drop-shadow-md"
                 />
-                <span className=" text-gray40 text-sm mx-auto">
+                {/* <span className=" text-gray40 text-sm mx-auto">
                   ~ Understanding the two users ~
-                </span>
+                </span> */}
               </div>
             </span>
           }

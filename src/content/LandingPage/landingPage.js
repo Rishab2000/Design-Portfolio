@@ -13,13 +13,13 @@ const LandingPage = (props) => {
         className={" transtion-opacity duration-300 ease-in"}
         textHeading={
           <span>
-            Hey there! I'm Rishab👋. <br/>A UX designer from bangalore
+            Hey there! I'm Rishab👋. <br/>A UX designer from bangalore.
           </span>
         }
         caption={
           <span>
             With a passion for simplifying complex systems into
-            engaging human-centric experiences. Currently a UX Design intern{" "}
+            engaging human-centric experiences. Currently, a UX Design Intern{" "}
             <span className="font-avenir-bold"> @ IBM</span>.{" "}
           </span>
         }
@@ -29,7 +29,7 @@ const LandingPage = (props) => {
           className="group md:w-6/12 md:-mt-20"
           destination="/ibm"
           image={process.env.PUBLIC_URL + "/images/ibm.png"}
-          title="IBM Cloud and Cognitive | UX Design Internship"
+          title="Driving experience modernization | IBM "
           hoverDesc=""
           // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
           // product, conducted user research, market analysis, created to-be
@@ -39,7 +39,7 @@ const LandingPage = (props) => {
           className="group md:w-4/12 md:mt-80 md:ml-auto"
           image={process.env.PUBLIC_URL + "/images/sdplus.png"}
           destination="/sdplus"
-          title="SD+ | UX Design Internship"
+          title="Creating an experience roadmap | SD+"
           // desc="Ideated and designed a B2B product to simplify sustainability. Outlined the experience road map of the
           // product to identify parts of the product needing engagement and improved them, adopting an agile model."
         />

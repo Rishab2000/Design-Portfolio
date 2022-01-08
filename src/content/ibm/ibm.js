@@ -3,13 +3,22 @@ import ProjectIntro from "../../components/project-intro";
 import ProjectSection from "../../components/project-page-components/green-section/projectSection";
 import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
 import ProjectSectionHome from "../../components/project-section-home";
+import Image from "../../components/project-section-home/project-section-home-components/image";
+import Description from "../../components/project-section-home/project-section-home-components/description";
 
 const IBM = (props) => {
   const LandingPageState = props.hidden ? "opacity-0" : " ";
+
   const miniDesc = {
-    role: "Role: UX design intern",
-    duration: <React.Fragment><p>Duration: 1.5 Years, Jan 2021 - <em>Expected Jun 2022</em></p></React.Fragment>,
-    firm: "Company: IBM Indian Software Labs, MaaS360",
+    role: "UX design intern",
+    duration: (
+      <React.Fragment>
+        <p>
+          Jan 2021 - <em>Expected Jun 2022</em>
+        </p>
+      </React.Fragment>
+    ),
+    firm: "IBM Cloud and Cognitive",
   };
   return (
     <div
@@ -17,8 +26,8 @@ const IBM = (props) => {
     >
       <div className="w-full flex flex-col items-center">
         <ProjectIntro
-          title="IBM Cloud and Cognitive | UX Design Internship"
-          subTitle="Driving UI & UX modernisations"
+          title="Driving experience modernization | IBM "
+          subTitle="Driving experience modernization"
           miniDesc={miniDesc}
           image={process.env.PUBLIC_URL + "/images/ibm(hero-image)(75).png"}
         />
@@ -26,24 +35,16 @@ const IBM = (props) => {
         <ProjectSubDescContainer sectionTitle="Context">
           <ProjectSection
             color="text-blue-ibm"
-            heading="What is MaaS360?"
+            heading="What is IBM MaaS360?"
             desc={
               <span>
                 <p>
                   MaaS360 is IBM's enterprise solution that aids organizations
                   in securing smartphones, tablets, laptops and the internet of
-                  things. It helps them manage keep their devices and data
-                  secure.
+                  things. It helps them keep their devices and data secure.
                 </p>
                 <br />
-                <p>
-                  {/* MaaS360 is undergoing extensive modernisations which opens up
-                  oppurtunites for designers to craft new and improved
-                  workflows. */}
-                  In the span of 1 year I worked on two projects in
-                  collaboration with the director, design team, engineers and
-                  product managers.
-                </p>
+
                 {/* <br />
               <p>
                 I led the efforts to prioritize developement and deployment of
@@ -59,21 +60,35 @@ const IBM = (props) => {
             heading="Projects I worked on"
             desc={
               <span>
-                <ul className="list-disc list-inside">
+                <p>
+                  {/* MaaS360 is undergoing extensive modernisations which opens up
+                  oppurtunites for designers to craft new and improved
+                  workflows. */}
+                  In the span of 1 year, I worked on two projects in
+                  collaboration with the director, design team, engineers and
+                  product managers.
+                </p>
+                <br />
+                <ul className="list-disc list-inside ml-8">
                   <li>
-                    Led efforts for modernising the self service portal for
-                    MaaS360 end-users which hadn't been updated since 2012. This
-                    required fresh and extensive research for identifying our
-                    user's needs and problems.
+                    Led design efforts for modernizing the self service portal
+                    for MaaS360 end-users which hadn't been updated since long.
+                    This required fresh and &nbsp;
+                    <span className="font-avenir-bold">
+                      extensive research for identifying our user's needs and
+                      problems.
+                    </span>
                     {/* and
                     prioritizing its development;.  */}
                   </li>
                   <br />
                   <li>
                     Revamping the homepage dashboard for MaaS360. The goal here
-                    was to provide our users with a quick overview, reduce
-                    navigation time and also align the dashboard with the
-                    current strategic direction of the product
+                    was to &nbsp;
+                    <span className="font-avenir-bold">
+                      provide our users with a quick overview, reduce navigation
+                      time and align it with the product's strategic direction.
+                    </span>
                   </li>
                   {/* 
                  Throughout the project, I had
@@ -110,12 +125,40 @@ const IBM = (props) => {
               // product, conducted user research, market analysis, created to-be
               // journey maps and designed prototypes for phased implementation."
             />
-            <ProjectSectionHome
+
+            <div className=" w-12/12 md:w-4/12 h-auto flex flex-col">
+              <Image
+                hoverImage={
+                  process.env.PUBLIC_URL +
+                  "/images/ibm/project-preview-images/Group_70.png"
+                }
+                image={
+                  process.env.PUBLIC_URL +
+                  "/images/ibm/project-preview-images/Group_70.png"
+                }
+              />
+              <Description
+                hoverDesc={props.hoverDesc}
+                title={
+                  <p className="font-avenir-book">
+                    <span className="font-avenir-medium"> (Coming soon!)</span>
+                    <br />
+                    <span className="text-gray50">Homepage Dashboard</span>
+                    <br />
+                    <p className="text-sm text-gray50">
+                      Jun 2021 - Jan 2022 . 6 mos
+                    </p>
+                  </p>
+                }
+                desc={props.desc}
+              />
+            </div>
+
+            {/* <ProjectSectionHome
               className="group md:w-4/12"
               destination="/ibm"
               image={
-                process.env.PUBLIC_URL +
-                "/images/ibm/project-preview-images/Group_70.png"
+               
               }
               title={
                 <p className="font-avenir-book">
@@ -126,11 +169,11 @@ const IBM = (props) => {
                   </p>
                 </p>
               }
-              hoverDesc=""
+
               // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
               // product, conducted user research, market analysis, created to-be
               // journey maps and designed prototypes for phased implementation."
-            />
+            /> */}
           </div>
         </ProjectSubDescContainer>
       </div>

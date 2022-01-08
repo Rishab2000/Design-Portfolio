@@ -46,8 +46,8 @@ const About = () => {
               <br />
               Apart from design I've learnt quite a bit about programming,
               mostly focusing around front end development and also some aspects
-              of back end systems. My knowledge about technical limitations and
-              possibilities helps lead to a strong designer-developer
+              of back end systems. My knowledge about technical possibilities
+              and limitations helps lead to a strong designer-developer
               relationships.
             </p>
           }
