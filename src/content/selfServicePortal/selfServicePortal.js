@@ -58,7 +58,7 @@ const SelfServicePortal = (props) => {
           heading="What is the self service portal?"
           desc={
             <span>
-              It empowers employees to perform basic device management tasks,
+              It empowers employees (end-users) to perform basic device management tasks,
               investigate and fix common issues. Ergo, reducing the number of IT
               support tickets. <br />
               {/* It provides employees with key MDM tools so that they can solve
@@ -177,18 +177,17 @@ const SelfServicePortal = (props) => {
           heading="Understanding user needs"
           desc={
             <span>
-              Here we had to look into both admin and employee pov. Understand
-              goals admins aim to achieve by activating the portal and employees
-              when they log in.
+              Here we had to look into both end-user's and admin's pov. Understand
+              goals aimed to be achieved by end-users for logging in and admins for activating the
+              portal.
               <br />
               <br />
               <span className="text-xl font-avenir-medium">
                 User interviews
               </span>
               <br />
-              Was in continuous contact with a user to
-              receive feedback on our hypotheses and ideas we developed
-              throughout the project.
+              Were in continuous contact with a user to receive feedback on our
+              hypotheses and ideas we developed throughout the project.
               {/* This provided us insight on
               their needs that helped us decide and prioritize what's most
               important. */}
@@ -300,7 +299,8 @@ const SelfServicePortal = (props) => {
           desc={
             <span>
               Learnt the importance of maintaining specific goals for nearly
-              everything, from reaching out to team members to managing time to making design decisions.
+              everything, from reaching out to team members to managing time to
+              making design decisions.
               {/* either by coming in with questions or asking for specific feedback on my work. */}
               {/* Much of what I learned came from collaborations.
               I’d spend meetings discussing interaction and visual decisions,
