@@ -58,9 +58,9 @@ const SelfServicePortal = (props) => {
           heading="What is the self service portal?"
           desc={
             <span>
-              It empowers employees (end-users) to perform basic device management tasks,
-              investigate and fix common issues. Ergo, reducing the number of IT
-              support tickets. <br />
+              It empowers employees (end-users) to perform basic device
+              management tasks, investigate and fix common issues. Ergo,
+              reducing the number of IT support tickets. <br />
               {/* It provides employees with key MDM tools so that they can solve
               common issues without any IT involvement. */}
               {/* Self service portal is a service that can be enabled on
@@ -177,9 +177,9 @@ const SelfServicePortal = (props) => {
           heading="Understanding user needs"
           desc={
             <span>
-              Here we had to look into both end-user's and admin's pov. Understand
-              goals aimed to be achieved by end-users for logging in and admins for activating the
-              portal.
+              Here we had to look into both end-user's and admin's pov.
+              Understand goals aimed to be achieved by end-users for logging in
+              and admins for activating the portal.
               <br />
               <br />
               <span className="text-xl font-avenir-medium">
@@ -243,7 +243,8 @@ const SelfServicePortal = (props) => {
               type here.” So they called the serif "click here to smile link"{" "}
               <br /> <br /> */}
               Throughout the "making" process to maintain a value-oriented
-              rather than a feature-oriented approach, we constantly asked ourselves:
+              approach rather than a feature-oriented one, we constantly asked
+              ourselves:
               <br />
               <br />
               <ul className="list-disc list-inside text-lg md:text-2xl">
@@ -261,8 +262,8 @@ const SelfServicePortal = (props) => {
           desc={
             <span>
               Scheduled regular calls with multiple stakeholders to constantly
-              iterate and improve. We cycled through multiple rounds of feedback
-              and ideation before solidifying on a shippable design.
+              iterate and improve. We cycled through multiple ideation and
+              feedback rounds before solidifying on a shippable design.
               <Tweet tweetId="1465437029391425538" options={{ width: "400" }} />
             </span>
           }
@@ -298,9 +299,9 @@ const SelfServicePortal = (props) => {
           heading="Being intentional"
           desc={
             <span>
-              Learnt the importance of maintaining specific goals for nearly
-              everything, from reaching out to team members to managing time to
-              making design decisions.
+              Learnt the importance of maintaining specific and clear goals for
+              nearly everything, from reaching out to team members to managing
+              time to making design decisions.
               {/* either by coming in with questions or asking for specific feedback on my work. */}
               {/* Much of what I learned came from collaborations.
               I’d spend meetings discussing interaction and visual decisions,
