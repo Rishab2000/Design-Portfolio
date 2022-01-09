@@ -243,7 +243,7 @@ const SelfServicePortal = (props) => {
               type here.” So they called the serif "click here to smile link"{" "}
               <br /> <br /> */}
               Throughout the "making" process to maintain a value-oriented
-              rather than goal-oriented approach, we constantly asked ourselves:
+              rather than a feature-oriented approach, we constantly asked ourselves:
               <br />
               <br />
               <ul className="list-disc list-inside text-lg md:text-2xl">
