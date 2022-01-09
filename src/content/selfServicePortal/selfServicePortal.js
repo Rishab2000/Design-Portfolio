@@ -160,12 +160,12 @@ const SelfServicePortal = (props) => {
           heading="Getting the ball moving"
           desc={
             <span>
-              Conducted a cognitive walkthrough of the current portal using
-              IBM's design heuristics guidelines; also conducted competitive
+              Conducted a cognitive walkthrough for the existing portal using
+              IBM's design heuristics guidelines; also carried out competitive
               analysis to understand the landscape for self service portals in
               this context.
               <br /> <br />
-              Studied business needs to gain clarity regarding the strategic
+              Analysed business needs to gain clarity regarding the strategic
               direction the portal should move in.
               {/* would fit into the self
               service portal story */}
