@@ -188,8 +188,8 @@ const SelfServicePortal = (props) => {
                 User interviews
               </span>
               <br />
-              We were in continuous contact with a user to receive feedback on our
-              hypotheses and ideas we developed throughout the project.
+              We were in continuous contact with a user to facilitate co-creation. We received constant feedback on our
+              hypotheses and ideas that we developed throughout the project.
               {/* This provided us insight on
               their needs that helped us decide and prioritize what's most
               important. */}
