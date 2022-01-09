@@ -182,7 +182,7 @@ const SelfServicePortal = (props) => {
               when they log in.
               <br />
               <br />
-              <span className="text-xl font-avenir-bold">
+              <span className="text-xl font-avenir-medium">
                 User interviews
               </span>
               <br />
