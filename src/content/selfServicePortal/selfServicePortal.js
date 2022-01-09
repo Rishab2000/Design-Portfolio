@@ -180,6 +180,8 @@ const SelfServicePortal = (props) => {
               Here we had to look into both end-user's and admin's pov.
               Understand the different goals of both end-users while logging in,
               and admins while activating the portal.
+              {/* Understand the different goals end-users aim to achieve by logging in and reasons
+              admins for activating the portal. */}
               <br />
               <br />
               <span className="text-xl font-avenir-medium">
