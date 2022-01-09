@@ -29,7 +29,7 @@ const LandingPage = (props) => {
           className="group md:w-6/12 md:-mt-20"
           destination="/ibm"
           image={process.env.PUBLIC_URL + "/images/ibm.png"}
-          title="Driving experience modernization | IBM "
+          title="Driving user experience modernization | IBM "
           hoverDesc=""
           // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
           // product, conducted user research, market analysis, created to-be
@@ -39,7 +39,7 @@ const LandingPage = (props) => {
           className="group md:w-4/12 md:mt-80 md:ml-auto"
           image={process.env.PUBLIC_URL + "/images/sdplus.png"}
           destination="/sdplus"
-          title="Creating an experience roadmap | SD+"
+          title="Creating a user experience roadmap | SD+"
           // desc="Ideated and designed a B2B product to simplify sustainability. Outlined the experience road map of the
           // product to identify parts of the product needing engagement and improved them, adopting an agile model."
         />
@@ -49,7 +49,7 @@ const LandingPage = (props) => {
           className=" group md:w-11/12 md:mx-auto"
           image={process.env.PUBLIC_URL + "/images/chiral2.png"}
           destination="/chiral_colonies"
-          title="Chiral Colonies - Climate change app | UX Case study "
+          title="Chiral Colonies - Climate change app | UX Case Study "
           // desc=" A mobile based game that aims to spread awareness on climate change, geared towards young adults.
           // Working towards a substainable future by changing human behaviour."
         />
@@ -70,7 +70,7 @@ const LandingPage = (props) => {
           className="group md:w-5/12 md:ml-auto"
           image={process.env.PUBLIC_URL + "/images/behance1.png"}
           destination="/behance"
-          title="Behance Search Experience Redesign"
+          title="Behance Search Experience Re-design"
           // desc="Evaluating the current search experience of Behance, through NN group's evaluation heuristics.
           // Completely redesigned the experience to conceive a faster, clearer and conclusive way of search. "
         />

@@ -14,10 +14,10 @@ const About = () => {
         <ProjectSection
           desc={
             <p>
-              Hi, my name is Rishab.
+              Hi, this is Rishab.
               <br />
               <br />
-              I'm a UX Designer with a drive to learn a myriad of thing to help
+              I'm a UX Designer with a drive to learn a myriad of things to help
               me curate rich digital experiences. My goal is to inspire delight
               through considerate and delightful interactions. Design has an
               immense psychological impact. Every product should be created with
@@ -44,10 +44,10 @@ const About = () => {
               in the rainy suburbs of Seattle, and moved up to downtown for UW.
               A decade later I became a United States Citizen! */}
               <br />
-              Apart from design I've learnt quite a bit about programming,
-              mostly focusing around front end development and also some aspects
-              of back end systems. My knowledge about technical possibilities
-              and limitations helps lead to a strong designer-developer
+              Apart from design, I've learnt some amount of programming,
+              mostly focusing on web frontend development and also some aspects
+              of backend systems. My knowledge about technical possibilities
+              and limitations helps lead to strong designer-developer
               relationships.
             </p>
           }
@@ -91,7 +91,7 @@ const About = () => {
               work."
               <br />
               <br />
-              <em>-- Rajshree, Senior product designer IBM </em>
+              <em>-- Rajshree, Senior Product Designer, IBM </em>
             </p>
           }
           customStyleDesc="lg:text-2xl"
@@ -121,7 +121,7 @@ const About = () => {
               continue his professional development."
               <br />
               <br />
-              <em>-- Rishab Arora, Product Manager </em>
+              <em>-- Rishab Arora, Product Manager, Smarter Dharma </em>
             </p>
           }
           customStyleDesc="lg:text-2xl"

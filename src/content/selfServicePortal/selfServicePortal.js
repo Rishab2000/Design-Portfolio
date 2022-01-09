@@ -55,7 +55,7 @@ const SelfServicePortal = (props) => {
 
         <ProjectSection
           color="text-blue-ibm"
-          heading="What is the self service portal?"
+          heading="What is the Self Service Portal?"
           desc={
             <span>
               It empowers employees (end-users) to perform basic device
@@ -92,7 +92,7 @@ const SelfServicePortal = (props) => {
 
         <ProjectSection
           color="text-blue-ibm"
-          heading="Project deliverables"
+          heading="My Project Deliverables"
           desc={
             <span>
               <div className="flex flex-wrap font-avenir-book text-sm md:text-base lg:text-base text-center gap-2 mt-2 mb-24">
@@ -133,7 +133,7 @@ const SelfServicePortal = (props) => {
                       href="https://www.carbondesignsystem.com/"
                       className="underline hover:text-link-hover-color"
                     >
-                      carbon guidelines
+                      Carbon Design System
                     </a>
                   </p>
                 </div>
@@ -146,7 +146,7 @@ const SelfServicePortal = (props) => {
                     alt="A GIF of a cute cat :)"
                     className="w-8/12 md:w-6/12 lg:w-5/12 mx-auto mb-4"
                   />
-                  <p className="mt-2">Feature roadmap for phased production</p>
+                  <p className="mt-2">Feature roadmap for phased development</p>
                 </div>
               </div>
             </span>
@@ -154,14 +154,14 @@ const SelfServicePortal = (props) => {
         />
       </ProjectSubDescContainer>
 
-      <ProjectSubDescContainer sectionTitle="Design process">
+      <ProjectSubDescContainer sectionTitle="Design Process">
         <ProjectSection
           color="text-blue-ibm"
           heading="Getting the ball moving"
           desc={
             <span>
-              Conducted a cognitive walkthrough for the existing portal using
-              IBM's design heuristics guidelines; also carried out competitive
+              Conducted a cognitive walkthrough of the existing portal using
+              IBM's design heuristics guidelines; also, carried out competitive
               analysis to understand the landscape for self service portals in
               this context.
               <br /> <br />
@@ -174,21 +174,21 @@ const SelfServicePortal = (props) => {
         />
         <ProjectSection
           color="text-blue-ibm"
-          heading="Understanding user needs"
+          heading="Understanding User Needs"
           desc={
             <span>
-              Here we had to look into both end-user's and admin's pov.
-              Understand the different goals of both end-users while logging in,
+              Here, we had to look into both end-user's and admin's POV, and 
+              understand the different goals of both end-users while using,
               and admins while activating the portal.
               {/* Understand the different goals end-users aim to achieve by logging in and reasons
               admins for activating the portal. */}
               <br />
               <br />
               <span className="text-xl font-avenir-medium">
-                User interviews
+                User Interviews
               </span>
               <br />
-              We were in continuous contact with a user to facilitate co-creation. We received constant feedback on our
+              We were in continuous contact with users to facilitate co-creation. We received constant feedback on our
               hypotheses and ideas that we developed throughout the project.
               {/* This provided us insight on
               their needs that helped us decide and prioritize what's most
@@ -197,7 +197,7 @@ const SelfServicePortal = (props) => {
               <br />
               <div className="p-8 bg-blue-ibm rounded-md">
                 <span className="text-white text-lg md:text-2xl">
-                  Focusing on our user's needs, made it easier for us to
+                  Focusing on our users' needs made it easier for us to
                   determine what's important. It helped make our offering more
                   relevant and essential.
                 </span>
@@ -238,7 +238,7 @@ const SelfServicePortal = (props) => {
 
         <ProjectSection
           color="text-blue-ibm"
-          heading="The pretty part of it"
+          heading="The Pretty Part Of It"
           desc={
             <span>
               {/* Two fonts walk into a bar, the bartender says “we don't serve your
@@ -283,13 +283,13 @@ const SelfServicePortal = (props) => {
           }
         /> */}
       </ProjectSubDescContainer>
-      <ProjectSubDescContainer sectionTitle="Key learnings">
+      <ProjectSubDescContainer sectionTitle="Key Learnings">
         <ProjectSection
           color="text-blue-ibm"
-          heading="Developing a T-shaped skill set"
+          heading="Developing a T-shaped Skillset"
           desc={
             <span>
-              Working alongside system architects, product managers, front-end
+              Working alongside stakeholders like system architects, product managers, front-end
               developers and business leaders introduced me to diversify my
               knowledge into other areas such as business, industry and
               technical knowledge.
@@ -298,7 +298,7 @@ const SelfServicePortal = (props) => {
         />
         <ProjectSection
           color="text-blue-ibm"
-          heading="Being intentional"
+          heading="Being Intentional"
           desc={
             <span>
               Learnt the importance of maintaining specific and clear goals for
@@ -315,12 +315,12 @@ const SelfServicePortal = (props) => {
         />
         <ProjectSection
           color="text-blue-ibm"
-          heading="Building narratives"
+          heading="Building Narratives"
           desc={
             <span>
               Building empathy through strong narratives. Having a good
               narrative while discussing with multiple stakeholders helped them
-              easily understand why and what we were designing; identifying with
+              easily understand why and what we were designing, and identifying with
               the users and their journey.
               {/* You then attempt to construct a believable narrative, whereby the user 
               tries to achieve their desired end state through the agency of your proposal */}

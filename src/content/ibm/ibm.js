@@ -10,7 +10,7 @@ const IBM = (props) => {
   const LandingPageState = props.hidden ? "opacity-0" : " ";
 
   const miniDesc = {
-    role: "UX design intern",
+    role: "UX Design Intern",
     duration: (
       <React.Fragment>
         <p>
@@ -26,7 +26,7 @@ const IBM = (props) => {
     >
       <div className="w-full flex flex-col items-center">
         <ProjectIntro
-          title="Driving experience modernization | IBM "
+          title="Driving user experience modernization | IBM "
           subTitle="Driving experience modernization"
           miniDesc={miniDesc}
           image={process.env.PUBLIC_URL + "/images/ibm(hero-image)(75).png"}
@@ -64,18 +64,18 @@ const IBM = (props) => {
                   {/* MaaS360 is undergoing extensive modernisations which opens up
                   oppurtunites for designers to craft new and improved
                   workflows. */}
-                  In the span of 1 year, I worked on two projects in
-                  collaboration with the director, design team, engineers and
-                  product managers.
+                  Over 1 year, I worked on 2 projects in
+                  collaboration with the design team, product managers, developers and
+                  director.
                 </p>
                 <br />
                 <ul className="list-disc list-inside ml-8">
                   <li>
-                    Led design efforts for modernizing the self service portal
-                    for MaaS360 end-users which hadn't been updated since long.
-                    This required fresh and &nbsp;
+                    Led design efforts to modernize the self service portal
+                    for MaaS360 end-users which hadn't been updated for long.
+                    This required fresh and&nbsp;
                     <span className="font-avenir-bold">
-                      extensive research for identifying our user's needs and
+                      extensive research for identifying end-user's needs and
                       problems.
                     </span>
                     {/* and
@@ -83,10 +83,10 @@ const IBM = (props) => {
                   </li>
                   <br />
                   <li>
-                    Revamping the homepage dashboard for MaaS360. The goal here
-                    was to &nbsp;
+                    Revamping the security admin's portal dashboard for MaaS360. The goal here
+                    was to&nbsp;
                     <span className="font-avenir-bold">
-                      provide our users with a quick overview, reduce navigation
+                      provide admins with a deployment overview, reduce navigation
                       time and align it with the product's strategic direction.
                     </span>
                   </li>
@@ -116,7 +116,7 @@ const IBM = (props) => {
               }
               title={
                 <p className="font-avenir-book">
-                  Self service portal <br />
+                  Self Service Portal <br />
                   <p className="text-sm text-gray50">Jan - July 2021 . 6 mos</p>
                 </p>
               }
@@ -143,7 +143,7 @@ const IBM = (props) => {
                   <p className="font-avenir-book">
                     <span className="font-avenir-medium"> (Coming soon!)</span>
                     <br />
-                    <span className="text-gray50">Homepage Dashboard</span>
+                    <span className="text-gray50">Admin Portal Dashboard</span>
                     <br />
                     <p className="text-sm text-gray50">
                       Jun 2021 - Jan 2022 . 6 mos
