@@ -99,7 +99,7 @@ const SdPlus = () => {
           }
         />
       </ProjectSubDescContainer>
-      <ProjectSubDescContainer sectionTitle="Context" className="lg:w-full">
+      <ProjectSubDescContainer sectionTitle="Context" className="lg:w-full 2xl:w-full">
         <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-12">
           <ProjectSection
             width="lg:w-5/12"
@@ -137,7 +137,7 @@ const SdPlus = () => {
           />
         </div>
       </ProjectSubDescContainer>
-      <ProjectSubDescContainer sectionTitle="Scoping" className="lg:w-full">
+      <ProjectSubDescContainer sectionTitle="Scoping" className="lg:w-full 2xl:w-full">
         <div className="flex flex-col lg:flex-row lg:justify-between">
           <ProjectSection
             width="lg:w-5/12 lg:self-center"
