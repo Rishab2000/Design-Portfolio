@@ -26,35 +26,6 @@ const SelfServicePortal = (props) => {
       <ProjectSubDescContainer sectionTitle="Context">
         <ProjectSection
           color="text-blue-ibm"
-          heading="Before we get started"
-          customstyleSpacing="my-5"
-          desc={
-            <span className="flex md:flex-row flex-col mt-8">
-              <img
-                src="https://media.giphy.com/media/hj8eOHrXqoLntsCyWz/giphy.gif"
-                alt="A GIF of a cute cat :)"
-                className="w-96 md:w-72 mx-auto my-4 lg:my-0"
-              />
-              <p className="md:ml-8 text-base text-left md:text-lg lg:text-xl">
-                The nature of this project is confidential and I am not able to
-                include screenshots of the process or mockups 🥲
-                <br />
-                <br />
-                NDAs will be the death of me
-              </p>
-
-              {/* <br />
-            <p>
-              I led the efforts to prioritize developement and deployment of
-              MaaS360 modernised self service portal created as part of the
-              internship
-            </p> */}
-            </span>
-          }
-        />
-
-        <ProjectSection
-          color="text-blue-ibm"
           heading="What is the Self Service Portal?"
           desc={
             <span>
@@ -177,9 +148,9 @@ const SelfServicePortal = (props) => {
           heading="Understanding User Needs"
           desc={
             <span>
-              Here, we had to look into both end-user's and admin's POV, and 
-              understand the different goals of both end-users while using,
-              and admins while activating the portal.
+              Here, we had to look into both end-user's and admin's POV, and
+              understand the different goals of both end-users while using, and
+              admins while activating the portal.
               {/* Understand the different goals end-users aim to achieve by logging in and reasons
               admins for activating the portal. */}
               <br />
@@ -188,8 +159,9 @@ const SelfServicePortal = (props) => {
                 User Interviews
               </span>
               <br />
-              We were in continuous contact with users to facilitate co-creation. We received constant feedback on our
-              hypotheses and ideas that we developed throughout the project.
+              We were in continuous contact with users to facilitate
+              co-creation. We received constant feedback on our hypotheses and
+              ideas that we developed throughout the project.
               {/* This provided us insight on
               their needs that helped us decide and prioritize what's most
               important. */}
@@ -282,6 +254,34 @@ const SelfServicePortal = (props) => {
             </span>
           }
         /> */}
+        <ProjectSection
+          color="text-blue-ibm"
+          heading="The pinky promise"
+          customstyleSpacing="my-5"
+          desc={
+            <span className="flex md:flex-row flex-col mt-8">
+              <img
+                src="https://media.giphy.com/media/hj8eOHrXqoLntsCyWz/giphy.gif"
+                alt="A GIF of a cute cat :)"
+                className="w-96 md:w-72 mx-auto my-4 lg:my-0"
+              />
+              <p className="md:ml-8 text-base text-left md:text-lg lg:text-xl">
+                Since the nature of this project is confidential and I was not able to
+                include any screenshots of the process or mockups 🥲
+                <br />
+                <br />
+                NDAs will be the death of me
+              </p>
+
+              {/* <br />
+            <p>
+              I led the efforts to prioritize developement and deployment of
+              MaaS360 modernised self service portal created as part of the
+              internship
+            </p> */}
+            </span>
+          }
+        />
       </ProjectSubDescContainer>
       <ProjectSubDescContainer sectionTitle="Key Learnings">
         <ProjectSection
@@ -289,10 +289,10 @@ const SelfServicePortal = (props) => {
           heading="Developing a T-shaped Skillset"
           desc={
             <span>
-              Working alongside stakeholders like system architects, product managers, front-end
-              developers and business leaders introduced me to diversify my
-              knowledge into other areas such as business, industry and
-              technical knowledge.
+              Working alongside stakeholders like system architects, product
+              managers, front-end developers and business leaders introduced me
+              to diversify my knowledge into other areas such as business,
+              industry and technical knowledge.
             </span>
           }
         />
@@ -320,8 +320,8 @@ const SelfServicePortal = (props) => {
             <span>
               Building empathy through strong narratives. Having a good
               narrative while discussing with multiple stakeholders helped them
-              easily understand why and what we were designing, and identifying with
-              the users and their journey.
+              easily understand why and what we were designing, and identifying
+              with the users and their journey.
               {/* You then attempt to construct a believable narrative, whereby the user 
               tries to achieve their desired end state through the agency of your proposal */}
               {/* either by coming in with questions or asking for specific feedback on my work.  */}
