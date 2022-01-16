@@ -9,7 +9,7 @@ const Footer = () => {
       Thank you for visiting, let's stay connected!
       </p>
      <a className="font-avenir-medium text-gray40 hover:underline" href="mailto: rishabsachidanand@gmail.com" target="_blank" rel="noreferrer">rishabsachidanand@gmail.com</a>
-     <p className="text-avenir-book text-xs text-gray20 mt-8">© 2021, Rishab Sachidanand</p>
+     <p className="text-avenir-book text-xs text-gray50 mt-8">© 2021, Rishab Sachidanand</p>
    
     </footer>
   );
