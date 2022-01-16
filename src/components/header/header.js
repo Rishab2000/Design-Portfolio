@@ -22,7 +22,7 @@ const Header = (props) => {
             " font-avenir-regular text-xl lg:text-2xl transtion-opacity duration-300 ease-in"
           }
         >
-          Rishab Sachidanand
+          
         </h1>
         <div
           onClick={props.clickHandler}
@@ -60,7 +60,7 @@ const Header = (props) => {
       </header>
       <div className={headerState + " transtion-opacity duration-300 ease-in"}>
         <p className="font-avenir-medium pt-1 lg:pt-2 lg:text-2xl text-red">
-          Human Centred Designer
+          
         </p>
       </div>
     </div>
