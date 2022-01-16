@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="w-full flex flex-col items-center">
       <img
-        src={process.env.PUBLIC_URL + "/images/about/me.jpg"}
+        src={process.env.PUBLIC_URL + "/images/about/Me2-1.jpg"}
         alt="me sitting on a beach"
         className="w-12/12 lg:w-3/12 mr-auto lg:mt-24 "
       />
