@@ -64,7 +64,7 @@ const SdPlus = () => {
   const miniDesc = {
     role: "UX design intern",
     duration: "Apr - Jun 2020",
-    firm:"Smarter Dharma"
+    firm: "Smarter Dharma"
   };
   return (
     <div className="w-full flex flex-col items-center">
@@ -308,19 +308,12 @@ const SdPlus = () => {
             to make decisions. After many iterations, I came up with the new
             design which was more inline with our users needs"
         />
-        <img
-          src={
-            process.env.PUBLIC_URL +
-            "/images/sdplus-project/wireframes/post/insights/Insights1.5x.png"
-          }
-          alt="A GIF of a cute cat :)"
-          className="w-12/12 mx-auto"
-        />
+
         <ProjectSection
           desc={
             <span>
               <p className="font-avenir-bold text-sm">After</p>
-              <ul className="space-y-4">
+              <ul className="font-avenir-book text-base space-y-4 ">
                 <li>
                   +Dashboard structure eliminated the need for scrolling for
                   information
@@ -340,19 +333,23 @@ const SdPlus = () => {
             </span>
           }
         />
+
         <img
           src={
             process.env.PUBLIC_URL +
-            "/images/sdplus-project/wireframes/pre/Insights_Unscrolled_1.5x.png"
+            "/images/sdplus-project/wireframes/post/insights/Insights1.5x.png"
           }
           alt="A GIF of a cute cat :)"
           className="w-12/12 mx-auto"
         />
+
+        <div class="flex-grow border-t border-gray20 mt-16"></div>
+
         <ProjectSection
           desc={
             <span>
               <p className="font-avenir-bold text-sm">Before</p>
-              <ul className=" text-gray50 space-y-4">
+              <ul className=" font-avenir-book text-base text-gray50 space-y-4">
                 <li>- User has to scroll to find most important information</li>
                 <li>- There are no explicit insights about that project</li>
                 <li>
@@ -363,18 +360,20 @@ const SdPlus = () => {
             </span>
           }
         />
+
+        <img
+          src={
+            process.env.PUBLIC_URL +
+            "/images/sdplus-project/wireframes/pre/Insights_Unscrolled_1.5x.png"
+          }
+          alt="A GIF of a cute cat :)"
+          className="w-12/12 mx-auto mb-20"
+        />
+
         <ProjectSection
           color="text-green-sdplus"
           heading="Creating transparency for architects"
           desc='As part of redesign, we also wanted to bring in more transparency about intervention details and its status. The "intervention status" is an intricate flow, which I closely worked on with our tech and product manager. '
-        />
-        <img
-          src={
-            process.env.PUBLIC_URL +
-            "/images/sdplus-project/wireframes/post/insights/InsightsScrolled_1.5x.png"
-          }
-          alt="A GIF of a cute cat :)"
-          className="w-12/12 mx-auto"
         />
 
         <ProjectSection
@@ -396,14 +395,18 @@ const SdPlus = () => {
             </span>
           }
         />
+
         <img
           src={
             process.env.PUBLIC_URL +
-            "/images/sdplus-project/wireframes/pre/Interventions_Pre_Scrolled_1.5x.png"
+            "/images/sdplus-project/wireframes/post/interventions/Interventions.png"
           }
           alt="A GIF of a cute cat :)"
           className="w-12/12 mx-auto"
         />
+
+        <div class="flex-grow border-t border-gray20 mt-16"></div>
+
         <ProjectSection
           desc={
             <span>
@@ -418,6 +421,15 @@ const SdPlus = () => {
             </span>
           }
         />
+        <img
+          src={
+            process.env.PUBLIC_URL +
+            "/images/sdplus-project/wireframes/pre/Interventions_Pre_Scrolled_1.5x.png"
+          }
+          alt="A GIF of a cute cat :)"
+          className="w-12/12 mx-auto"
+        />
+
       </ProjectSubDescContainer>
 
       <ProjectSubDescContainer sectionTitle="Wrapping it up">
