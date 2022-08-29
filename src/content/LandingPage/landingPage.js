@@ -13,14 +13,12 @@ const LandingPage = (props) => {
         className={" transtion-opacity duration-300 ease-in"}
         textHeading={
           <span>
-            Hey there! I'm Rishab👋. <br/>A UX designer from bangalore.
+            Nice to meet you! I'm Rishab👋. <br/>Currently a UX designer at IBM.
           </span>
         }
         caption={
           <span>
-            With a passion for simplifying complex systems into
-            engaging human-centric experiences. Currently, a UX Design Intern{" "}
-            <span className="font-avenir-bold"> @ IBM</span>.{" "}
+            Passionate about creating meaningful and efficient digital experiences.
           </span>
         }
       />

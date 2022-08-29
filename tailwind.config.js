@@ -15,6 +15,7 @@ module.exports = {
       },
       width: {
         "context-images": '48%',
+        "520":"24rem",
         99: "22rem",
         100: "28.1rem",
         200: "58rem",
