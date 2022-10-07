@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         "sd-plus": "url('/src/img/sdplus.png')",
+        "me": "url('/src/img/me.webp')",
       }),
       textColor: {
         "title-colour": "#161616",

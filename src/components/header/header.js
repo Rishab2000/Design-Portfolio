@@ -13,7 +13,6 @@ const Header = (props) => {
       <MobileNav
         clickHandler={props.clickHandler}
         status={props.hidden}
-        className="lg:hidden"
       />
       <header className=" flex items-center">
         <h1
@@ -26,14 +25,14 @@ const Header = (props) => {
         </h1>
         <div
           onClick={props.clickHandler}
-          className={hamburgerState + " nav-icon3 ml-auto lg:hidden"}
+          className={hamburgerState + " nav-icon3 ml-auto md:hidden"}
         >
           <span className="nav-icon3-bar"></span>
           <span className="nav-icon3-bar"></span>
           <span className="nav-icon3-bar"></span>
           <span className="nav-icon3-bar"></span>
         </div>
-        <div className="hidden font-avenir-regular lg:flex lg:ml-auto lg:gap-8 lg:text-xl lg:text-gray40">
+        <div className="hidden font-avenir-regular md:flex md:ml-auto md:gap-8 md:text-xl md:text-gray40">
           <NavLink
             exact
             to="/"

@@ -1,36 +1,40 @@
 import React from "react";
-import ProjectSection from "../../components/project-page-components/green-section/projectSection";
 import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
 
-const About = () => {
+const About = (props) => {
+  const LandingPageState = props.hidden ? "opacity-0" : " ";
   return (
-    <div className="w-full flex flex-col items-center">
-      <img
-        src={process.env.PUBLIC_URL + "/images/about/Me2-1.jpg"}
-        alt="me sitting on a beach"
-        className="w-12/12 lg:w-3/12 mr-auto lg:mt-24 "
-      />
-      <ProjectSubDescContainer className="lg:w-full">
-        <ProjectSection
-          desc={
-            <p>
-              Hi, this is Rishab.
-              <br />
-              <br />
-              I'm a UX Designer with a drive to learn a myriad of things to help
-              me curate rich digital experiences. My goal is to inspire delight
-              through considerate and delightful interactions. Design has an
-              immense psychological impact. Every product should be created with
-              the utmost consideration towards minimizing negative emotions. An
-              articulate design brings relief, utility, and, if possible,
-              beauty, into people's lives. Through my work, I hope to reduce
-              digital anxiety and create delightful experiences.
-              <br />
-              {/* Most of my work has been in the UI/UX field, but have been focused
+    <div className={LandingPageState + " transtion-opacity duration-300 ease-in"}>
+      <div className="w-full flex flex-col items-center">
+        <div className="w-12/12 flex flex-col lg:flex-row gap-16 items-center mt-16">
+          <img
+            src={process.env.PUBLIC_URL + "/images/about/me.webp"}
+            alt="me sitting on a beach"
+            className="w-12/12 md:w-6/12 lg:w-4/12"
+          />
+          <div className="lg:w-full">
+            <div className="md:text-lg lg:text-xl  text-desc-colour font-avenir-book">
+              <p>
+                Hi again, I'm Rishab,
+                <br />
+                <br />
+                A UX designer based in Bangalore working towards making
+                someone's life a little bit easier.
+
+                I deeply think about the stories of the people who will interact
+                with products, I'm working on and the context of their experiences.
+                I aim to create products with the utmost consideration towards
+                minimizing negative emotions and create
+                delightful - frictionless - experiences.
+
+                To me, design is more than just work. It enables me to explore, experiment and
+                equip me with novel ways of tackling challenges in the real world
+                <br />
+                {/* Most of my work has been in the UI/UX field, but have been focused
               on moving to Product Design for designing end-to-end experiences,
               and creating fluent digital products that engage, satisfy and
               educate.  */}
-              {/* Empathy in all stages of the design process will drive the
+                {/* Empathy in all stages of the design process will drive the
               formation of an ideal future while increasing the spectrum by
               looking at the bigger picture of how design, technology, and
               ubiquitous computing can make a larger impact on our everyday
@@ -43,37 +47,35 @@ const About = () => {
               U.S. when I was 11 years old without speaking any English. Grew up
               in the rainy suburbs of Seattle, and moved up to downtown for UW.
               A decade later I became a United States Citizen! */}
-              <br />
-              Apart from design, I've learnt some amount of programming,
-              mostly focusing on web frontend development and also some aspects
-              of backend systems. My knowledge about technical possibilities
-              and limitations helps lead to strong designer-developer
-              relationships.
-            </p>
-          }
-          customStyleDesc="lg:text-2xl"
-        />
+                <br />
+                Apart from design, I've learnt some amount of programming,
+                mostly focusing on web frontend development and also some aspects
+                of backend systems. My knowledge about technical possibilities
+                and limitations helps lead to strong designer-developer
+                relationships.
+              </p>
+            </div>
+          </div>
+        </div>
+        <ProjectSubDescContainer className="lg:w-full">
 
-        <ProjectSection
-          heading="When I'm not designing, I can be found"
-          desc={
-            <ul className="list-disc list-inside font-avenir-book mt-2">
-              <li>Playing football every weekend ⚽</li>
-              <li>Exploring hidden gems in the city - mostly restaurants 🍱</li>
-              <li>
-                Bending and arching while finding the best angle for a photo 📸
-              </li>
-              <li>Jamming out and lip syncing to music 🎶</li>
-            </ul>
-          }
-          customStyleDesc="lg:text-2xl"
-          customStyleHeading="lg:text-4xl"
-          customStyleSpacing="lg:mt-24"
-        />
-        <ProjectSection
-          heading="Word around town 😁"
-          desc={
-            <p>
+          <div className="mt-16">
+            <p className="font-avenir-medium text-2xl lg:text-3xl">When I'm not designing, I can be found</p>
+            <span className="md:text-lg lg:text-xl  text-desc-colour font-avenir-book">
+              <ul className="list-disc list-inside font-avenir-book mt-2">
+                <li>Playing football every weekend ⚽</li>
+                <li>Exploring hidden gems in the city - mostly restaurants 🍱</li>
+                <li>
+                  Bending and arching while finding the best angle for a photo 📸
+                </li>
+                <li>Jamming out and lip syncing to music 🎶</li>
+              </ul>
+            </span>
+          </div>
+
+          <div className="mt-16">
+            <p className="font-avenir-medium text-2xl lg:text-3xl">Word around town 😁</p>
+            <p className="mb-8 md:text-lg lg:text-xl  text-desc-colour font-avenir-book">
               {/* "I had opportunity to mentor Rishab over six months on a
               proof-of-concept project. As part of internship, Rishab had to
               work on self service portal for end-users using MaaS360 app (an
@@ -93,15 +95,9 @@ const About = () => {
               <br />
               <em>-- Rajshree, Senior Product Designer, IBM </em>
             </p>
-          }
-          customStyleDesc="lg:text-2xl"
-          customStyleHeading="lg:text-4xl"
-          customStyleSpacing="lg:mt-24"
-        />
-        <hr />
-        <ProjectSection
-          desc={
-            <p>
+            <hr />
+
+            <p className="my-8 md:text-lg lg:text-xl  text-desc-colour font-avenir-book">
               "Rishab is an enterprising young UI / UX designer who's integrated
               seamlessly into our development team.
               <br />
@@ -123,10 +119,10 @@ const About = () => {
               <br />
               <em>-- Rishab Arora, Product Manager, Smarter Dharma </em>
             </p>
-          }
-          customStyleDesc="lg:text-2xl"
-        />
-      </ProjectSubDescContainer>
+
+          </div>
+        </ProjectSubDescContainer>
+      </div >
     </div>
   );
 };
