@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
+import { Button } from '@carbon/react';
 
 const About = (props) => {
   const LandingPageState = props.hidden ? "opacity-0" : " ";
@@ -54,6 +55,7 @@ const About = (props) => {
                 and limitations helps lead to strong designer-developer
                 relationships.
               </p>
+              <Button>Example usage</Button>;
             </div>
           </div>
         </div>
