@@ -53,7 +53,7 @@ const About = (props) => {
                 of backend systems. My knowledge about technical possibilities
                 and limitations helps lead to strong designer-developer
                 relationships.
-              </p>
+              </p>              
             </div>
           </div>
         </div>
