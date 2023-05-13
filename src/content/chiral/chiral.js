@@ -14,7 +14,7 @@ const Chiral = () => {
         title="Chiral Colonies -
       Climate Change App | UX Case Study "
         miniDesc={miniDesc}
-        image={process.env.PUBLIC_URL + "/images/chiral2.png"}
+        image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral2.png"}
       />
 
       <ProjectSubDescContainer sectionTitle="Introduction">

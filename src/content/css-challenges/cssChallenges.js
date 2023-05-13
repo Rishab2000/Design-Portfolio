@@ -11,7 +11,7 @@ const CssChallenges = () => {
       <ProjectIntro
         title="30 days of code "
         miniDesc={miniDesc}
-        image={process.env.PUBLIC_URL + "/images/CSS_Challenges_Portfolio.svg"}
+        image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/CSS_Challenges_Portfolio.svg"}
       />
       <div className="w-screen bg-background-CSS py-12">
       <div className="w-99 lg:w-300 mx-auto bg-background-color py-12">
