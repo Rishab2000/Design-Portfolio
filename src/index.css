@@ -4,6 +4,16 @@
 
 @layer base {
   @font-face {
+    font-family: "satoshi-regular";
+    src: url("Fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Regular.ttf");
+  }
+
+  @font-face {
+      font-family: "satoshi-medium";
+      src: url("Fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Medium.ttf");
+    }
+
+  @font-face {
     font-family: "avenir-roman";
     src: url("Fonts/Avenir/Avenir-Roman.ttf");
   }

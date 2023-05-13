@@ -40,6 +40,11 @@ module.exports = {
       16: "4rem",
     },
     fontFamily: {
+
+      "satoshi-regular": ["satoshi-regular"],
+
+      "satoshi-medium": ["satoshi-medium"],
+
       "avenir-roman": ["avenir-roman"],
 
       "avenir-book": ["avenir-book"],

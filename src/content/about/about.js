@@ -6,14 +6,14 @@ const About = (props) => {
   return (
     <div className={LandingPageState + " transtion-opacity duration-300 ease-in"}>
       <div className="w-full flex flex-col items-center">
-        <div className="w-12/12 flex flex-col lg:flex-row gap-16 items-center mt-16">
+        <div className="w-12/12 flex flex-col lg:flex-row gap-16 items-start mt-16">
           <img
             src={process.env.PUBLIC_URL + "/images/about/me.webp"}
             alt="me sitting on a beach"
             className="w-12/12 md:w-6/12 lg:w-4/12"
           />
           <div className="lg:w-full">
-            <div className="md:text-lg lg:text-xl  text-desc-colour font-avenir-book">
+            <div className="md:text-lg lg:text-xl  text-desc-colour font-satoshi-regular">
               <p>
                 Hi again, I'm Rishab,
                 <br />
@@ -60,9 +60,9 @@ const About = (props) => {
         <ProjectSubDescContainer className="lg:w-full">
 
           <div className="mt-16">
-            <p className="font-avenir-medium text-2xl lg:text-3xl">When I'm not designing, I can be found</p>
-            <span className="md:text-lg lg:text-xl  text-desc-colour font-avenir-book">
-              <ul className="list-disc list-inside font-avenir-book mt-2">
+            <p className="font-satoshi-medium text-2xl lg:text-3xl">When I'm not designing, I can be found</p>
+            <span className="md:text-lg lg:text-xl  text-desc-colour font-satoshi-regular">
+              <ul className="list-disc list-inside mt-2">
                 <li>Playing football every weekend ⚽</li>
                 <li>Exploring hidden gems in the city - mostly restaurants 🍱</li>
                 <li>
@@ -74,8 +74,8 @@ const About = (props) => {
           </div>
 
           <div className="mt-16">
-            <p className="font-avenir-medium text-2xl lg:text-3xl">Word around town 😁</p>
-            <p className="mb-8 md:text-lg lg:text-xl  text-desc-colour font-avenir-book">
+            <p className="font-satoshi-medium text-2xl lg:text-3xl">Word around town 😁</p>
+            <p className="mb-8 md:text-lg lg:text-xl  text-desc-colour font-satoshi-regular">
               {/* "I had opportunity to mentor Rishab over six months on a
               proof-of-concept project. As part of internship, Rishab had to
               work on self service portal for end-users using MaaS360 app (an
@@ -97,7 +97,7 @@ const About = (props) => {
             </p>
             <hr />
 
-            <p className="my-8 md:text-lg lg:text-xl  text-desc-colour font-avenir-book">
+            <p className="my-8 md:text-lg lg:text-xl  text-desc-colour font-satoshi-regular">
               "Rishab is an enterprising young UI / UX designer who's integrated
               seamlessly into our development team.
               <br />
