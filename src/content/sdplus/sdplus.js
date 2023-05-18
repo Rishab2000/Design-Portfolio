@@ -72,7 +72,7 @@ const SdPlus = () => {
         title="Creating an experience roadmap | SD+"
         subTitle="Smarted Dharma"
         miniDesc={miniDesc}
-        image={process.env.PUBLIC_URL + "/images/sdplus(hero-image).png"}
+        image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus(hero-image).png"}
       />
       <ProjectSubDescContainer sectionTitle="Summary">
         <p className="font-avenir-book text-base lg:text-xl mt-2 mb-8">
@@ -120,17 +120,15 @@ const SdPlus = () => {
         </div>
         <div className="flex flex-col items-start justify-between gap-8 lg:gap-0 lg:flex-row w-full  mb-8">
           <img
-            src={
-              process.env.PUBLIC_URL +
-              "/images/sdplus-project/wireframes/pre/Insights_Unscrolled_1x.png"
+            src={ 
+              "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Insights_Unscrolled_1x.png"
             }
             alt="temp"
             className="w-full lg:w-context-images"
           />
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/images/sdplus-project/wireframes/pre/Interventions.png"
+              "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Interventions.png"
             }
             alt="temp"
             className="w-full  lg:w-context-images"
@@ -150,8 +148,7 @@ const SdPlus = () => {
           />
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/images/sdplus-project/Comments/1(Client)-02.svg"
+              "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Comments/1(Client)-02.svg"
             }
             alt="temp"
             className="mb-12 lg:w-5/12"
@@ -170,8 +167,7 @@ const SdPlus = () => {
 
           <img
             src={
-              process.env.PUBLIC_URL +
-              "/images/sdplus-project/Comments/2(me).svg"
+              "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Comments/2(me).svg"
             }
             alt="temp"
             className="mb-12 lg:w-5/12"
@@ -199,8 +195,7 @@ const SdPlus = () => {
         />
         <img
           src={
-            process.env.PUBLIC_URL +
-            "/images/sdplus-project/Roadmap/Customer_journey_task.png"
+            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Roadmap/Customer_journey_task.png"
           }
           alt="temp"
           className="mt-4 mb-12"
@@ -213,8 +208,7 @@ const SdPlus = () => {
         />
         <img
           src={
-            process.env.PUBLIC_URL +
-            "/images/sdplus-project/Roadmap/Customer_journey_touchpoints.png"
+            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Roadmap/Customer_journey_touchpoints.png"
           }
           alt="temp"
           className="mt-4 mb-12"
@@ -249,8 +243,7 @@ const SdPlus = () => {
           <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 bg-opacity-40 rounded-md p-4">
             <img
               src={
-                process.env.PUBLIC_URL +
-                "/images/sdplus-project/Problems/icons-01.svg"
+                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-01.svg"
               }
               alt="A GIF of a cute cat :)"
               className="w-8/12 lg:w-5/12 mx-auto lg:mb-4"
@@ -260,8 +253,7 @@ const SdPlus = () => {
           <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
             <img
               src={
-                process.env.PUBLIC_URL +
-                "/images/sdplus-project/Problems/icons-02.svg"
+                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-02.svg"
               }
               alt="A GIF of a cute cat :)"
               className="w-8/12 lg:w-5/12 mx-auto lg:mb-4"
@@ -271,8 +263,7 @@ const SdPlus = () => {
           <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
             <img
               src={
-                process.env.PUBLIC_URL +
-                "/images/sdplus-project/Problems/icons-03.svg"
+                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-03.svg"
               }
               alt="A GIF of a cute cat :)"
               className="w-8/12 lg:w-5/12 mx-auto lg:mb-4"
@@ -292,8 +283,7 @@ const SdPlus = () => {
               idea and an overview plan of implementation."
         />
         <img
-          src={
-            process.env.PUBLIC_URL + "/images/sdplus-project/Ideas/ideas.png"
+          src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Ideas/ideas.png"
           }
           alt="A GIF of a cute cat :)"
           className="mt-8 mb-24 lg:w-8/12 mx-auto"
@@ -336,8 +326,7 @@ const SdPlus = () => {
 
         <img
           src={
-            process.env.PUBLIC_URL +
-            "/images/sdplus-project/wireframes/post/insights/Insights1.5x.png"
+            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/insights/Insights1.5x.png"
           }
           alt="A GIF of a cute cat :)"
           className="w-12/12 mx-auto"
@@ -363,8 +352,7 @@ const SdPlus = () => {
 
         <img
           src={
-            process.env.PUBLIC_URL +
-            "/images/sdplus-project/wireframes/pre/Insights_Unscrolled_1.5x.png"
+            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/insights/InsightsScrolled_1.5x.png"
           }
           alt="A GIF of a cute cat :)"
           className="w-12/12 mx-auto mb-20"
@@ -398,8 +386,7 @@ const SdPlus = () => {
 
         <img
           src={
-            process.env.PUBLIC_URL +
-            "/images/sdplus-project/wireframes/post/interventions/Interventions.png"
+            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/interventions/Interventions.png"
           }
           alt="A GIF of a cute cat :)"
           className="w-12/12 mx-auto"
@@ -423,8 +410,7 @@ const SdPlus = () => {
         />
         <img
           src={
-            process.env.PUBLIC_URL +
-            "/images/sdplus-project/wireframes/pre/Interventions_Pre_Scrolled_1.5x.png"
+            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Interventions_Pre_Scrolled_1.5x.png"
           }
           alt="A GIF of a cute cat :)"
           className="w-12/12 mx-auto"

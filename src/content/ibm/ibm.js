@@ -29,7 +29,7 @@ const IBM = (props) => {
           title="Driving user experience modernization | IBM "
           subTitle="Driving experience modernization"
           miniDesc={miniDesc}
-          image={process.env.PUBLIC_URL + "/images/ibm(hero-image)(75).png"}
+          image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm(hero-image)(75).png"}
         />
 
         <ProjectSubDescContainer sectionTitle="Context">
@@ -111,8 +111,8 @@ const IBM = (props) => {
               className="group w-12/12 md:w-4/12"
               destination="/self-service-portal"
               image={
-                process.env.PUBLIC_URL +
-                "/images/ibm/project-preview-images/Frame_1.png"
+               
+                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/project-preview-images/Frame_1.png"
               }
               title={
                 <p className="font-avenir-book">
@@ -128,13 +128,7 @@ const IBM = (props) => {
 
             <div className=" w-12/12 md:w-4/12 h-auto flex flex-col">
               <Image
-                hoverImage={
-                  process.env.PUBLIC_URL +
-                  "/images/ibm/project-preview-images/Group_70.png"
-                }
-                image={
-                  process.env.PUBLIC_URL +
-                  "/images/ibm/project-preview-images/Group_70.png"
+                image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/project-preview-images/Group_70.png"
                 }
               />
               <Description
