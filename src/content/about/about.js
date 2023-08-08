@@ -18,10 +18,10 @@ const About = (props) => {
                 Hi again, I'm Rishab,
                 <br />
                 <br />
-                A UX designer based in Bangalore working towards making
+                A product designer based in Bangalore working towards making
                 someone's life a little bit easier.
 
-                I deeply think about the stories of the people who will interact
+                {/* I deeply think about the stories of the people who will interact
                 with products, I'm working on and the context of their experiences.
                 I aim to create products with the utmost consideration towards
                 minimizing negative emotions and create
@@ -29,7 +29,7 @@ const About = (props) => {
 
                 To me, design is more than just work. It enables me to explore, experiment and
                 equip me with novel ways of tackling challenges in the real world
-                <br />
+                <br /> */}
                 {/* Most of my work has been in the UI/UX field, but have been focused
               on moving to Product Design for designing end-to-end experiences,
               and creating fluent digital products that engage, satisfy and
@@ -47,12 +47,12 @@ const About = (props) => {
               U.S. when I was 11 years old without speaking any English. Grew up
               in the rainy suburbs of Seattle, and moved up to downtown for UW.
               A decade later I became a United States Citizen! */}
-                <br />
-                Apart from design, I've learnt some amount of programming,
+             
+                {/* Apart from design, I've learnt some amount of programming,
                 mostly focusing on web frontend development and also some aspects
                 of backend systems. My knowledge about technical possibilities
                 and limitations helps lead to strong designer-developer
-                relationships.
+                relationships. */}
               </p>              
             </div>
           </div>

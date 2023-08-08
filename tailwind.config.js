@@ -2,21 +2,36 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: "media", // or 'media' or 'class'
   theme: {
+
+    fluidTypography: {
+      remSize: 14,
+      minScreenSize: 320,
+      maxScreenSize: 1440,
+      minTypeScale: 1.200,
+      maxTypeScale: 1.333,
+      lineHeight: 1.35
+    },
+
+    plugins: [require("tailwind-fluid-typography")],
+
     extend: {
       backgroundImage: (theme) => ({
         "sd-plus": "url('/src/img/sdplus.png')",
         "me": "url('/src/img/me.webp')",
       }),
+
       textColor: {
         "title-colour": "#161616",
         "desc-colour": "#525252",
       },
+
       zIndex: {
         "-10": "-10",
       },
+
       width: {
         "context-images": '48%',
-        "520":"24rem",
+        "520": "24rem",
         99: "22rem",
         100: "28.1rem",
         200: "58rem",
@@ -30,6 +45,7 @@ module.exports = {
         200: "42rem",
       }),
     },
+
     backgroundSize: {
       auto: "auto",
       cover: "cover",
@@ -39,6 +55,7 @@ module.exports = {
 
       16: "4rem",
     },
+
     fontFamily: {
 
       "satoshi-regular": ["satoshi-regular"],
@@ -55,6 +72,7 @@ module.exports = {
 
       "avenir-black": ["avenir-black"],
     },
+
     colors: {
       gray10: "#f4f4f4",
       gray40: "#a8a8a8",
@@ -72,7 +90,9 @@ module.exports = {
       "background-CSS": "#EE5396",
       "blue-behance": "#0F62FE",
     },
+
     fontSize: {
+
       xs: ".625rem",
 
       sm: ".875rem",
