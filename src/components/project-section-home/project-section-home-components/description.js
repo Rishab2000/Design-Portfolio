@@ -3,7 +3,7 @@ import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 const Description = (props) => {
   return (
     <div className="w-10/12 lg:w-full  pt-5 lg:pt-5    pb-20 lg:pb-0">
-      <p className="font-avenir-bold text-lg lg:text-xl lg:mb-4 text-title-colour">
+      <p className="lg:mb-4 text-title-colour">
         {props.title}
       </p>
       {/* <p className="font-avenir-book text-sm text-desc-colour">{props.desc}</p> */}

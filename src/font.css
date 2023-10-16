@@ -1,0 +1,146 @@
+/*
+Font families defined by this CSS:
+
+- "Satoshi"                  static "traditional" fonts for older web browsers
+- "Satoshi var"              single-axis variable fonts for all modern browsers
+- "Satoshi var experimental" multi-axis variable fonts for some modern web browsers
+
+Use like this in your CSS:
+
+  :root { font-family: 'Satoshi', sans-serif; }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: 'Satoshi var', sans-serif; }
+  }
+
+------------------------- static ------------------------- */
+@font-face {
+    font-family: 'Satoshi';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-Light.woff2" format("woff2");
+  }
+  @font-face {
+    font-family: 'Satoshi';
+    font-style:  italic;
+    font-weight: 300;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-LightItalic.woff2" format("woff2");
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-Regular.woff2" format("woff2");
+  }
+  @font-face {
+    font-family: 'Satoshi';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-Italic.woff2" format("woff2");
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-Medium.woff2" format("woff2");
+  }
+  @font-face {
+    font-family: 'Satoshi';
+    font-style:  italic;
+    font-weight: 500;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-MediumItalic.woff2" format("woff2");
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-Bold.woff2" format("woff2");
+  }
+  @font-face {
+    font-family: 'Satoshi';
+    font-style:  italic;
+    font-weight: 700;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-BoldItalic.woff2" format("woff2");
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-Black.woff2" format("woff2");
+  }
+  @font-face {
+    font-family: 'Satoshi';
+    font-style:  italic;
+    font-weight: 900;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/font/Satoshi-BlackItalic.woff2" format("woff2");
+  }
+  
+  
+  /* ----------------------- variable ----------------------- */
+  
+  @font-face {
+    font-family: 'Satoshi var';
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Variable.woff2" format("woff2");
+    font-named-instance: 'Regular';
+  }
+  
+  @font-face {
+    font-family: 'Satoshi var';
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: "./Fonts/Satoshi/Fonts/WEB/fonts/Satoshi-VariableItalic.woff2" format("woff2");
+    font-named-instance: 'Italic';
+  }
+  
+  /* ----------- experimental multi-axis variable -----------
+  
+  Slant axis is not yet widely supported (as of February 2019) and thus this
+  multi-axis single-file variable font is opt-in rather than the default.
+  When using this, you will likely need to set font-variation-settings explicitly, e.g:
+    * { font-variation-settings: "slnt" 0deg }
+    .italic { font-variation-settings: "slnt" 10deg }
+     @font-face {
+    font-family: 'Satoshi var experimental';
+    font-style: oblique 0deg 10deg;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('font-files/Satoshi.var.woff2?v=3.19') format('woff2');
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi var alt';
+    font-weight: 100 900;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    font-display: swap;
+    src: url("font-files/Satoshi-roman.var.woff2?v=3.19") format("woff2");
+  }
+  @font-face {
+    font-family: 'Satoshi var alt';
+    font-weight: 100 900;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    font-display: swap;
+    src: url("font-files/Satoshi-italic.var.woff2?v=3.19") format("woff2");
+  }
+  */
+  
+ 

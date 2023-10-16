@@ -1,0 +1,3 @@
+[submodule "fluiditype"]
+	path = fluiditype
+	url = https://github.com/Fluiditype/fluiditype.git

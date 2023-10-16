@@ -5,7 +5,7 @@ import IntroText from "../../components/project-section-home/project-section-hom
 
 const LandingPage = (props) => {
   const LandingPageState = props.hidden ? "opacity-0" : " ";
-  return (
+  return ( 
     <div
       className={LandingPageState + " transtion-opacity duration-300 ease-in"}
     >

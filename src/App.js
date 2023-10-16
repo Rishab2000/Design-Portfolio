@@ -11,7 +11,6 @@ import Behance from "./content/behance";
 import SelfServicePortal from "./content/selfServicePortal/selfServicePortal";
 import HomepageDashboard from "./content/HomepageDashboard/HomepageDashboard";
 import About from "./content/about";
-
 import Footer from "./components/footer";
 
 function App() {

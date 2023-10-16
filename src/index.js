@@ -4,6 +4,7 @@ import { HashRouter as Router } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import ScrollToTop from "./components/scroll-to-top"
+import "./fluiditype/fluidtype.css"
 
 ReactDOM.render(
   <Router>
