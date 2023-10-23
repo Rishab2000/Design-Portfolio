@@ -5,7 +5,7 @@ import Layout from "../components/layout/Layout";
 const About = (props) => {
     const LandingPageState = props.hidden ? "opacity-0" : " ";
     return (
-        <Layout>
+        <Layout selectedPage='about'>
             <div className={LandingPageState + " transtion-opacity duration-300 ease-in"}>
                 <div className="w-full flex flex-col items-center">
                     <div className="w-12/12 flex flex-col lg:flex-row gap-16 items-start mt-16">
