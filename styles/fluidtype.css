@@ -43,7 +43,7 @@ i,
 strong,
 a,
 mark {
-  font-weight: 400;
+  font-weight: 300;
   font-size: var(--font-size);
   line-height: var(--line-height);
   letter-spacing: var(--letter-spacing);
@@ -56,7 +56,7 @@ li,
 mark,
 a,
 blockquote {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 code {
