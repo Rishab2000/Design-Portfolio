@@ -15,9 +15,9 @@ const Index = (props) => {
         <IntroText
           className={" transtion-opacity duration-300 ease-in"}
           textHeading={
-            <span>
-              Nice to meet you! I'm Rishab👋. <br />Currently a UX designer at IBM.
-            </span>
+            <h2>
+              Nice to meet you! I'm Rishab👋. Currently a UX designer at IBM.
+            </h2>
           }
           caption={
             <span>
@@ -50,7 +50,7 @@ const Index = (props) => {
           <ProjectSectionHome
             className=" group md:w-11/12 md:mx-auto"
             image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral2.png"}
-            destination="/chiral_colonies"
+            destination="/chiral"
             title="Chiral Colonies - Climate change app | UX Case Study "
           // desc=" A mobile based game that aims to spread awareness on climate change, geared towards young adults.
           // Working towards a substainable future by changing human behaviour."
@@ -60,7 +60,7 @@ const Index = (props) => {
           <ProjectSectionHome
             className="group w-full md:w-5/12 "
             image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/CSS_Challenges_Portfolio.svg"}
-            destination="/css_challenge"
+            destination="/css-challenges"
             title="30 Days Of Code"
           // desc="A personal project I took up in which I coded 30 interactive
           // components using HTML, CSS and Jquery."

@@ -2,26 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer base {
+  /* @font-face {
+    font-family: "satoshi-regular";
+    src: url("Fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Regular.ttf");
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @font-face {
+      font-family: "satoshi-medium";
+      src: url("Fonts/Satoshi/Fonts/WEB/fonts/Satoshi-Medium.ttf");
+    }
+
+  @font-face {
+    font-family: "avenir-roman";
+    src: url("Fonts/Avenir/Avenir-Roman.ttf");
+  }
+
+  @font-face {
+    font-family: "avenir-book";
+    src: url("Fonts/Avenir/Avenir-Book.ttf");
+  }
+
+  @font-face {
+    font-family: "avenir-medium";
+    src: url("Fonts/Avenir/Avenir-Medium.ttf");
+  }
+
+  @font-face {
+    font-family: "avenir-bold";
+    src: url("Fonts/Avenir/Avenir-Heavy.ttf");
+  }
+
+  @font-face {
+    font-family: "avenir-black";
+    src: url("Fonts/Avenir/Avenir-Black.ttf");
+  } */
+
+  body {
+    /* @apply bg-background-color; */
+    overflow-x: hidden;
+  }
 }
