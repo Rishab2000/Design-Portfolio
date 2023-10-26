@@ -8,7 +8,7 @@ const ProjectIntro = (props) => {
           {props.title}
         </h3>
       </div>
-      <div className="mt-3 text-desc-colour">
+      <div className="flex flex-col gap-1 mt-3 text-desc-colour">
         <p>{props.miniDesc.role} </p>
         <p>{props.miniDesc.firm}</p>
         <p>{props.miniDesc.duration}</p>
