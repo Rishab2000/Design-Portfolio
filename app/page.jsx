@@ -1,16 +1,18 @@
+"use client"
+
 import React from "react";
 
-import ProjectSectionHome from "../components/project-section-home";
-import IntroText from "../components/project-section-home/project-section-home-components/introText";
-import Layout from "../components/layout/Layout";
+// import ProjectSectionHome from "../components/project-section-home";
+import ProjectSectionHome from "./components/project-section-home"
+import IntroText from "./components/project-section-home/project-section-home-components/introText";
+import Layout from "./components/layout/Layout";
 
 
 const Index = (props) => {
-  const LandingPageState = props.hidden ? "opacity-0" : " ";
   return (
     <Layout selectedPage='work'>
       <div
-        className={LandingPageState + " transtion-opacity duration-300 ease-in"}
+        className={" transtion-opacity duration-300 ease-in"}
       >
         <IntroText
           className={" transtion-opacity duration-300 ease-in"}

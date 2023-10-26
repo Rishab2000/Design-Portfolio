@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 const Description = (props) => {

@@ -16,10 +16,10 @@ const Layout = (props) => {
     return (
         <div
             className={
-                scrolling + " w-10/12 max-w-7xl h-screen mx-auto bg-background-color"
+                scrolling + " w-10/12 max-w-7xl mx-auto bg-background-color"
             }
         >
-            <Header hidden={hidden} clickHandler={clickHandler} selectedPage={props.selectedPage} />
+            <Header selectedPage={props.selectedPage} />
             {props.children}
             <Footer />
         </div>
