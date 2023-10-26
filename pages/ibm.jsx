@@ -12,16 +12,11 @@ const IBM = (props) => {
     const LandingPageState = props.hidden ? "opacity-0" : " ";
 
     const miniDesc = {
-        role: "UX Design Intern",
-        duration: (
-            <React.Fragment>
-                <p>
-                    Jan 2021 - <em>Expected Jun 2022</em>
-                </p>
-            </React.Fragment>
-        ),
+        role: "Product designer",
+        duration: "Jan 2021 - present",
         firm: "IBM Cloud and Cognitive",
     };
+
     return (
         <Layout>
             <div
@@ -118,10 +113,10 @@ const IBM = (props) => {
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/project-preview-images/Frame_1.png"
                                 }
                                 title={
-                                    <p className="font-avenir-book">
-                                        Self Service Portal <br />
-                                        <p className="text-sm text-gray50">Jan - July 2021 . 6 mos</p>
-                                    </p>
+                                    <span>
+                                        <p>Self Service Portal</p> 
+                                        <p className="label text-gray50">Jan - July 2021 . 6 mos</p>
+                                    </span>
                                 }
                                 hoverDesc=""
                             // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
@@ -137,15 +132,13 @@ const IBM = (props) => {
                                 <Description
                                     hoverDesc={props.hoverDesc}
                                     title={
-                                        <p className="font-avenir-book">
-                                            <span className="font-avenir-medium"> (Coming soon!)</span>
-                                            <br />
-                                            <span className="text-gray50">Admin Portal Dashboard</span>
-                                            <br />
-                                            <p className="text-sm text-gray50">
+                                        <div>
+                                            <p className="text-gray50">Admin Portal Dashboard</p>
+
+                                            <p className=" label text-gray50">
                                                 Jun 2021 - Jan 2022 . 6 mos
                                             </p>
-                                        </p>
+                                        </div>
                                     }
                                     desc={props.desc}
                                 />

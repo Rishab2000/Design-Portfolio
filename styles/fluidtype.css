@@ -93,7 +93,7 @@ blockquote {
 }
 
 a {
-  color: var(--dark-gray);
+  /* color: var(--dark-gray); */
   text-decoration-skip-ink: none;
   font-family: var(--font-family);
 }
@@ -102,9 +102,9 @@ a:focus {
   outline: 1px dashed var(--blue);
 }
 
-a:hover {
+/* a:hover {
   color: var(--blue);
-}
+} */
 
 pre {
   background-color: var(--dark-gray);

@@ -145,7 +145,7 @@ const Behance = () => {
                         color="text-blue-behance"
                         heading="Understanding the problems to work on"
                         desc={
-                            <div>
+                            <span>
                                 <p>
                                     Next, I prioritized the problems to work on by using an
                                     evaluation matrix. Mapping problems on a graph which compare
@@ -155,7 +155,7 @@ const Behance = () => {
                                     <li>"User value" the solution would deliver</li>
                                     <li>"Estimated time & effort" required to solve the problem</li>
                                 </ul>
-                            </div>
+                            </span>
                         }
                     />
                     <div className="flex justify-between items-start">
