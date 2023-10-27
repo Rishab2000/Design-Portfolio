@@ -98,7 +98,7 @@ export default function App() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#">
+          <Link color="foreground" href="/about">
             <p>About</p>
           </Link>
         </NavbarItem>
