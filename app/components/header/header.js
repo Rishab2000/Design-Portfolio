@@ -75,9 +75,9 @@ export default function App() {
   ];
 
   return (
-    <Navbar className="mt-16" classNames={{
-      base:"justify-end",
-      wrapper:"px-0"
+    <Navbar classNames={{
+      base: "justify-end mt-16",
+      wrapper: "px-0"
     }} shouldHideOnScroll onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
@@ -103,9 +103,9 @@ export default function App() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="pl-9 mt-16" >
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem key={`${item}-${index}`} >
             <Link
               color={
                 index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"

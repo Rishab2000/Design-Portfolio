@@ -9,7 +9,6 @@ import Layout from "../components/layout/Layout";
 
 
 const IBM = (props) => {
-    const LandingPageState = props.hidden ? "opacity-0" : " ";
 
     const miniDesc = {
         role: "Product designer",
@@ -20,7 +19,7 @@ const IBM = (props) => {
     return (
         <Layout>
             <div
-                className={LandingPageState + " transtion-opacity duration-300 ease-in"}
+                className=" transtion-opacity duration-300 ease-in"
             >
                 <div className="w-full flex flex-col items-center">
                     <ProjectIntro
