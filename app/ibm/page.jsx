@@ -113,7 +113,7 @@ const IBM = (props) => {
                                 }
                                 title={
                                     <span>
-                                        <p>Self Service Portal</p> 
+                                        <p>Self Service Portal</p>
                                         <p className="label text-gray50">Jan - July 2021 . 6 mos</p>
                                     </span>
                                 }
@@ -122,26 +122,26 @@ const IBM = (props) => {
                             // product, conducted user research, market analysis, created to-be
                             // journey maps and designed prototypes for phased implementation."
                             />
-
-                            <div className=" w-12/12 md:w-4/12 h-auto flex flex-col">
-                                <Image
-                                    image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/project-preview-images/Group_70.png"
+                            <ProjectSectionHome
+                                className="group w-12/12 md:w-4/12"
+                                destination="/ibm/homepage-dashboard"
+                                image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/project-preview-images/Group_70.png"
                                     }
-                                />
-                                <Description
-                                    hoverDesc={props.hoverDesc}
-                                    title={
-                                        <div>
-                                            <p className="text-gray50">Admin Portal Dashboard</p>
+                                title={
+                                    <span>
+                                    <p className="text-gray50">Admin Portal Dashboard</p>
 
-                                            <p className=" label text-gray50">
-                                                Jun 2021 - Jan 2022 . 6 mos
-                                            </p>
-                                        </div>
-                                    }
-                                    desc={props.desc}
-                                />
-                            </div>
+                                    <p className=" label text-gray50">
+                                        Jun 2021 - Jan 2022 . 6 mos
+                                    </p>
+                                </span>
+                                }
+                                hoverDesc=""
+                            // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
+                            // product, conducted user research, market analysis, created to-be
+                            // journey maps and designed prototypes for phased implementation."
+                            />
+                          
 
                             {/* <ProjectSectionHome
                 className="group md:w-4/12"
