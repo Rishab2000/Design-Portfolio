@@ -106,7 +106,7 @@ const IBM = (props) => {
                         <div className="flex flex-col md:flex-row md:gap-16 mt-8">
                             <ProjectSectionHome
                                 className="group w-12/12 md:w-4/12"
-                                destination="/self-service-portal"
+                                destination="/ibm/self-service-portal"
                                 image={
 
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/project-preview-images/Frame_1.png"
