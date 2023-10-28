@@ -1,10 +1,9 @@
-"use client"
-
 import React from "react";
 import ProjectIntro from "../../components/project-intro";
 import ProjectSection from "../../components/project-page-components/green-section/projectSection";
 import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
-import { Tweet } from "react-twitter-widgets";
+import TweetSnip from "./tweet"
+// import { Tweet } from "react-twitter-widgets";
 import Layout from "../../components/layout/Layout";
 
 const SelfServicePortal = (props) => {
@@ -260,12 +259,12 @@ const SelfServicePortal = (props) => {
                                     iterate and improve. We cycled through multiple ideation and
                                     feedback rounds before solidifying on a shippable design.
                                 </p>
+                                {/* <Tweet tweetId="1465437029391425538" options={{ width: "400" }} />  */}
 
-                                <Tweet tweetId="1465437029391425538" options={{ width: "400" }} />
                             </span>
                         }
                     />
-
+                    <TweetSnip />
                     {/* <ProjectSection
             color="text-blue-ibm"
             heading="Phased implementation"
