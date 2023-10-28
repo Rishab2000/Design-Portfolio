@@ -126,14 +126,14 @@ const SdPlus = () => {
                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Insights_Unscrolled_1x.png"
                             }
                             alt="temp"
-                            className="w-full lg:w-context-images"
+                            className="w-full lg:w-5/12"
                         />
                         <img
                             src={
                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Interventions.png"
                             }
                             alt="temp"
-                            className="w-full  lg:w-context-images"
+                            className="w-full  lg:w-5/12"
                         />
                     </div>
                 </ProjectSubDescContainer>
