@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectIntro from "../components/project-intro";
-import ProjectSection from "../components/project-page-components/green-section/projectSection";
+import ProjectSection from "../components/project-page-components/project-section/projectSection";
 import ProjectSubDescContainer from "../components/project-page-components/sub-desc-container";
 import ShowMoreText from "../components/show-more-text";
 import Layout from "../components/layout/Layout";
@@ -64,8 +64,11 @@ const SdPlus = () => {
     };
     const miniDesc = {
         role: "UX design intern",
+        firm: " Smarter Dharma",
         duration: "Apr - Jun 2020",
-        firm: "Smarter Dharma"
+        firstSegment: true,
+        secondSegment: true
+        
     };
     return (
         <Layout>

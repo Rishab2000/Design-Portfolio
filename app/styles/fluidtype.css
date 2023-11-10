@@ -12,7 +12,7 @@
 
 /* Base */
 :root {
-  --font-size: calc(12px + 0.698vw); /* The character count on */
+  --font-size: calc(10px + 0.698vw); /* The character count on */
   --line-height: calc(var(--font-size) * 1.4);
   --letter-spacing: calc(var(--font-size) * 0.0015);
   /* --font-weight: 300; */
@@ -32,19 +32,29 @@ body {
 }
 
 .label{
-  font-size: calc(var(--font-size) * 0.7);
+  font-size: clamp(10px, calc(var(--font-size) * 0.7), 13.33px);
+  
   font-weight:300;
 }
 
 p,
-li,
+li  {
+  font-weight: 300;
+  font-size: clamp(13.33px, calc(var(--font-size) * 0.9), 17.77px);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  font-feature-settings: normal;
+  font-family: var(--font-family);
+}
+
+
 b,
 i,
 strong,
 a,
 mark {
   font-weight: 300;
-  font-size: var(--font-size);
+  font-size: clamp(13.33px, calc(var(--font-size) * 0.9), 17.77px);
   line-height: var(--line-height);
   letter-spacing: var(--letter-spacing);
   font-feature-settings: normal;
@@ -125,6 +135,7 @@ pre {
 }
 
 h1 {
+  font-size: clamp(52px, calc(var(--font-size) * 2), 60px);
   font-size: calc(var(--font-size) * 3);
   letter-spacing: var(--letter-spacing);
   font-weight: 900;
@@ -132,35 +143,36 @@ h1 {
 }
 
 h2 {
-  font-size: calc(var(--font-size) * 2);
+  font-size: clamp(42.09px, calc(var(--font-size) * 2), 52px);
+  /* font-size: calc(var(--font-size) * 2); */
   letter-spacing: var(--letter-spacing);
   font-weight: 700;
   font-family: var(--font-family);
 }
 
 h3 {
-  font-size: calc(var(--font-size) * 1.75);
+  font-size: clamp(31.57px, calc(var(--font-size) * 1.75), 42.09px);
   letter-spacing: var(--letter-spacing);
   font-weight: 700;
   font-family: var(--font-family);
 }
 
 h4 {
-  font-size: calc(var(--font-size) * 1.5);
+  font-size: clamp(23.69px, calc(var(--font-size) * 1.5), 31.57px);
   letter-spacing: var(--letter-spacing);
   font-weight: 700;
   font-family: var(--font-family);
 }
 
 h5 {
-  font-size: calc(var(--font-size) * 1.25);
+  font-size: clamp(13.33px, calc(var(--font-size) * 1.25), 17.77px);
   letter-spacing: var(--letter-spacing);
   font-weight: 400;
   font-family: var(--font-family);
 }
 
 h6 {
-  font-size: calc(var(--font-size) * 1);
+  font-size: clamp(10px, calc(var(--font-size) * 1), 13.33px);
   letter-spacing: var(--letter-spacing);
   font-weight: 400;
   font-family: var(--font-family);

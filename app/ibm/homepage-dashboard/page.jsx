@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectIntro from "../../components/project-intro";
-import ProjectSection from "../../components/project-page-components/green-section/projectSection";
+import ProjectSection from "../../components/project-page-components/project-section/projectSection";
 import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
 import ProjectSectionHome from "../../components/project-section-home";
 import Layout from "../../components/layout/Layout";

@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectIntro from '../components/project-intro';
-import ProjectSection from '../components/project-page-components/green-section/projectSection';
+import ProjectSection from '../components/project-page-components/project-section/projectSection';
 import ProjectSubDescContainer from '../components/project-page-components/sub-desc-container';
 import Layout from '../components/layout/Layout';
 
@@ -245,14 +245,14 @@ const Chiral = () => {
                         />
                         <img
                             src=
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes-02.png"
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes-02.png"
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-12/12 my-3 lg:my-0 lg:w-5/12"
                         />
                         <img
                             src=
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes-03.png"
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes-03.png"
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-12/12 my-3 lg:my-0 lg:w-5/12 lg:mx-auto"
@@ -268,14 +268,14 @@ const Chiral = () => {
                     <div className="flex flex-wrap mt-2 mb-12 lg:-mt-4 lg:mb-24 gap-8 justify-between ">
                         <img
                             src=
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/1.jpg"
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/1.jpg"
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-3/12 my-3 lg:my-0 lg:w-2/12"
                         />
                         <img
                             src=
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/2.jpg"
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/2.jpg"
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-3/12 my-3 lg:my-0 lg:w-2/12"
@@ -283,7 +283,7 @@ const Chiral = () => {
 
                         <img
                             src=
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/4.jpg"
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/4.jpg"
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-3/12 my-3 lg:my-0 lg:w-2/12"
@@ -306,23 +306,23 @@ const Chiral = () => {
             /> */}
                         <img
                             src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/7.jpg"
-                            
+
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-3/12 my-3 lg:my-0 lg:w-2/12"
                         />
                         <img
                             src=
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/8.jpg"
-                            
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/8.jpg"
+
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-3/12 my-3 lg:my-0 lg:w-2/12"
                         />
                         <img
                             src=
-                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com//chiral-project/Wireframes/9.jpg"
-                            
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com//chiral-project/Wireframes/9.jpg"
+
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-3/12 my-3 lg:my-0 lg:w-2/12"
@@ -335,7 +335,7 @@ const Chiral = () => {
             the main page, it was hard for the user to understand what to do. "
                     />
                     <img
-                        src= "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/10.jpg"                    
+                        src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/Wireframes/10.jpg"
                         alt="Created user persona "
                         // add whatever this user flow means
                         className="w-12/12  mt-2 mb-12 lg:-mt-4 lg:mb-24  lg:my-0 lg:w-6/12 mx-auto"
@@ -350,30 +350,30 @@ const Chiral = () => {
                     <div className="flex flex-wrap gap-4  mt-2 mb-12 lg:-mt-4 lg:mb-24 lg:gap-8 justify-between ">
                         <img
                             src=
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/high_fidelity/plankton-02.jpg"
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/high_fidelity/plankton-02.jpg"
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-5/12 my-3 lg:my-0 lg:w-2/12"
                         />
                         <img
                             src=
-                                
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/high_fidelity/plankton-09.jpg"
+
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/high_fidelity/plankton-09.jpg"
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-5/12 my-3 lg:my-0 lg:w-2/12"
                         />
                         <img
                             src=
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/high_fidelity/plankton-03.jpg"
-                            
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/high_fidelity/plankton-03.jpg"
+
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-5/12 my-3 lg:my-0 lg:w-2/12"
                         />
                         <img
                             src=
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/high_fidelity/plankton-04.jpg"
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral-project/high_fidelity/plankton-04.jpg"
                             alt="Created user persona "
                             // add whatever this user flow means
                             className="w-5/12 my-3 lg:my-0 lg:w-2/12"

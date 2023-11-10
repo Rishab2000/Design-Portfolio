@@ -13,6 +13,10 @@ const config: Config = {
     extend: {
       colors: {
         'ibm-blue': '#0f62fe',
+        'text-primary': '#161616',
+        'text-secondary': '#525252',
+        'text-placeholder': '#a8a8a8',
+        'text-helper':'#6f6f6f',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

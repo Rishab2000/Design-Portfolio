@@ -6,11 +6,11 @@ import Footer from '../../components/footer';
 
 const Layout = (props) => {
     return (
-        <div
-            className=" w-10/12 max-w-7xl mx-auto bg-background-color"
-        >
-            <Header selectedPage={props.selectedPage} />
+        <div className={props.className + " bg-background-color"} >
+          
+
             {props.children}
+
             <Footer />
         </div>
     )

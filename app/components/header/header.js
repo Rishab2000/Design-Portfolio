@@ -76,9 +76,9 @@ export default function App() {
 
   return (
     <Navbar classNames={{
-      base: "justify-end mt-16",
-      wrapper: "px-0"
-    }} shouldHideOnScroll onMenuOpenChange={setIsMenuOpen}>
+      base: "justify-end mt-8  ",
+      wrapper: "px-0 w-10/12 max-w-7xl mx-auto"
+    }} onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -103,7 +103,7 @@ export default function App() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="pl-9 mt-16" >
+      <NavbarMenu className="pl-12 pt-24" >
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`} >
             <Link

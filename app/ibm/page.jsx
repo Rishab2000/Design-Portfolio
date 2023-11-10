@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectIntro from "../components/project-intro";
-import ProjectSection from "../components/project-page-components/green-section/projectSection";
+import ProjectSection from "../components/project-page-components/project-section/projectSection";
 import ProjectSubDescContainer from "../components/project-page-components/sub-desc-container";
 import ProjectSectionHome from "../components/project-section-home";
 import Image from "../components/project-section-home/project-section-home-components/image";
@@ -14,6 +14,8 @@ const IBM = (props) => {
         role: "Product designer",
         duration: "Jan 2021 - present",
         firm: "IBM Cloud and Cognitive",
+        firstSegment: true,
+        secondSegment: true
     };
 
     return (
@@ -23,7 +25,7 @@ const IBM = (props) => {
             >
                 <div className="w-full flex flex-col items-center">
                     <ProjectIntro
-                        title="Driving user experience modernization | IBM "
+                        title="Driving product modernization | IBM "
                         subTitle="Driving experience modernization"
                         miniDesc={miniDesc}
                         image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm(hero-image)(75).png"}
@@ -31,7 +33,7 @@ const IBM = (props) => {
 
                     <ProjectSubDescContainer sectionTitle="Context">
                         <ProjectSection
-                            color="text-blue-ibm"
+                            color="text-ibm-blue"
                             heading="What is IBM MaaS360?"
                             desc={
                                 <span>
@@ -53,7 +55,7 @@ const IBM = (props) => {
                         />
 
                         <ProjectSection
-                            color="text-blue-ibm"
+                            color="text-ibm-blue"
                             heading="Projects I worked on"
                             desc={
                                 <span>
@@ -113,8 +115,8 @@ const IBM = (props) => {
                                 }
                                 title={
                                     <span>
-                                        <p>Self Service Portal</p>
-                                        <p className="label text-gray50">Jan - July 2021 . 6 mos</p>
+                                        <p className="text-text-primary">Self Service Portal</p>
+                                        <p className="label text-text-helper">Jan - July 2021 . 6 mos</p>
                                     </span>
                                 }
                                 hoverDesc=""
@@ -126,22 +128,22 @@ const IBM = (props) => {
                                 className="group w-12/12 md:w-4/12"
                                 destination="/ibm/homepage-dashboard"
                                 image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/project-preview-images/Group_70.png"
-                                    }
+                                }
                                 title={
                                     <span>
-                                    <p className="text-gray50">Admin Portal Dashboard</p>
+                                        <p className="text-text-primary">Admin Portal Dashboard</p>
 
-                                    <p className=" label text-gray50">
-                                        Jun 2021 - Jan 2022 . 6 mos
-                                    </p>
-                                </span>
+                                        <p className=" label text-text-helper">
+                                            Jun 2021 - Jan 2022 . 6 mos
+                                        </p>
+                                    </span>
                                 }
                                 hoverDesc=""
                             // desc="Designed a new self service portal for IBM's enterprise product MaaS360. Analysed the
                             // product, conducted user research, market analysis, created to-be
                             // journey maps and designed prototypes for phased implementation."
                             />
-                          
+
 
                             {/* <ProjectSectionHome
                 className="group md:w-4/12"
