@@ -1,72 +1,106 @@
 "use client"
 
-import React from "react";
-
-// import ProjectSectionHome from "../components/project-section-home";
-import ProjectSectionHome from "./components/project-section-home"
+import React, { useCallback } from "react";
+import useEmblaCarousel from 'embla-carousel-react';
+import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures'
+import ProjectSectionHome from "./components/project-section-home";
+import FeaturedProject from "./components/project-section-home/featured-project";
 import IntroText from "./components/project-section-home/project-section-home-components/introText";
 import Layout from "./components/layout/Layout";
-import { Image } from "@nextui-org/react";
+import { ArrowBack, ArrowForward } from "@material-ui/icons";
+import { Image, Button } from "@nextui-org/react";
 import Header from './components/header';
 import Footer from './components/footer';
 import "./scroll.css";
-import { useRef } from "react";
-import {
-  motion,
-  useScroll,
-  useSpring,
-  useTransform,
-  MotionValue
-} from "framer-motion";
+import "./carousel.css";
+
+
 
 
 const Index = (props) => {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [WheelGesturesPlugin()])
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev()
+  }, [emblaApi])
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext()
+  }, [emblaApi])
 
   return (
-    <>
+    < div >
       <Header selectedPage={props.selectedPage} />
 
-      <section className="w-10/12 max-w-7xl h-screen flex flex-row items-start justify-between pt-16 pb-12 md:pt-24 md:pb-56 md:pr-30 xl:pr-0 mx-auto snap-center">
-        <IntroText
-          className={"w-9/12"}
-          textHeading={
-            <h2>
-              Nice to meet you! I'm Rishab👋. A product designer based in Bangalore
-            </h2>
-          }
-        />
+      <section className="w-10/12 max-w-7xl h-full flex flex-col gap-10 pt-16 pb-16 mx-auto homepage-intro">
+        <div className=" flex flex-row items-start justify-between">
+          <IntroText
+            className={"w-9/12"}
+            textHeading={
+              <h2>
+                Nice to meet you! I'm Rishab👋. A product designer based in Bangalore
+              </h2>
+            }
+          />
 
-        <Image
+          <Image
 
-          removeWrapper
-          alt="Card background"
-          className="w-64 bg-black object-cover rounded-full p-4"
-          src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/landingPageRishab.gif"}
-        />
-
+            removeWrapper
+            alt="Card background"
+            className="w-64 bg-black object-cover rounded-full p-4"
+            src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/landingPageRishab.gif"}
+          />
+        </div>
+        <div className="embla w-8/12 relative" ref={emblaRef} >
+          <div className="embla__container relative">
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/15.webp" className=" h-[500px]" /></div>
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/1.webp" className=" h-[500px]" /></div>
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/27.webp" className="h-[500px]" /></div>
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/35.webp" className="h-[500px]" /></div>
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/30.webp" className="h-[500px]" /></div>
+            {/* <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/36.webp" className="h-[500px]" /></div> */}
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/41.webp" className="h-[500px]" /></div>
+            {/* <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/42.webp" className="h-[500px]" /></div> */}
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/43.webp" className="h-[500px]" /></div>
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/49.webp" className="h-[500px]" /></div>
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/45.webp" className="h-[500px]" /></div>
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/50.webp" className="h-[500px]" /></div>
+            <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/8.webp" className="h-[500px]" /></div>
+            <div className="embla__slide pr-4"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/16.webp" className="h-[500px]" /></div>
+          </div>
+          <Button isIconOnly onPress={scrollPrev} className="embla__prev absolute top-1/2 left-6 z-10 bg-white/30 shadow-lg"><ArrowBack /></Button>
+          <Button isIconOnly onPress={scrollNext} className="embla__next absolute top-1/2 right-6 z-10 bg-white/30 shadow-lg"><ArrowForward /></Button>
+        </div>
       </section>
 
-      <section className="w-full h-screen flex justify-center items-center bg-ibm-blue snap-center">
-        <ProjectSectionHome
-          className={""}
-          title="Driving user experience modernization"
-          role="Product designer | IBM"
-          image="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm.png"
-          link="/ibm"
-        />
-      </section>
+      <FeaturedProject
+        backgroundColour="bg-ibm-blue"
+        imageSrc="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm.png"
+        title="Driving user experience modernization"
+        destination="/ibm"
+      />
+      <FeaturedProject
+        backgroundColour="bg-sd-plus-green"
+        imageSrc="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplusTest.png"
+        title="Creating a user experience roadmap"
+        destination="/sdplus"
+      />
 
-      <section className="w-full h-screen flex justify-center items-center bg-text-primary snap-center">
+      {/* <section className="w-full h-screen flex justify-center items-center bg-text-primary snap-center relative">
+        <div className="imageContainer w-6/12 h-[700px] top-10">
+          <ProjectSectionHome
+            className={"image w-full 6"}
+            // title="Driving user experience modernization"
+            // role="Product designer | IBM"
+            image="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplusTest.png"
+            link="/sdplus"
+          />
+        </div>
+        <motion.h2 className="absolute pb-64 text-white" style={{ y, x: 500 }}>Creating a user experience roadmap</motion.h2>
 
-        <ProjectSectionHome
-          title="Creating a user experience roadmap"
-          role="Product designer | SD+"
-          image="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplusTest.png"
-          link="/sdplus"
-        />
-      </section>
+      </section> */}
 
-      <section className=" flex flex-col w-full gap-10 py-10 md:mb-32 snap-center">
+      <section className=" flex flex-col w-full gap-10 py-10 md:mb-32 featured-section">
         <div className="w-full max-w-7xl mx-auto flex gap-10">
           <ProjectSectionHome
             image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral2.png"}
@@ -100,9 +134,10 @@ const Index = (props) => {
           // Completely redesigned the experience to conceive a faster, clearer and conclusive way of search. "
           />
         </div>
+        <Footer />
       </section>
-      <Footer />
-    </>
+
+    </div>
   );
 };
 

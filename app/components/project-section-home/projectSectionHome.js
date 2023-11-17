@@ -17,9 +17,9 @@ import {
 const ProjectSectionHome = (props) => {
   const router = useRouter()
   return (
-    <div className={props.className + " w-6/12 h-[700px] snap-center"} >
+    <div className={props.className + " w-6/12"} >
      {/* h-[700px] */}
-        <Card className="w-full h-[700px]" isPressable onPress={() => router.push(props.link)}>
+        <Card className="w-full h-[600px] " isPressable onPress={() => router.push(props.link)}>
           <CardHeader className="absolute z-10 top-1 flex-col !justify-start !items-start p-6 ">
             <p className="text-white/60 uppercase font-bold">{props.role}</p>
             <h4 className="text-white self-start text-left">{props.title}</h4>

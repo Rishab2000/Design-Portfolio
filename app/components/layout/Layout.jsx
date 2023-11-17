@@ -6,7 +6,7 @@ import Footer from '../../components/footer';
 
 const Layout = (props) => {
     return (
-        <div className={props.className + " bg-background-color"} >
+        <div className={props.className + " w-10/12 mx-auto bg-background-color"} >
           
 
             {props.children}

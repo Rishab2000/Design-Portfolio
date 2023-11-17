@@ -13,6 +13,7 @@ const config: Config = {
     extend: {
       colors: {
         'ibm-blue': '#0f62fe',
+        'sd-plus-green': '#6edb8b',
         'text-primary': '#161616',
         'text-secondary': '#525252',
         'text-placeholder': '#a8a8a8',

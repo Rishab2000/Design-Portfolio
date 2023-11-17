@@ -60,6 +60,8 @@
 
 // export default Header;
 // // Giving form to product visions."
+"use client"
+
 import React from "react";
 import { Navbar, NavbarBrand, NavbarContent, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarItem, Link, Button } from "@nextui-org/react";
 import "./header.css"
@@ -76,9 +78,9 @@ export default function App() {
 
   return (
     <Navbar classNames={{
-      base: "justify-end mt-8  ",
+      base: "justify-end mt-8",
       wrapper: "px-0 w-10/12 max-w-7xl mx-auto"
-    }} onMenuOpenChange={setIsMenuOpen}>
+    }} shouldHideOnScroll onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
