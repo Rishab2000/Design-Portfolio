@@ -4,6 +4,7 @@ import ProjectSection from "../../components/project-page-components/project-sec
 import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
 import ProjectSectionHome from "../../components/project-section-home";
 import Layout from "../../components/layout/Layout";
+import { Image } from "@nextui-org/react";
 
 
 const HomepageDashboard = (props) => {
@@ -31,7 +32,8 @@ const HomepageDashboard = (props) => {
                         heading="Before we gets started"
                         desc={
                             <span className="flex row items-center mt-8">
-                                <img
+                                <Image
+                                    removeWrapper
                                     src="https://media.giphy.com/media/hj8eOHrXqoLntsCyWz/giphy.gif"
                                     alt="A GIF of a cute cat :)"
                                     className="w-4/12 mx-auto"
@@ -62,9 +64,9 @@ const HomepageDashboard = (props) => {
                                 <ul className="list-disc list-inside">
                                     <li>
                                         I led efforts at modernising and prioritizing development of
-                                        the self service portal for MaaS360 end-users; which hadn't
+                                        the self service portal for MaaS360 end-users; which hadn&apos;t
                                         been updated since 2012. It required bottom-up research to
-                                        solidfy our fundamentals our user's needs.
+                                        solidfy our fundamentals our user&apos;s needs.
                                     </li>
                                     <br />
                                     <li>

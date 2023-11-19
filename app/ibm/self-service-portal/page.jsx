@@ -5,6 +5,7 @@ import ProjectSubDescContainer from "../../components/project-page-components/su
 import TweetSnip from "./tweet"
 // import { Tweet } from "react-twitter-widgets";
 import Layout from "../../components/layout/Layout";
+import { Image } from "@nextui-org/react";
 
 const SelfServicePortal = (props) => {
     const miniDesc = {
@@ -41,7 +42,8 @@ const SelfServicePortal = (props) => {
                 MaaS360 Users can self manage their devices using the self service
                 portal  */}</p>
                                 <div className="flex flex-col md:w-10/12">
-                                    <img
+                                    <Image
+                                        removeWrapper
                                         src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/User map.png"
                                         alt="A GIF of a cute cat :)"
                                         className="w-full mt-8 mb-4 rounded-md filter drop-shadow-md"
@@ -71,7 +73,8 @@ const SelfServicePortal = (props) => {
                             <span>
                                 <div className="flex flex-wrap text-center gap-2 mt-10 mb-24 gap-10">
                                     <div className="flex flex-col w-4/12 bg-cool-gray20 bg-opacity-40 rounded-md ">
-                                        <img
+                                        <Image
+                                            removeWrapper
                                             src={
                                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/icons/microscope.svg"
                                             }
@@ -83,7 +86,8 @@ const SelfServicePortal = (props) => {
                                         </p>
                                     </div>
                                     <div className="flex flex-col w-4/12 bg-cool-gray20 rounded-md bg-opacity-40">
-                                        <img
+                                        <Image
+                                            removeWrapper
                                             src={
                                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/icons/choropleth-map.svg"
                                             }
@@ -93,7 +97,8 @@ const SelfServicePortal = (props) => {
                                         <p className="mt-2">User journey maps</p>
                                     </div>
                                     <div className="flex flex-col w-4/12 bg-cool-gray20 rounded-md bg-opacity-40">
-                                        <img
+                                        <Image
+                                            removeWrapper
                                             src={
                                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/icons/heat-map.svg"
                                             }
@@ -111,7 +116,8 @@ const SelfServicePortal = (props) => {
                                         </p>
                                     </div>
                                     <div className="flex flex-col w-4/12 bg-cool-gray20 rounded-md bg-opacity-40">
-                                        <img
+                                        <Image
+                                            removeWrapper
                                             src={
                                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm/icons/flow-logs-vpc.svg"
                                             }
@@ -134,7 +140,7 @@ const SelfServicePortal = (props) => {
                             <span>
                                 <p>
                                     Conducted a cognitive walkthrough of the existing portal using
-                                    IBM's design heuristics guidelines; also, carried out competitive
+                                    IBM&apos;s design heuristics guidelines; also, carried out competitive
                                     analysis to understand the landscape for self service portals in
                                     this context.
                                     <br /> <br />
@@ -152,7 +158,7 @@ const SelfServicePortal = (props) => {
                         desc={
                             <span>
                                 <p>
-                                    Here, we had to look into both end-user's and admin's POV, and
+                                    Here, we had to look into both end-user&apos;s and admin&apos;s POV, and
                                     understand the different goals of both end-users while using, and
                                     admins while activating the portal.
                                     {/* Understand the different goals end-users aim to achieve by logging in and reasons
@@ -182,8 +188,8 @@ const SelfServicePortal = (props) => {
                                 <div className="p-8 bg-ibm-blue rounded-md">
                                     <span >
                                         <p className="text-white text-center">
-                                            Focusing on our users' needs made it easier for us to
-                                            determine what's important. It helped make our offering more
+                                            Focusing on our users&apos; needs made it easier for us to
+                                            determine what&apos;s important. It helped make our offering more
                                             relevant and essential.
                                         </p>
                                     </span>
@@ -205,7 +211,7 @@ const SelfServicePortal = (props) => {
                         desc={
                             <span>
                                 <p>
-                                    "Design directions” aimed to provide a glimpse of the portals
+                                &quot;Design directions&quot; aimed to provide a glimpse of the portals
                                     different meaningful characteristics.
                                 </p>
                                 <br />
@@ -234,7 +240,7 @@ const SelfServicePortal = (props) => {
                                     {/* Two fonts walk into a bar, the bartender says “we don't serve your
                 type here.” So they called the serif "click here to smile link"{" "}
                 <br /> <br /> */}
-                                    Throughout the "making" process to maintain a value-oriented
+                                    Throughout the &quot;making&quot; process to maintain a value-oriented
                                     approach rather than a feature-oriented one, we constantly asked
                                     ourselves:
                                 </p>
@@ -282,7 +288,8 @@ const SelfServicePortal = (props) => {
                         customstyleSpacing="my-5"
                         desc={
                             <span className="flex md:flex-row flex-col mt-8">
-                                <img
+                                <Image
+                                    removeWrapper
                                     src="https://media.giphy.com/media/hj8eOHrXqoLntsCyWz/giphy.gif"
                                     alt="A GIF of a cute cat :)"
                                     className="w-96 md:w-72 mx-auto my-4 lg:my-0"

@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col lg:w-520">
           <p className="label">
-            Let's create engaging experiences together 😁
+            Let&apos;s create engaging experiences together 😁
           </p>
           <a className="label hover:underline" href="mailto: rishabsachidanand@gmail.com" target="_blank" rel="noreferrer">rishabsachidanand@gmail.com</a>
 

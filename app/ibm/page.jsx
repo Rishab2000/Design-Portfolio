@@ -43,7 +43,7 @@ const IBM = (props) => {
                                 desc={
                                     <span>
                                         <p>
-                                            MaaS360 is IBM's enterprise solution that aids organizations
+                                            MaaS360 is IBM&apos;s enterprise solution that aids organizations
                                             in securing smartphones, tablets, laptops and the internet of
                                             things. It helps them keep their devices and data secure.
                                         </p>
@@ -76,10 +76,10 @@ const IBM = (props) => {
                                         <ul className="list-disc list-inside ml-8">
                                             <li>
                                                 Led design efforts to modernize the self service portal
-                                                for MaaS360 end-users which hadn't been updated for long.
+                                                for MaaS360 end-users which hadn&apos;t been updated for long.
                                                 This required fresh and&nbsp;
                                                 <span className="font-avenir-bold">
-                                                    extensive research for identifying end-user's needs and
+                                                    extensive research for identifying end-user&apos;s needs and
                                                     problems.
                                                 </span>
                                                 {/* and
@@ -87,11 +87,11 @@ const IBM = (props) => {
                                             </li>
                                             <br />
                                             <li>
-                                                Revamping the security admin's portal dashboard for MaaS360. The goal here
+                                                Revamping the security admin&apos;s portal dashboard for MaaS360. The goal here
                                                 was to&nbsp;
                                                 <span className="font-avenir-bold">
                                                     provide admins with a deployment overview, reduce navigation
-                                                    time and align it with the product's strategic direction.
+                                                    time and align it with the product&apos;s strategic direction.
                                                 </span>
                                             </li>
                                             {/* 

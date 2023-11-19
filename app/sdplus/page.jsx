@@ -5,6 +5,7 @@ import ProjectSubDescContainer from "../components/project-page-components/sub-d
 import ShowMoreText from "../components/show-more-text";
 import Header from '../components/header';
 import Layout from "../components/layout/Layout";
+import { Image } from "@nextui-org/react";
 
 const SdPlus = () => {
     const text = {
@@ -26,7 +27,7 @@ const SdPlus = () => {
                 </p>
                 <ul className="list-disc list-inside mt-2 mb-8">
                     <li>What did they like about the product? </li>
-                    <li>What didn't you like about the product?</li>
+                    <li>What didn&apos;t you like about the product?</li>
                     <li>
                         What are their feelings towards the current process in place? Does
                         it meet their expectations?
@@ -127,14 +128,14 @@ const SdPlus = () => {
                             />
                         </div>
                         <div className="flex flex-col items-start justify-between gap-8 lg:gap-0 lg:flex-row w-full  mb-8">
-                            <img
+                            <Image
                                 src={
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Insights_Unscrolled_1x.png"
                                 }
                                 alt="temp"
                                 className="w-full lg:w-5/12"
                             />
-                            <img
+                            <Image
                                 src={
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Interventions.png"
                                 }
@@ -154,7 +155,7 @@ const SdPlus = () => {
                                     found the current usability & functionality insufficient for their
                                     needs.</p>}
                             />
-                            <img
+                            <Image
                                 src={
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Comments/1(Client)-02.svg"
                                 }
@@ -173,7 +174,7 @@ const SdPlus = () => {
                                     experience.</p>}
                             />
 
-                            <img
+                            <Image
                                 src={
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Comments/2(me).svg"
                                 }
@@ -189,7 +190,7 @@ const SdPlus = () => {
                                 Design Challenge
                             </p>
                             <p className=" text-white text-4xl">
-                                How might we refocus and restructure the product's experience?
+                                How might we refocus and restructure the product&apos;s experience?
                             </p>
                         </div>
                     </div>
@@ -201,7 +202,7 @@ const SdPlus = () => {
                                 as user stages and  calling them Experiences. From start to finish, we mapped five distinct
                                 stages our users would pass through.</p>}
                         />
-                        <img
+                        <Image
                             src={
                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Roadmap/Customer_journey_task.png"
                             }
@@ -211,10 +212,10 @@ const SdPlus = () => {
                         <ProjectSection
                             color="text-green-sdplus"
                             heading="Identifying touchpoints"
-                            desc={<p>We now started defining our users' interactions by describing
+                            desc={<p>We now started defining our users&apos; interactions by describing
                                 touchpoints our users would use to interact with our organization.</p>}
                         />
-                        <img
+                        <Image
                             src={
                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Roadmap/Customer_journey_touchpoints.png"
                             }
@@ -230,7 +231,7 @@ const SdPlus = () => {
                                 </span>
                             }
                         />
-                        <img
+                        <Image
                             src="https://media.giphy.com/media/ftN31y6wNaJxCkLYNS/giphy.gif"
                             alt="A GIF of a cute cat :)"
                             className="w-4/12 mx-auto mt-4 mb-12"
@@ -249,7 +250,7 @@ const SdPlus = () => {
 
                         <div className="flex flex-wrap justify-center items-center font-avenir-book text-xs lg:text-base text-center gap-5 mt-8 mb-24">
                             <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 bg-opacity-40 rounded-md p-4">
-                                <img
+                                <Image
                                     src={
                                         "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-01.svg"
                                     }
@@ -259,7 +260,7 @@ const SdPlus = () => {
                                 <p className="mt-2">Minimal business insights for CEOs</p>
                             </div>
                             <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
-                                <img
+                                <Image
                                     src={
                                         "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-02.svg"
                                     }
@@ -269,7 +270,7 @@ const SdPlus = () => {
                                 <p className="mt-2">Missing dynamic & visual data</p>
                             </div>
                             <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
-                                <img
+                                <Image
                                     src={
                                         "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-03.svg"
                                     }
@@ -290,7 +291,7 @@ const SdPlus = () => {
                                 Improvements and New. This helped us understand the nature of the
                                 idea and an overview plan of implementation.</p>}
                         />
-                        <img
+                        <Image
                             src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Ideas/ideas.png"
                             }
                             alt="A GIF of a cute cat :)"
@@ -332,7 +333,7 @@ const SdPlus = () => {
                             }
                         />
 
-                        <img
+                        <Image
                             src={
                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/insights/Insights1.5x.png"
                             }
@@ -358,7 +359,7 @@ const SdPlus = () => {
                             }
                         />
 
-                        <img
+                        <Image
                             src={
                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/insights/InsightsScrolled_1.5x.png"
                             }
@@ -372,7 +373,7 @@ const SdPlus = () => {
                             desc={
                                 <p>
                                     As part of redesign, we also wanted to bring in more transparency about intervention details and its status.
-                                    The "intervention status" is an intricate flow, which I closely worked on with our tech and product manager.
+                                    The &quot;intervention status&quot; is an intricate flow, which I closely worked on with our tech and product manager.
                                 </p>
                             }
                         />
@@ -383,7 +384,7 @@ const SdPlus = () => {
                                     <h4>After</h4>
                                     <ul className="space-y-4">
                                         <li>
-                                            + "Role-based access" work flow implemented for architect
+                                            + &quot;Role-based access&quot; work flow implemented for architect
                                             teams to approve interventions
                                         </li>
                                         <li>
@@ -391,13 +392,13 @@ const SdPlus = () => {
                                             govt. compliance
                                         </li>
                                         <li>+ Tabbing of resource type to prevent scrolling</li>
-                                        <li>+ Added a more commonly used term "Rupee/Sqft</li>
+                                        <li>+ Added a more commonly used term &quot;Rupee/Sqft&quot;</li>
                                     </ul>
                                 </span>
                             }
                         />
 
-                        <img
+                        <Image
                             src={
                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/interventions/Interventions.png"
                             }
@@ -421,7 +422,7 @@ const SdPlus = () => {
                                 </span>
                             }
                         />
-                        <img
+                        <Image
                             src={
                                 "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Interventions_Pre_Scrolled_1.5x.png"
                             }

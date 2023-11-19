@@ -38,14 +38,14 @@ const Index = (props) => {
             className={" w-9/12 lg:w-8/12 xl:w-9/12"}
             textHeading={
               <h2>
-                Nice to meet you! I'm Rishab👋. A product designer based in Bangalore
+                Nice to meet you! I&apos;m Rishab👋. A product designer based in Bangalore
               </h2>
             }
           />
 
           <Image
             removeWrapper
-            alt="Card background"
+            alt="Gif of me making faces"
             className=" w-16 lg:w-48 xl:w-64 bg-black object-cover rounded-full p-4"
             src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/landingPageRishab.gif"}
           />
@@ -59,20 +59,20 @@ const Index = (props) => {
             </h1>
             <div className="embla xl:w-9/12 2xl:w-8/12 relative" ref={emblaRef} >
               <div className="embla__container">
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/1.webp" className=" h-[200px] lg:h-[500px]" /></div>
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/15.webp" className=" h-[200px] lg:h-[500px]" /></div>
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/27.webp" className="h-[200px] lg:h-[500px]" /></div>
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/35.webp" className="h-[200px] lg:h-[500px]" /></div>
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/30.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/1.webp" className=" h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/15.webp" className=" h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/27.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/35.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/30.webp" className="h-[200px] lg:h-[500px]" /></div>
                 {/* <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/36.webp" className="h-[500px]" /></div> */}
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/41.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/41.webp" className="h-[200px] lg:h-[500px]" /></div>
                 {/* <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/42.webp" className="h-[500px]" /></div> */}
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/43.webp" className="h-[200px] lg:h-[500px]" /></div>
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/49.webp" className="h-[200px] lg:h-[500px]" /></div>
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/45.webp" className="h-[200px] lg:h-[500px]" /></div>
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/50.webp" className="h-[200px] lg:h-[500px]" /></div>
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/8.webp" className="h-[200px] lg:h-[500px]" /></div>
-                <div className="embla__slide"><Image src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/16.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/43.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/49.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/45.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/50.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/8.webp" className="h-[200px] lg:h-[500px]" /></div>
+                <div className="embla__slide"><Image alt="Photography" src="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/homepage-photos/16.webp" className="h-[200px] lg:h-[500px]" /></div>
               </div>
               <Button isIconOnly onPress={scrollPrev} className="embla__prev absolute top-1/2 left-6 z-10 bg-white/30 shadow-lg"><ArrowBack /></Button>
               <Button isIconOnly onPress={scrollNext} className="embla__next absolute top-1/2 right-6 z-10 bg-white/30 shadow-lg"><ArrowForward /></Button>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Divider } from "@nextui-org/react";
+import { Divider, Image} from "@nextui-org/react";
 
 const ProjectIntro = (props) => {
   return (
@@ -20,7 +20,7 @@ const ProjectIntro = (props) => {
           </div>
         </div>
         <div className="w-6/12 overflow-hidden md:rounded-lg">
-          <img src={props.image} alt="temp" />
+          <Image src={props.image} alt="temp" />
         </div>
 
       </div>

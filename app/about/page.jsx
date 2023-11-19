@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectSubDescContainer from '../components/project-page-components/sub-desc-container';
 import Layout from "../components/layout/Layout";
+import { Image } from "@nextui-org/react";
 
 const About = (props) => {
     return (
@@ -8,23 +9,23 @@ const About = (props) => {
             <div className=" transtion-opacity duration-300 ease-in">
                 <div className="w-full flex flex-col items-center">
                     <div className="w-12/12 flex flex-col lg:flex-row gap-16 items-start mt-16">
-                        <img
-                            src=
-                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/about/me.webp"
-                            alt="me sitting on a beach"
+                        <Image
+                            removeWrapper
+                            alt="Photo of me standing on a rock during a trek"
                             className="w-12/12 md:w-6/12 lg:w-4/12"
+                            src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/about/me.webp"}
                         />
                         <div className="lg:w-full">
                             <div className="md:text-lg lg:text-xl  text-desc-colour font-satoshi-regular">
                                 <p>
-                                    Hi again, I'm Rishab,
+                                    Hi again, I&apos;m Rishab,
                                     <br />
                                     <br />
                                     A UX designer based in Bangalore working towards making
-                                    someone's life a little bit easier.
+                                    someone&apos;s life a little bit easier.
 
                                     I deeply think about the stories of the people who will interact
-                                    with products, I'm working on and the context of their experiences.
+                                    with products, I&apos;m working on and the context of their experiences.
                                     I aim to create products with the utmost consideration towards
                                     minimizing negative emotions and create
                                     delightful - frictionless - experiences.
@@ -50,7 +51,7 @@ const About = (props) => {
                 in the rainy suburbs of Seattle, and moved up to downtown for UW.
                 A decade later I became a United States Citizen! */}
                                     <br />
-                                    Apart from design, I've learnt some amount of programming,
+                                    Apart from design, I&apos;ve learnt some amount of programming,
                                     mostly focusing on web frontend development and also some aspects
                                     of backend systems. My knowledge about technical possibilities
                                     and limitations helps lead to strong designer-developer
@@ -62,7 +63,7 @@ const About = (props) => {
                     <ProjectSubDescContainer className="lg:w-full">
 
                         <div className="mt-16">
-                            <p className="font-satoshi-medium text-2xl lg:text-3xl">When I'm not designing, I can be found</p>
+                            <p className="font-satoshi-medium text-2xl lg:text-3xl">When I&apos;m not designing, I can be found</p>
                             <span className="md:text-lg lg:text-xl  text-desc-colour font-satoshi-regular">
                                 <ul className="list-disc list-inside mt-2">
                                     <li>Playing football every weekend ⚽</li>
@@ -83,7 +84,7 @@ const About = (props) => {
                 work on self service portal for end-users using MaaS360 app (an
                 enterprise solution). */}
                                 <br />
-                                "He demonstrated good design thinking capabilities, and
+                                &quot;He demonstrated good design thinking capabilities, and
                                 communicated + presented his work very nicely to the stakeholders;
                                 which made them interested in prioritising the development and
                                 rollout of the new designs.
@@ -92,7 +93,7 @@ const About = (props) => {
                                 He is good at documenting journeys and communicating design
                                 decisions, and has a very good attitude. Overall he is a team
                                 player and showed a learning spirit to always keep improving the
-                                work."
+                                work.&quot;
                                 <br />
                                 <br />
                                 <em>-- Rajshree, Senior Product Designer, IBM </em>
@@ -100,11 +101,11 @@ const About = (props) => {
                             <hr />
 
                             <p className="my-8 md:text-lg lg:text-xl  text-desc-colour font-satoshi-regular">
-                                "Rishab is an enterprising young UI / UX designer who's integrated
+                            &quot;Rishab is an enterprising young UI / UX designer who&apos;s integrated
                                 seamlessly into our development team.
                                 <br />
                                 <br />
-                                He's naturally curious about products, asks great questions and
+                                He&apos;s naturally curious about products, asks great questions and
                                 tries to understand different perspectives of a problem before
                                 offering a range of solutions along with his reasoning. His
                                 pragmatic approach coupled with his knack of improving his
@@ -113,10 +114,10 @@ const About = (props) => {
                                 <br />
                                 <br />
                                 As a design student, he naturally possesses an abundance of
-                                creativity, but it's his willingness to work hard and his
+                                creativity, but it&apos;s his willingness to work hard and his
                                 dedication that really catches the eye. He shows great maturity in
-                                his role and as his mentor, I'm looking forward to seeing him
-                                continue his professional development."
+                                his role and as his mentor, I&apos;m looking forward to seeing him
+                                continue his professional development.&quot;
                                 <br />
                                 <br />
                                 <em>-- Rishab Arora, Product Manager, Smarter Dharma </em>

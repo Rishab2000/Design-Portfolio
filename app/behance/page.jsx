@@ -3,6 +3,7 @@ import ProjectIntro from '../components/project-intro';
 import ProjectSection from '../components/project-page-components/project-section'
 import ProjectSubDescContainer from '../components/project-page-components/sub-desc-container';
 import Layout from '../components/layout/Layout';
+import { Image } from '@nextui-org/react';
 
 const Behance = () => {
     const miniDesc = {
@@ -20,8 +21,8 @@ const Behance = () => {
                 <ProjectSubDescContainer sectionTitle="Introduction">
                     <p className="mt-2 mb-8">
                         Behance is a platform for creatives of just about every field and
-                        discipline to showcase their work in the form of "projects". You can
-                        search, like and follow people's works.
+                        discipline to showcase their work in the form of &quot;projects&quot;. You can
+                        search, like and follow people&apos;s works.
                         <br />
                         <br />
                         A redesign project initiated that includes a complete redesign of the
@@ -37,7 +38,8 @@ const Behance = () => {
                 <div className="bg-red-100 w-screen py-6 mb-8">
                     <div className="w-8/12 max-w-7xl mx-auto text-white text-center flex justify-between ">
                         <div className="flex flex-col lg:w-2/12 justify-start  p-4">
-                            <img
+                            <Image
+                                removeWrapper
                                 src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/Index_icons/user-01.svg"}
                                 alt="Investigating emoji 🧐"
                                 className="w-12 mx-auto"
@@ -45,7 +47,8 @@ const Behance = () => {
                             <p className="mt-2label">Empathizing</p>
                         </div>
                         <div className="flex flex-col lg:w-2/12 justify-start  p-4">
-                            <img
+                            <Image
+                                removeWrapper
                                 src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/Index_icons/evaluate-01.svg"}
                                 alt="Heart emoji ❤️"
                                 className="w-12 mx-auto"
@@ -53,7 +56,8 @@ const Behance = () => {
                             <p className="mt-2 label">Heuristic evaluation</p>
                         </div>
                         <div className="flex flex-col lg:w-2/12 justify-start p-4">
-                            <img
+                            <Image
+                                removeWrapper
                                 src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/Index_icons/selection1-01.svg"}
                                 alt="Thinking emoji 🤔"
                                 className="w-12 mx-auto"
@@ -61,7 +65,8 @@ const Behance = () => {
                             <p className="mt-2 label">Prioritizing problems</p>
                         </div>
                         <div className="flex flex-col lg:w-2/12 justify-start p-4">
-                            <img
+                            <Image
+                                removeWrapper
                                 src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/Index_icons/Ideate-01.svg"}
                                 alt="Big boi on laptop 🧑‍💻"
                                 className="w-12 mx-auto"
@@ -69,7 +74,8 @@ const Behance = () => {
                             <p className="mt-2 label">Ideation</p>
                         </div>
                         <div className="flex flex-col lg:w-2/12 justify-start p-4">
-                            <img
+                            <Image
+                                removeWrapper
                                 src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/Index_icons/testing-01.svg"}
                                 alt="Smart boi doing science 🧑‍🔬"
                                 className="w-12 mx-auto"
@@ -87,7 +93,8 @@ const Behance = () => {
                             guide decisions further down the line. </p>}
                     />
                 </ProjectSubDescContainer>
-                <img
+                <Image
+                    removeWrapper
                     src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/pictures/user-01.png"}
                     alt="Board of sticky notes displaying connection between data points"
                     className="w-12/12 my-12 lg:-mt-4 lg:mb-24 "
@@ -101,7 +108,8 @@ const Behance = () => {
                     />
                     <div className="flex flex-row flex-wrap gap-8 font-avenir-book text-xs lg:text-sm mt-6 lg:-mt-4 mb-12 lg:mb-24">
                         <div className="w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow-md justify-center items-center gap-12 py-5">
-                            <img
+                            <Image
+                                removeWrapper
                                 src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/icons/confusion.svg"}
                                 alt="tree illustration"
                                 className="w-1/12 lg:w-2/12"
@@ -109,7 +117,8 @@ const Behance = () => {
                             <p className="label w-5/12">Lack of a dedicated search button.</p>
                         </div>
                         <div className="w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow-md justify-center items-center   gap-12 py-5">
-                            <img
+                            <Image
+                                removeWrapper
                                 src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/icons/Grouping.svg"}
                                 alt="tree illustration"
                                 className="w-1/12 lg:w-2/12"
@@ -120,7 +129,8 @@ const Behance = () => {
                             </p>
                         </div>
                         <div className=" w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow-md justify-center items-center  gap-12 py-5">
-                            <img
+                            <Image
+                                removeWrapper
                                 src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/icons/Choice-01.svg"}
                                 alt="tree illustration"
                                 className="w-1/12 lg:w-2/12"
@@ -130,7 +140,8 @@ const Behance = () => {
                             </p>
                         </div>
                         <div className="w-full lg:w-5/12 h-20 lg:h-32 flex bg-background-color filter drop-shadow-md justify-center items-center  gap-12 py-5">
-                            <img
+                            <Image
+                                removeWrapper
                                 src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/icons/Variety-01.svg"}
                                 alt="tree illustration"
                                 className="w-1/12 lg:w-2/12"
@@ -152,24 +163,27 @@ const Behance = () => {
                                     them on two main parameters:
                                 </p>
                                 <ul className="list-disc list-inside font-avenir-book mt-2 mb-2">
-                                    <li>"User value" the solution would deliver</li>
-                                    <li>"Estimated time & effort" required to solve the problem</li>
+                                    <li>&quot;User value&quot; the solution would deliver</li>
+                                    <li>&quot;Estimated time & effort&quot; required to solve the problem</li>
                                 </ul>
                             </span>
                         }
                     />
                     <div className="flex justify-between items-start">
-                        <img
+                        <Image
+                            removeWrapper
                             src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/pictures/1.jpg"}
                             alt="sticky notes of discovered problems"
                             className="w-3/12 lg:w-3/12"
                         />
-                        <img
+                        <Image
+                            removeWrapper
                             src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/pictures/2.jpg"}
                             alt="evaluation matrix used"
                             className="w-4/12 lg:w-4/12"
                         />
-                        <img
+                        <Image
+                            removeWrapper
                             src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/pictures/3.jpg"}
                             alt="problem stick notes mapped on the evaluation matrix"
                             className=" w-4/12 lg:w-4/12"
@@ -182,10 +196,11 @@ const Behance = () => {
                         color="text-blue-behance"
                         heading="Categorizing and minimizing redundancy"
                         desc={<p>Categorizing projects (based on frequently viewed creative fields)
-                            in the initial "browse page" allowing users to quickly browse through them
+                            in the initial &quot;browse page&quot; allowing users to quickly browse through them
                             when they are not looking for something specific to search.</p>}
                     />
-                    <img
+                    <Image
+                        removeWrapper
                         src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/pictures/final/1_opt.png"}
                         alt="problem stick notes mapped on the evaluation matrix"
                         className="lg:w-full mb-28"
@@ -194,11 +209,12 @@ const Behance = () => {
                         width="lg:w-9/12"
                         color="text-blue-behance"
                         heading="Maximizing focus by reducing distractions"
-                        desc={<p>While searching, the user is allowed to focus on what's important by
+                        desc={<p>While searching, the user is allowed to focus on what&apos;s important by
                             darkening everything else, aiming to alleviate the cognitive load. The addition
                             of a search button directs the user to the next step in the process. </p>}
                     />
-                    <img
+                    <Image
+                        removeWrapper
                         src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/pictures/final/2_opt.png"}
                         alt="problem stick notes mapped on the evaluation matrix"
                         className="lg:w-full mb-28"
@@ -209,12 +225,13 @@ const Behance = () => {
                         heading="Optimizing functionality using Occam's Razor "
                         desc={<p>Sort and filter buttons separated to prevent mis-clicks and also the
                             removal of the sub-navigation tab to eliminate redundancy. An extra feature I
-                            added is, "view similar projects" button. This button appears when the user
+                            added is, &quot;view similar projects&quot; button. This button appears when the user
                             hovers over a project. It helps produce more insightful results which are similar
                             to that project on the same page.</p>}
 
                     />
-                    <img
+                    <Image
+                        removeWrapper
                         src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/pictures/final/3_opt.png"}
                         alt="problem stick notes mapped on the evaluation matrix"
                         className="lg:w-full mb-28"
@@ -223,11 +240,12 @@ const Behance = () => {
                         width="lg:w-9/12"
                         color="text-blue-behance"
                         heading="Maintaining context to boost usability"
-                        desc={<p>Clicking "filter" reveals the options on the same page rather than in
+                        desc={<p>Clicking &quot;filter&quot; reveals the options on the same page rather than in
                             a modal box. This aims to maintain consistency and flow in the minds of the user. </p>}
 
                     />
-                    <img
+                    <Image
+                        removeWrapper
                         src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/pictures/final/4_opt.png"}
                         alt="problem stick notes mapped on the evaluation matrix"
                         className=" lg:w-full mb-28"
@@ -242,7 +260,8 @@ const Behance = () => {
                             using special keys.
                         </p>}
                     />
-                    <img
+                    <Image
+                        removeWrapper
                         src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/pictures/final/5_opt.png"}
                         alt="problem stick notes mapped on the evaluation matrix"
                         className="w-full mb-28"

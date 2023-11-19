@@ -127,18 +127,18 @@ import "../../../scroll.css"
 
 const FeaturedProject = (props) => {
 
-    function userParallaxText(value, distance) {
+    function UserParallaxText(value, distance) {
         return useTransform(value, [0, 1], ["-70%", "70%"]);
     }
-    function userParallaxImage(value, distance) {
+    function UserParallaxImage(value, distance) {
         return useTransform(value, [0, 1], ["-50%", "50%"]);
     }
     const link = props.link
     const ref = useRef(null);
     const isInView = useInView(ref);
     const { scrollYProgress } = useScroll({ target: ref, offset: ["end start", "start end"] });
-    const yText = userParallaxText(scrollYProgress);
-    const yImage = userParallaxImage(scrollYProgress);
+    const yText = UserParallaxText(scrollYProgress);
+    const yImage = UserParallaxImage(scrollYProgress);
 
 
     useMotionValueEvent(scrollYProgress, "change", (latest) => {
