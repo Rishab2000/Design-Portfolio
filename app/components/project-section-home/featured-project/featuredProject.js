@@ -158,7 +158,7 @@ const FeaturedProject = (props) => {
         <section ref={ref} className={props.backgroundColour + '  flex flex-col lg:flex-row lg:items-center w-full h-[700px] lg:h-[1000px] xl:h-screen pt-20 lg:pt-0 imageContainer featured-section'}>
             <div className="  gap-8 w-11/12 lg:w-11/12 h-full relative mx-auto">
 
-                <motion.h1 className="text-white feature 2xl:w-11/12 lg:absolute lg:top-[50%] xl:top-[55%] 2xl:pt-[620px] pb-8 lg:pb-8"
+                <motion.h1 className="text-white feature 2xl:w-11/12 lg:absolute lg:top-[10%] xl:top-[10%] pb-8 lg:pb-8"
                     style={{
                         y: yText,
                         opacity: isInView ? 1 : 0,
@@ -168,7 +168,7 @@ const FeaturedProject = (props) => {
                     {props.title}
                 </motion.h1>
 
-                <div className={" lg:absolute flex flex-col lg:flex-row gap-4 lg:gap-8 lg:items-end lg:justify-between  w-full lg:w-6/12 xl:w-6/12 2xl:w-5/12 lg:top-24 xl:top-32 2xl:top-20  pb-8 lg:border-b-1 " + props.textColour}>
+                <div className={" lg:absolute flex flex-col lg:flex-row gap-4 lg:gap-8 lg:items-end lg:justify-between w-full lg:w-6/12 xl:w-6/12 2xl:w-5/12 lg:bottom-[200px] xl:bottom-[180px] 2xl:bottom-[180px]  pb-8 lg:border-b-1 " + props.textColour}>
                     <p className={'lg:w-6/12 ' + props.textColour}>{props.desc}</p>
 
                     <button type="reset" onClick={navigate} className=" flex items-center xl:gap-2 2xl:gap-4 z-10">
@@ -191,7 +191,7 @@ const FeaturedProject = (props) => {
                     style={{
                         y: yImage,
                     }}
-                    className="imageContainer mx-auto lg:absolute lg:left-20 xl:left-24 w-full lg:w-5/12 xl:w-5/12 2xl:w-5/12 h-[250px] lg:h-[300px] xl:h-[400px] 2xl:h-[500px] ">
+                    className="imageContainer mx-auto lg:absolute lg:left-[55%] xl:left-[55%] lg:bottom-[290px] xl:bottom-[300px] 2xl:bottom-[250px] w-full lg:w-10/12 xl:w-5/12 2xl:w-5/12 h-[250px] lg:h-[300px] xl:h-[400px] 2xl:h-[500px] ">
 
                     <ProjectSectionHome
                         className={"image lg:translate-y-24 xl:translate-y-32 2xl:translate-y-20"}
