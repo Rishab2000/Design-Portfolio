@@ -37,6 +37,36 @@ body {
   font-weight:300;
 }
 
+.feature{
+  font-size: clamp(24px, calc(var(--font-size) * 2), 60px);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: var(--font-family);
+}
+
+
+@media screen and (min-width: 1024px){
+  .feature{
+  font-size: clamp(52px, calc(var(--font-size) * 4.8), 200px);
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-family: var(--font-family);
+}
+}
+
+.learn-more{
+  font-weight: 300;
+  font-size: clamp(13.33px, calc(var(--font-size) * 0.9), 17.77px);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+  font-feature-settings: normal;
+  /* font-family: var(--font-family);
+  font-size: clamp(24px, calc(var(--font-size) * 0.8), 40px);
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-family: var(--font-family); */
+}
+
 p,
 li  {
   font-weight: 300;
@@ -135,19 +165,39 @@ pre {
 }
 
 h1 {
+  font-size: clamp(24px, calc(var(--font-size) * 2), 60px);
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-family: var(--font-family);
+}
+
+@media screen and (min-width: 1024px){
+  h1 {
   font-size: clamp(52px, calc(var(--font-size) * 2), 60px);
   font-size: calc(var(--font-size) * 3);
   letter-spacing: 2px;
   font-weight: 100;
   font-family: var(--font-family);
 }
+}
+
 
 h2 {
-  font-size: clamp(42.09px, calc(var(--font-size) * 2), 52px);
+  font-size: clamp(16px, calc(var(--font-size) * 1), 52px);
   /* font-size: calc(var(--font-size) * 2); */
   letter-spacing: var(--letter-spacing);
   font-weight: 700;
   font-family: var(--font-family);
+}
+
+@media screen and (min-width: 1024px) {
+h2{
+  font-size: clamp(16px, calc(var(--font-size) * 2), 52px);
+  /* font-size: calc(var(--font-size) * 2); */
+  letter-spacing: var(--letter-spacing);
+  font-weight: 700;
+  font-family: var(--font-family);
+}
 }
 
 h3 {

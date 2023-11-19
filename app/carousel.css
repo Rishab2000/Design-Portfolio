@@ -4,11 +4,36 @@
   .embla__container {
     display: flex;
     align-items: center;
-    height: 550px;
+    height: 240px;
     gap: 1rem;
+    padding-left: 1rem;
     touch-action: pan-y;
   }
+
   .embla__slide {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    height: 200px;
+    touch-action: pan-x;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: 1024px){  
+    
+    .embla__container {
+      display: flex;
+      align-items: center;
+      height: 520px;
+      gap: 1rem;
+      padding-left: 1rem;
+      touch-action: pan-y;
+    }
+   
+    .embla__slide {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -19,14 +44,13 @@
     min-width: 0;
     overflow: hidden;
   }
+}
+
 
   /* .embla__slide:nth-child(1) {
     flex: 0 0 100%;
   } */
 
-  .embla__slide:nth-child(2) {
-    overflow: hidden;
-  }
 /* 
   .embla__slide:nth-child(3) {
     flex: 0 0 40%;

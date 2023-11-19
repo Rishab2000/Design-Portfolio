@@ -11,9 +11,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        '8xl': '1408px',
+      },
       colors: {
         'ibm-blue': '#0f62fe',
         'sd-plus-green': '#6edb8b',
+        'ibm-home-back': '#002D9C',
+        'sd-plus-home-back': '#40BF4D',
+        'back':'##161616',
         'text-primary': '#161616',
         'text-secondary': '#525252',
         'text-placeholder': '#a8a8a8',

@@ -79,7 +79,7 @@ export default function App() {
   return (
     <Navbar classNames={{
       base: "justify-end mt-8",
-      wrapper: "px-0 w-10/12 max-w-7xl mx-auto"
+      wrapper: "px-0 w-10/12 max-w-8xl mx-auto"
     }} shouldHideOnScroll onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
