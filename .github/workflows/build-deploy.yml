@@ -32,7 +32,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: production-files
-        path: react/react-bundle
+        path: ./react-bundle
         if-no-files-found: error
   
   deploy:
