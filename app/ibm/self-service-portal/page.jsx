@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectIntro from "../../components/project-intro";
-import ProjectSection from "../../components/project-page-components/green-section/projectSection";
+import ProjectSection from "../../components/project-page-components/project-section";
 import ProjectSubDescContainer from "../../components/project-page-components/sub-desc-container";
 import TweetSnip from "./tweet"
 // import { Tweet } from "react-twitter-widgets";
