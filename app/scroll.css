@@ -8,12 +8,21 @@ html {
   }
 
   .other-projects{
-    scroll-snap-align: start;
+    scroll-snap-align: none;
+  }
+
+  @media screen and (min-width: 768px){
+    .other-projects{
+      scroll-snap-align: start;
+    }
+
+    .homepage-intro{
+      scroll-snap-align: start;
+    }
   }
 
   .homepage-intro{
-    scroll-snap-align: start;
-    scroll-margin-top: 32px;
+    scroll-snap-align: none;
   }
 
   .image{
