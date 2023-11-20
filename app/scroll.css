@@ -7,8 +7,12 @@ html {
     scroll-snap-align: center;
   }
 
+  .other-projects{
+    scroll-snap-align: start;
+  }
+
   .homepage-intro{
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     scroll-margin-top: 32px;
   }
 

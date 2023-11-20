@@ -30,9 +30,8 @@ const Index = (props) => {
 
   return (
     < div >
-      <Header selectedPage={props.selectedPage} />
-
-      <section className="w-11/12 lg:w-11/12 xl:w-10/12 max-w-8xl h-full flex flex-col gap-16 pt-4 lg:pt-16 pb-32 mx-auto homepage-intro">
+      <section className="w-11/12 lg:w-11/12 xl:w-10/12 max-w-8xl h-full flex flex-col gap-16 pt-4 pb-32 mx-auto homepage-intro">
+        <Header selectedPage={props.selectedPage} />
         <div className=" flex flex-row items-start justify-between">
           <IntroText
             className={" w-9/12 lg:w-8/12 xl:w-9/12"}
@@ -137,7 +136,7 @@ const Index = (props) => {
 
       </section> */}
 
-      <section className=" flex flex-col w-full gap-20 lg:gap-40 py-10 md:mb-32 featured-section">
+      <section className=" flex flex-col w-full gap-20 lg:gap-40 py-10  other-projects">
         <div className=" w-11/12 max-w-8xl mx-auto flex flex-col lg:flex-row gap-20 lg:gap-10">
           <ProjectSectionHome
             className="lg:h-[400px] xl:h-[400px] 2xl:h-[600px]"
