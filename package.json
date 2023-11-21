@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "next build && gh-pages -d out -b main -t true -n -o 'rishabux.com'",
+    "deploy": "next build && npm run generate-cname && gh-pages -d out -b main -r rishabux.com -t true -n -o 'example.com'",
+    "generate-cname": "echo 'rishabux.com' > out/CNAME",
     "lint": "next lint"
   },
   "dependencies": {
