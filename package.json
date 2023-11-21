@@ -1,12 +1,15 @@
 {
-  "name": "my-app",
+  "name": "rishab-portfolio",
   "version": "0.1.0",
+  "homepage": "rishabux.com",
   "private": true,
   "scripts": {
+    "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "deploy": "next build && npm run generate-cname && gh-pages -d out -b main -r rishabux.com -t true -n -o 'example.com'",
+    "export": "next export",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out -b main",
     "generate-cname": "echo 'rishabux.com' > out/CNAME",
     "lint": "next lint"
   },
