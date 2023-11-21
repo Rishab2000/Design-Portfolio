@@ -3,4 +3,8 @@ const nextConfig = {
     output: 'export',
 }
 
-module.exports = nextConfig
+module.exports = {
+    basePath: '/your-repo-name',
+    assetPrefix: '/your-repo-name/',
+    // ... other configurations
+  };
