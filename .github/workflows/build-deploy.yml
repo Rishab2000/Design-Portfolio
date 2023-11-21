@@ -26,7 +26,10 @@ jobs:
       run: yarn install --frozen-lockfile
     
     - name: Build project
-      run: yarn run build
+      run: yarn run deploy
+    
+    - name: Create CNAME
+      run: yarn run generate-cname
 
     - name: Upload production-ready build files
       uses: actions/upload-artifact@v2
