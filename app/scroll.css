@@ -11,6 +11,10 @@ html {
     scroll-snap-align: none;
   }
 
+.tst{
+  text-align: center;
+}
+
   .homepage-intro{
     scroll-snap-align: none;
   }
