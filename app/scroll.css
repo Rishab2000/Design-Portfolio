@@ -1,25 +1,15 @@
 html {
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: none;
   scroll-behavior: smooth;
   }
 
-.featured-section{
-    scroll-snap-align: center;
-  }
-
-  .other-projects{
-    scroll-snap-align: none;
-  }
-
-.tst{
-  text-align: center;
-}
-
-  .homepage-intro{
-    scroll-snap-align: none;
-  }
 
   @media screen and (min-width: 768px){
+    html {
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth;
+      }
+
     .other-projects{
       scroll-snap-align: start;
     }
