@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
+    output: 'export'
 }
 
-module.exports = {
-    basePath: '/your-repo-name',
-    assetPrefix: '/your-repo-name/',
-    // ... other configurations
-  };
+module.exports = nextConfig
