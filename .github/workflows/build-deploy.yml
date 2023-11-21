@@ -26,7 +26,7 @@ jobs:
       run: yarn install --frozen-lockfile
     
     - name: Build project
-      run: yarn run deploy
+      run: yarn run build
     
     - name: Create CNAME
       run: yarn run generate-cname
