@@ -107,10 +107,11 @@
 
 // export default FeaturedProject;
 
+"use client"
 // Development hooks
 import React from "react";
 import { useRef } from "react";
-import {isTouchEnabled} from "../../../hooks/touch-enabled/isTouchEnabled"
+
 
 // Local components
 import ProjectSectionHome from "..";
@@ -129,9 +130,6 @@ import {
 //Material icons
 import { ArrowForward } from "@material-ui/icons";
 
-//NextUI components
-import { Chip } from "@nextui-org/react";
-
 //CSS files
 import "../../../scroll.css"
 
@@ -146,15 +144,12 @@ const FeaturedProject = (props) => {
         return useTransform(value, [0, 1], ["-50%", "50%"]);
     }
 
-    const checkTouchScreen = isTouchEnabled();
     const link = props.link
     const ref = useRef(null);
     const isInView = useInView(ref);
     const { scrollYProgress } = useScroll({ target: ref, offset: ["end start", "start end"] });
-    const yText =  checkTouchScreen ? ' ' : UserParallaxText(scrollYProgress)
-    const yImage = checkTouchScreen ? ' ' : UserParallaxImage(scrollYProgress)
-
-    console.log("Touch screen enabled",checkTouchScreen);
+    const yText = UserParallaxText(scrollYProgress)
+    const yImage = UserParallaxImage(scrollYProgress)
 
 
     useMotionValueEvent(scrollYProgress, "change", (latest) => {

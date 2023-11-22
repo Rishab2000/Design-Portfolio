@@ -1,7 +1,21 @@
-html {
-  scroll-snap-type: none;
-  scroll-behavior: smooth;
+/* yar */
+
+  html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    }
+
+  .featured-section{
+    scroll-snap-align: center;
   }
+  .other-projects{
+    scroll-snap-align: start;
+  }
+
+  .homepage-intro{
+    scroll-snap-align: start;
+  }
+
 
 
   @media screen and (min-width: 768px){
