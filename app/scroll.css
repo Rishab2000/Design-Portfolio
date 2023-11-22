@@ -10,6 +10,9 @@ html {
       scroll-behavior: smooth;
       }
 
+    .featured-section{
+      scroll-snap-align: center;
+    }
     .other-projects{
       scroll-snap-align: start;
     }

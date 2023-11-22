@@ -1,16 +1,26 @@
 "use client"
 
+// Hooks
 import React, { useCallback } from "react";
+
+// Carasousel
 import useEmblaCarousel from 'embla-carousel-react';
 import { WheelGesturesPlugin } from 'embla-carousel-wheel-gestures'
+
+// Local components
 import ProjectSectionHome from "./components/project-section-home";
 import FeaturedProject from "./components/project-section-home/featured-project";
 import IntroText from "./components/project-section-home/project-section-home-components/introText";
-import Layout from "./components/layout/Layout";
-import { ArrowBack, ArrowForward } from "@material-ui/icons";
-import { Image, Button, Divider } from "@nextui-org/react";
 import Header from './components/header';
 import Footer from './components/footer';
+
+// Material components
+import { ArrowBack, ArrowForward } from "@material-ui/icons";
+
+// NextUI components
+import { Image, Button, Divider } from "@nextui-org/react";
+
+// CSS files
 import "./scroll.css";
 import "./carousel.css";
 
