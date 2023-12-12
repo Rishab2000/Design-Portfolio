@@ -22,6 +22,7 @@ import { Image, Button, Divider } from "@nextui-org/react";
 
 // CSS files
 import "./scroll.css";
+
 import "./carousel.css";
 
 
