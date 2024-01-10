@@ -102,7 +102,6 @@ const Index = (props) => {
         company="IBM"
         role="Product designer"
         duration="3 years | Jan 2021 - Present"
-        destination="/ibm"
       />
 
       <FeaturedProject
@@ -117,7 +116,6 @@ const Index = (props) => {
         company="IBM"
         role="Product designer"
         duration="3 years | Jan 2021 - Present"
-        destination="/ibm"
       />
       {/* <FeaturedProject
         backgroundColour="bg-ibm-blue"
@@ -152,7 +150,7 @@ const Index = (props) => {
           <ProjectSectionHome
             className="lg:h-[400px] xl:h-[400px] 2xl:h-[600px]"
             image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplusTest.png"}
-            destination="/chiral"
+            link="/sdplus"
             title="Creating a user experience roadmap"
           // desc=" A mobile based game that aims to spread awareness on climate change, geared towards young adults.
           // Working towards a substainable future by changing human behaviour."
@@ -160,7 +158,7 @@ const Index = (props) => {
           <ProjectSectionHome
             className="lg:h-[400px] xl:h-[400px] 2xl:h-[600px]"
             image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/chiral2.png"}
-            destination="/chiral"
+            link="/chiral"
             title="Chiral Colonies - Climate change app | UX Case Study "
           // desc=" A mobile based game that aims to spread awareness on climate change, geared towards young adults.
           // Working towards a substainable future by changing human behaviour."
@@ -171,7 +169,7 @@ const Index = (props) => {
           <ProjectSectionHome
             className="lg:h-[400px] xl:h-[400px] 2xl:h-[600px]"
             image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/CSS_Challenges_Portfolio.svg"}
-            destination="/css-challenges"
+            link="/css-challenges"
             title="30 Days Of Code"
           // desc="A personal project I took up in which I coded 30 interactive
           // components using HTML, CSS and Jquery."
@@ -179,7 +177,7 @@ const Index = (props) => {
           <ProjectSectionHome
             className="lg:h-[400px] xl:h-[400px] 2xl:h-[600px]"
             image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance1.png"}
-            destination="/behance"
+            link="/behance"
             title="Behance Search Experience Re-design"
           // desc="Evaluating the current search experience of Behance, through NN group's evaluation heuristics.
           // Completely redesigned the experience to conceive a faster, clearer and conclusive way of search. "

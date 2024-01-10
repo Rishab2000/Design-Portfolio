@@ -7,7 +7,7 @@ import Header from '../components/header';
 import Layout from "../components/layout/Layout";
 import { Image } from "@nextui-org/react";
 
-const SdPlus = () => {
+const SdPlus = () => { 
     const text = {
         textExpanded: (
             <React.Fragment>
@@ -73,7 +73,7 @@ const SdPlus = () => {
 
     };
     return (
-        <>
+        <div  className="w-11/12 lg:w-11/12 xl:w-10/12 max-w-8xl h-full flex flex-col gap-16 pt-4 pb-32 mx-auto homepage-intro">
             <Header />
             <Layout>
                 <div className="w-full flex flex-col items-center">
@@ -478,7 +478,7 @@ const SdPlus = () => {
                     </ProjectSubDescContainer>
                 </div>
             </Layout>
-        </>
+        </div>
     );
 };
 

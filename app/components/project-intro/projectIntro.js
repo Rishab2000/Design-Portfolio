@@ -3,7 +3,7 @@ import { Divider, Image} from "@nextui-org/react";
 
 const ProjectIntro = (props) => {
   return (
-    <div className="pb-20">
+    <div className="pb-20 w-full">
       <div className="w-full flex flex-col md:flex-row items-center content-center gap-10 mt-20 mb-28">
         <div className="md:w-6/12 ">
           <h3 className="text-text-primary">
@@ -19,7 +19,7 @@ const ProjectIntro = (props) => {
             {/* &nbsp;  */}
           </div>
         </div>
-        <div className="w-6/12 overflow-hidden md:rounded-lg">
+        <div className= {props.imageHeight + " w-6/12 h-auto overflow-hidden md:rounded-lg"}>
           <Image src={props.image} alt="temp" />
         </div>
 

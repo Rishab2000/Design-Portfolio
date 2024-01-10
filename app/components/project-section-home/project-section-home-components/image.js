@@ -7,7 +7,7 @@ const ImageSection = (props) => {
       className={
         "w-full h-auto overflow-hidden md:rounded-lg"
       }
-    ><Image removeWrapper src={props.image} alt="temp" className="object-cover"/></div>
+    ><Image removeWrapper src={props.image} alt="temp" className="object-cover"/></div> 
   );
 };
 

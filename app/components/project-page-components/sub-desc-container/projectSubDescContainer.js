@@ -7,7 +7,7 @@ const ProjectSubDescContainer = (props) => {
         
       <h4 className="text-text-primary"> {props.sectionTitle}</h4>
       {props.children}
-    </div>
+    </div> 
   );
 };
 

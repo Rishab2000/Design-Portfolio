@@ -3,6 +3,7 @@ import ProjectIntro from '../components/project-intro';
 import ProjectSection from '../components/project-page-components/project-section'
 import ProjectSubDescContainer from '../components/project-page-components/sub-desc-container';
 import Layout from '../components/layout/Layout';
+import Header from '../components/header';
 import { Image } from '@nextui-org/react';
 
 const Behance = () => {
@@ -10,14 +11,11 @@ const Behance = () => {
         duration: "Duration: 1 week",
     };
     return (
+        <div  className="w-11/12 lg:w-11/12 xl:w-10/12 max-w-8xl h-full flex flex-col gap-16 pt-4 pb-32 mx-auto homepage-intro">
+        <Header />
         <Layout>
             <div className="w-full flex flex-col items-center">
-                <ProjectIntro
-                    title="Behance Search Experience
-            Redesign "
-                    miniDesc={miniDesc}
-                    image={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/behance/behance_hero_image.png"}
-                />
+                     x
                 <ProjectSubDescContainer sectionTitle="Introduction">
                     <p className="mt-2 mb-8">
                         Behance is a platform for creatives of just about every field and
@@ -269,6 +267,7 @@ const Behance = () => {
                 </ProjectSubDescContainer>
             </div>
         </Layout>
+        </div>
     );
 }
 

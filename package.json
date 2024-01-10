@@ -16,9 +16,10 @@
     "embla-carousel-react": "^8.0.0-rc14",
     "embla-carousel-wheel-gestures": "^8.0.0-rc05",
     "framer-motion": "^10.16.4",
-    "next": "13.5.6",
+    "next": "^14.0.4",
     "react": "^18",
     "react-dom": "^18",
+    "react-iframe": "^1.8.5",
     "react-twitter-widgets": "^1.11.0"
   },
   "devDependencies": {
