@@ -7,7 +7,7 @@ import Header from '../components/header';
 import Layout from "../components/layout/Layout";
 import { Image } from "@nextui-org/react";
 
-const SdPlus = () => { 
+const SdPlus = () => {
     const text = {
         textExpanded: (
             <React.Fragment>
@@ -73,7 +73,7 @@ const SdPlus = () => {
 
     };
     return (
-        <div  className="w-11/12 lg:w-11/12 xl:w-10/12 max-w-8xl h-full flex flex-col gap-16 pt-4 pb-32 mx-auto homepage-intro">
+        <div className="w-11/12 lg:w-11/12 xl:w-10/12 max-w-8xl h-full flex flex-col gap-16 pt-4 pb-32 mx-auto homepage-intro">
             <Header />
             <Layout>
                 <div className="w-full flex flex-col items-center">
@@ -251,6 +251,7 @@ const SdPlus = () => {
                         <div className="flex flex-wrap justify-center items-center font-avenir-book text-xs lg:text-base text-center gap-5 mt-8 mb-24">
                             <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 bg-opacity-40 rounded-md p-4">
                                 <Image
+                                    radius="none"
                                     src={
                                         "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-01.svg"
                                     }
@@ -261,6 +262,7 @@ const SdPlus = () => {
                             </div>
                             <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
                                 <Image
+                                    radius="none"
                                     src={
                                         "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-02.svg"
                                     }
@@ -271,6 +273,7 @@ const SdPlus = () => {
                             </div>
                             <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 rounded-md bg-opacity-40 p-4">
                                 <Image
+                                    radius="none"
                                     src={
                                         "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-03.svg"
                                     }

@@ -19,6 +19,7 @@ const config: Config = {
         'sd-plus-green': '#6edb8b',
         'ibm-home-back': '#002D9C',
         'sd-plus-home-back': '#40BF4D',
+        'behance-blue': '#3467F6',
         'back':'##161616',
         'text-primary': '#161616',
         'text-secondary': '#525252',
