@@ -20,7 +20,7 @@ const SdPlus = () => {
                     <li>What users are feeling at that time?</li>
                     <li>Are there any points of friction the users face?</li>
                 </ul>
-                <p>
+                <p className="mt-8">
                     Next plan of action was to conduct research by communicating directly
                     with the users. For this we laid down key points we wanted to
                     determine:
@@ -127,20 +127,24 @@ const SdPlus = () => {
                                     provides information for CEOs to understand the project progress.</p>}
                             />
                         </div>
-                        <div className="flex flex-col items-start justify-between gap-8 lg:gap-0 lg:flex-row w-full  mb-8">
+                        <div className="flex flex-col gap-8 justify-between lg:gap-10 lg:flex-row w-full  mb-8">
                             <Image
                                 src={
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Insights_Unscrolled_1x.png"
                                 }
+                                removeWrapper
+                                shadow="sm"
                                 alt="temp"
-                                className="w-full lg:w-5/12"
+                                className="w-6/12"
                             />
                             <Image
                                 src={
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Interventions.png"
                                 }
+                                removeWrapper
+                                shadow="sm"
                                 alt="temp"
-                                className="w-full  lg:w-5/12"
+                                className="w-6/12"
                             />
                         </div>
                     </ProjectSubDescContainer>
@@ -159,8 +163,9 @@ const SdPlus = () => {
                                 src={
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Comments/1(Client)-02.svg"
                                 }
+                                removeWrapper
                                 alt="temp"
-                                className="mb-12 lg:w-5/12"
+                                className="mb-12 lg:w-4/12 lg:mr-24"
                             />
                         </div>
                         <div className="flex flex-col lg:flex-row-reverse lg:justify-between">
@@ -178,8 +183,9 @@ const SdPlus = () => {
                                 src={
                                     "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Comments/2(me).svg"
                                 }
+                                removeWrapper
                                 alt="temp"
-                                className="mb-12 lg:w-5/12"
+                                className="mb-12 lg:w-4/12 lg:ml-12"
                             />
                         </div>
                     </ProjectSubDescContainer>
@@ -202,26 +208,31 @@ const SdPlus = () => {
                                 as user stages and  calling them Experiences. From start to finish, we mapped five distinct
                                 stages our users would pass through.</p>}
                         />
-                        <Image
-                            src={
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Roadmap/Customer_journey_task.png"
-                            }
-                            alt="temp"
-                            className="mt-4 mb-12"
-                        />
+                    </ProjectSubDescContainer>
+                    <Image
+                        src={
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Roadmap/Customer_journey_task.png"
+                        }
+
+                        alt="temp"
+                        className="mt-4 mb-12"
+                    />
+                    <ProjectSubDescContainer>
                         <ProjectSection
                             color="text-green-sdplus"
                             heading="Identifying touchpoints"
                             desc={<p>We now started defining our users&apos; interactions by describing
                                 touchpoints our users would use to interact with our organization.</p>}
                         />
-                        <Image
-                            src={
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Roadmap/Customer_journey_touchpoints.png"
-                            }
-                            alt="temp"
-                            className="mt-4 mb-12"
-                        />
+                    </ProjectSubDescContainer>
+                    <Image
+                        src={
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Roadmap/Customer_journey_touchpoints.png"
+                        }
+                        alt="temp"
+                        className="mt-4 mb-12"
+                    />
+                    <ProjectSubDescContainer>
                         <ProjectSection
                             heading="Synethesizing insights"
                             color="text-green-sdplus"
@@ -231,12 +242,14 @@ const SdPlus = () => {
                                 </span>
                             }
                         />
-                        <Image
-                            src="https://media.giphy.com/media/ftN31y6wNaJxCkLYNS/giphy.gif"
-                            alt="A GIF of a cute cat :)"
-                            className="w-4/12 mx-auto mt-4 mb-12"
-                        />
                     </ProjectSubDescContainer>
+                    <Image
+                        removeWrapper
+                        src="https://media.giphy.com/media/ftN31y6wNaJxCkLYNS/giphy.gif"
+                        alt="A GIF of a cute cat :)"
+                        className="w-4/12 mx-auto mt-4 mb-12"
+                    />
+
 
                     <ProjectSubDescContainer sectionTitle="Detailing">
                         <ProjectSection
@@ -251,6 +264,7 @@ const SdPlus = () => {
                         <div className="flex flex-wrap justify-center items-center font-avenir-book text-xs lg:text-base text-center gap-5 mt-8 mb-24">
                             <div className="flex flex-col justify-center w-5/12 lg:w-4/12 bg-cool-gray20 bg-opacity-40 rounded-md p-4">
                                 <Image
+                                    removeWrapper
                                     radius="none"
                                     src={
                                         "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Problems/icons-01.svg"
@@ -285,6 +299,8 @@ const SdPlus = () => {
                                 </p>
                             </div>
                         </div>
+                    </ProjectSubDescContainer>
+                    <ProjectSubDescContainer>
                         <ProjectSection
                             color="text-green-sdplus"
                             heading=" Brainstorming for ideas"
@@ -294,13 +310,15 @@ const SdPlus = () => {
                                 Improvements and New. This helped us understand the nature of the
                                 idea and an overview plan of implementation.</p>}
                         />
-                        <Image
-                            src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Ideas/ideas.png"
-                            }
-                            alt="A GIF of a cute cat :)"
-                            className="mt-8 mb-24 lg:w-8/12 mx-auto"
-                        />
                     </ProjectSubDescContainer>
+                    <Image
+                        src={"https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/Ideas/ideas.png"
+                        }
+                        removeWrapper
+                        alt="A GIF of a cute cat :)"
+                        className="mt-8 mb-24 lg:w-8/12 mx-auto"
+                    />
+
 
                     <ProjectSubDescContainer sectionTitle="Designing">
                         <ProjectSection
@@ -335,17 +353,18 @@ const SdPlus = () => {
                                 </span>
                             }
                         />
+                    </ProjectSubDescContainer>
+                    <Image
+                        src={
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/insights/Insights1.5x.png"
+                        }
+                        shadow="sm"
+                        alt="A GIF of a cute cat :)"
+                        className="w-12/12 mx-auto"
+                    />
 
-                        <Image
-                            src={
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/insights/Insights1.5x.png"
-                            }
-                            alt="A GIF of a cute cat :)"
-                            className="w-12/12 mx-auto"
-                        />
-
-                        <div className="flex-grow border-t border-gray20 mt-16"></div>
-
+                    <div className="flex-grow border-t border-gray20 mt-16"></div>
+                    <ProjectSubDescContainer>
                         <ProjectSection
                             desc={
                                 <span>
@@ -361,15 +380,17 @@ const SdPlus = () => {
                                 </span>
                             }
                         />
-
-                        <Image
-                            src={
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/insights/InsightsScrolled_1.5x.png"
-                            }
-                            alt="A GIF of a cute cat :)"
-                            className="w-12/12 mx-auto mb-20"
-                        />
-
+                    </ProjectSubDescContainer>
+                    <Image
+                        src={
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/insights/InsightsScrolled_1.5x.png"
+                        }
+                        removeWrapper
+                        shadow="sm"
+                        alt="A GIF of a cute cat :)"
+                        className="w-full mx-auto mb-20"
+                    />
+                    <ProjectSubDescContainer>
                         <ProjectSection
                             color="text-green-sdplus"
                             heading="Creating transparency for architects"
@@ -400,17 +421,19 @@ const SdPlus = () => {
                                 </span>
                             }
                         />
+                    </ProjectSubDescContainer>
+                    <Image
+                        src={
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/interventions/Interventions.png"
+                        }
+                        removeWrapper
+                        shadow="sm"
+                        alt="A GIF of a cute cat :)"
+                        className="w-12/12 mx-auto"
+                    />
 
-                        <Image
-                            src={
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/post/interventions/Interventions.png"
-                            }
-                            alt="A GIF of a cute cat :)"
-                            className="w-12/12 mx-auto"
-                        />
-
-                        <div className="flex-grow border-t border-gray20 mt-16"></div>
-
+                    <div className="flex-grow border-t border-gray20 mt-16"></div>
+                    <ProjectSubDescContainer>
                         <ProjectSection
                             desc={
                                 <span>
@@ -425,15 +448,18 @@ const SdPlus = () => {
                                 </span>
                             }
                         />
-                        <Image
-                            src={
-                                "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Interventions_Pre_Scrolled_1.5x.png"
-                            }
-                            alt="A GIF of a cute cat :)"
-                            className="w-12/12 mx-auto"
-                        />
-
                     </ProjectSubDescContainer>
+                    <Image
+                        src={
+                            "https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/sdplus-project/wireframes/pre/Interventions_Pre_Scrolled_1.5x.png"
+                        }
+                        removeWrapper
+                        shadow="sm"
+                        alt="A GIF of a cute cat :)"
+                        className="w-12/12 mx-auto"
+                    />
+
+
 
                     <ProjectSubDescContainer sectionTitle="Wrapping it up">
                         <ProjectSection
@@ -480,8 +506,8 @@ const SdPlus = () => {
                         />
                     </ProjectSubDescContainer>
                 </div>
-            </Layout>
-        </div>
+            </Layout >
+        </div >
     );
 };
 
