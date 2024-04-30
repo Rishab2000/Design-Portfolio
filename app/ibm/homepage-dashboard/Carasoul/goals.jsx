@@ -5,25 +5,25 @@ import {MaterialSymbol} from 'react-material-symbols';
 
 const EmblaCarousel = (props) => {
     const {slides, options} = props
-    const icons = [ < MaterialSymbol icon = "Attach_money" size = {
+    const icons = [ < MaterialSymbol key={1} icon = "Attach_money" size = {
             60
         }
         weight = {
             500
         }
-        color = '#0f62fe' />, < MaterialSymbol icon = "Discover_tune" size = {
+        color = '#0f62fe' />, < MaterialSymbol key={2} icon = "Discover_tune" size = {
             60
         }
         weight = {
             500
         }
-        color = '#0f62fe' />, < MaterialSymbol icon = "Step_over" size = {
+        color = '#0f62fe' />, < MaterialSymbol key={3} icon = "Step_over" size = {
             60
         }
         weight = {
             500
         }
-        color = '#0f62fe' />, < MaterialSymbol icon = "Draw_abstract" size = {
+        color = '#0f62fe' />, < MaterialSymbol key={4} icon = "Draw_abstract" size = {
             60
         }
         weight = {

@@ -65,7 +65,7 @@ const HomepageDashboard = (props) => {
                         <p className="body-1 text-text-secondary ">
                             Starting as an internship project, the only requirement given to me was to be ✨
                             modernized ✨. I worked alongside my mentor and later independently drove this
-                            project to design a homepage aimed at improving our users' productivity and
+                            project to design a homepage aimed at improving our users&apos; productivity and
                             efficiency.
                         </p>
                     </ProjectSection>
@@ -168,7 +168,7 @@ const HomepageDashboard = (props) => {
                             if the director Vetos it customers are never going to benefit from it. Since,
                             creating the best possible case for our users, it was my repoinsiblity to get
                             everyone excited and on board this project. My approach for this was help them
-                            understand the problem we're solving in a way that makes sense to them.
+                            understand the problem we&apos;re solving in a way that makes sense to them.
                         </p>
                         <br/>
                         <h4>I aimed at tackling this by putting it across throught the single lens of
@@ -185,7 +185,7 @@ const HomepageDashboard = (props) => {
                             brainstorming on how best we can make use of the oppurtunity spaces that we
                             identified.
                             <br/>
-                            To ensure we don't de-rail during this long (and I mean VERY LONG) ideation
+                            To ensure we don&apos;t de-rail during this long (and I mean VERY LONG) ideation
                             phase, we had to set some gaurd rails. Some design principles all of us agreed
                             that homepage should abide to.
                             <br/>
