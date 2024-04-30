@@ -1,0 +1,15 @@
+.goals-card {
+    font-family: var(--font-family);
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.goals-card-sub {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0;
+    font-weight: 500;
+}

@@ -20,6 +20,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-iframe": "^1.8.5",
+    "react-material-symbols": "^4.4.0",
     "react-twitter-widgets": "^1.11.0"
   },
   "devDependencies": {

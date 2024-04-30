@@ -6,9 +6,9 @@ const ProjectIntro = (props) => {
     <div className="pb-20 w-full">
       <div className="w-full flex flex-col md:flex-row items-center content-center gap-10 mt-20 mb-28">
         <div className="md:w-6/12 ">
-          <h3 className="text-text-primary">
+          <h1 className="text-text-primary">
             {props.title}
-          </h3>
+          </h1>
 
           <div className="flex flex-row mt-3text-text-helper">
             <p className="label" >{props.miniDesc.role} </p>

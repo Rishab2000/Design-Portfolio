@@ -108,7 +108,7 @@ const Index = (props) => {
         backgroundColour="bg-ibm-blue"
         textColour="text-[#D0E2FF]"
         strokeColour="stroke-ibm-blue"
-        link="./ibm"
+        link="./ibm/homepage-dashboard"
         imageSrc="https://rishabportfolioimages.s3.ap-south-1.amazonaws.com/ibm-homepage.webp"
         title="Modernizing MaaS360's dashboard"
         desc="Completely re-designed admin homepage experience. Created a new information
